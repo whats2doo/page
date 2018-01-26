@@ -3,6 +3,8 @@
 @section('title', $title)
 
 @section('content')
-    <example-component></example-component>
-    Das ist home 2
+    <div id="app">
+        <example-component></example-component>
+        {{ __('messages.test') }}: Das ist home 2
+    </div>
 @endsection
