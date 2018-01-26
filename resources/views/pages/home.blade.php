@@ -1,3 +1,8 @@
 @extends('master')
 
-Das ist home
+@section('title', $title)
+
+@section('content')
+    <example-component></example-component>
+    Das ist home 2
+@endsection
