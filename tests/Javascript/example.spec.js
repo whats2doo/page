@@ -5,6 +5,6 @@ import Example from '../../resources/assets/js/components/ExampleComponent.vue'
 describe('Example', () => {
   it('first test', () => {
     const wrapper = mount(Example)
-    expect(wrapper.html).toContain('Example header')
+    expect(wrapper.html()).toContain('Example Component')
   })
 })
