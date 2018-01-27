@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}" media="screen" type="text/css">
 </head>
 <body>
-<example-component></example-component>
 @yield('content')
 <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
 </body>
