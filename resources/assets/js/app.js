@@ -1,7 +1,6 @@
 import Vue from 'vue'
+import $ from 'jquery'
 import './bootstrap'
-
-require('jquery')
 
 Vue.component(
   'example-component',
