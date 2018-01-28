@@ -12,7 +12,8 @@ require('../images/W2D.svg')
 window.env = document.querySelector('html').getAttribute('data-env')
 
 // navbar scroll
-require('./navbar.js')
+require('./navbar')
+require('./footer')
 
 // Vue.component(
 //   'example-component',
