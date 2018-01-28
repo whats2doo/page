@@ -8,6 +8,7 @@ use Tests\TestCase;
 class GooglePageSpeed extends TestCase
 {
     const GOOGLE_PAGE_SPEED_URL = 'https://www.googleapis.com/pagespeedonline/v4/runPagespeed?url=';
+    const GOOGLE_PAGE_SPEED_MIN = 85;
 
     /**
      * @return bool
@@ -28,7 +29,7 @@ class GooglePageSpeed extends TestCase
 
         // validate google page speed score
         $score = $body->ruleGroups->SPEED->score;
-        $this->assertGreaterThanOrEqual(85, $score);
+        $this->assertGreaterThanOrEqual(self::GOOGLE_PAGE_SPEED_MIN, $score);
 
         return true;
     }
