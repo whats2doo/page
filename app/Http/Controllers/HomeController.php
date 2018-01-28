@@ -9,8 +9,8 @@ class HomeController extends Controller
     public function home(Request $request)
     {
         return response()->view('pages.home', [
-            'title'  => 'Home',
-            'menu' => config('menu')
+            'title' => 'Home',
+            'menu'  => config('menu')
         ]);
     }
 }
