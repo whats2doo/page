@@ -1,0 +1,17 @@
+/* Sticky Footer */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: $navbar-height; /* footer height */
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: $navbar-height; /* footer height */
+  background-color: #f5f5f5;
+}

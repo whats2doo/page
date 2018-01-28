@@ -12,7 +12,8 @@ return [
     ],
 
     [
-        'title' => '<i class="ion-logo-github"></i>',
-        'href'  => '#',
+        'title'  => '<i class="ion-logo-github"></i>',
+        'href'   => 'https://github.com',
+        'target' => '_blank',
     ],
 ];

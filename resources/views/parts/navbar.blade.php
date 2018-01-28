@@ -1,5 +1,5 @@
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
+<nav class="navbar navbar-default navbar-fixed-top navbar-clear" id="navbar-main">
+    <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#w2d-navbar-collapse" aria-expanded="false">
@@ -16,7 +16,9 @@
             @isset($menu)
                 <ul class="nav navbar-nav navbar-right">
                     @foreach($menu as $menuItem)
-                        <li><a href="{{ $menuItem['href'] }}">{!! $menuItem['title'] !!}</a></li>
+                        <li>
+                            <a @isset($menuItem['target']) target="{{ $menuItem['target'] }}" @endif href="{{ $menuItem['href'] }}">{!! $menuItem['title'] !!}</a>
+                        </li>
                     @endforeach
                 </ul>
             @endisset

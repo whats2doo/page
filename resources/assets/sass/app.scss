@@ -4,5 +4,7 @@
 @import "variables";
 // Bootstrap
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "parts/basic";
 @import "parts/env";
+@import "parts/navbar";
 @import "parts/header";
