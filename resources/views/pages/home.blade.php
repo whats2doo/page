@@ -2,10 +2,26 @@
 
 @section('title', $title)
 
+@section('header')
+    <header>
+        @include('parts/navbar')
+        <div id="W2D">
+            <img src="{{ asset('images/W2D.svg') }}" alt="W2D">
+        </div>
+    </header>
+@endsection
+
 @section('content')
-    Hannes stinkt von oben bis unten den ganzen tag lang
-    <div id="app">
-        <example-component></example-component>
-        {{ __('messages.test') }}: Das ist home 2
-    </div>
+@endsection
+
+@section('footer')
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    Das ist der Footer
+                </div>
+            </div>
+        </div>
+    </footer>
 @endsection

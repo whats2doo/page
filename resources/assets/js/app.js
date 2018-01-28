@@ -1,13 +1,20 @@
-import Vue from 'vue'
 import './bootstrap'
+// import Vue from 'vue'
 
+// fonts
+require('ionicons/dist/css/ionicons.css')
+
+// images
+require('../images/W2D.svg')
+
+// env
 window.env = document.querySelector('html').getAttribute('data-env')
 
-Vue.component(
-  'example-component',
-  require('./components/ExampleComponent.vue'),
-)
-
-const app = new Vue({
-  el: '#app',
-})
+// Vue.component(
+//   'example-component',
+//   require('./components/ExampleComponent.vue'),
+// )
+//
+// const app = new Vue({
+//   el: '#app',
+// })
