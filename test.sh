@@ -15,3 +15,7 @@ yarn prod
 
 # js tests
 yarn js:test:prod
+
+# done - green message
+echo "$(tput setaf 2)GOT IT - READY FOR DEPLOY/PR/MERGE - DON'T FORGET THE CLICK TESTS"
+
