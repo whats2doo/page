@@ -4,7 +4,7 @@
 
 @section('header')
     <header>
-        @include('parts/navbar')
+        @include('parts.navbar')
         <div id="W2D">
             <img src="{{ asset('images/W2D.svg') }}" alt="W2D">
         </div>
@@ -12,6 +12,7 @@
 @endsection
 
 @section('content')
+    @include('parts.whitepaper')
 @endsection
 
 @section('footer')
