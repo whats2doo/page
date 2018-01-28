@@ -15,6 +15,7 @@ class GooglePageSpeed extends TestCase
      */
     public function testGooglePageSpeed()
     {
+        // abort on local or testing env
         if ($this->app->environment() === 'local' || $this->app->environment() === 'testing') {
             $this->assertTrue(true);
 
