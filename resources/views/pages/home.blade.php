@@ -6,6 +6,7 @@
     <header>
         @include('parts.navbar')
         <div id="W2D">
+            <example></example>
             <img src="{{ asset('images/W2D.svg') }}" alt="W2D">
         </div>
     </header>

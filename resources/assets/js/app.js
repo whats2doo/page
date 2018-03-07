@@ -1,5 +1,6 @@
+import Vue from 'vue'
 import './bootstrap'
-// import Vue from 'vue'
+import example from './components/example/example.vue'
 
 // fonts
 require('ionicons/dist/css/ionicons.css')
@@ -14,11 +15,14 @@ window.env = document.querySelector('html').getAttribute('data-env')
 require('./navbar')
 require('./footer')
 
-// Vue.component(
-//   'example-component',
-//   require('./components/ExampleComponent.vue'),
-// )
-//
-// const app = new Vue({
-//   el: '#app',
-// })
+// manage vue objects
+Vue.create = obj => new Vue(obj)
+
+if (document.getElementById('#app')) {
+  Vue.create({
+    el: '#app',
+    components: {
+      example,
+    },
+  })
+}
