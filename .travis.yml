@@ -30,4 +30,5 @@ matrix:
         - gem install scss_lint
       script:
         - yarn prod
+        - yarn:eslint
         - yarn js:test:prod
