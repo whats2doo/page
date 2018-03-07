@@ -6,6 +6,7 @@ const navbar = {
   handle() {
     if (this.window.scrollTop() === 0) {
       this.navbar.addClass('navbar-clear')
+
       return
     }
 

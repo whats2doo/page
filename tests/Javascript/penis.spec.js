@@ -1,10 +1,11 @@
 import { mount } from '@vue/test-utils'
 import expect from 'expect'
-import Example from '../../resources/assets/js/components/ExampleComponent.vue'
+import penis from '../../resources/assets/js/components/penis/penis.vue'
 
-describe('Example', () => {
+describe('Penis', () => {
   it('first test', () => {
-    const wrapper = mount(Example)
+    const wrapper = mount(penis)
+
     expect(wrapper.html()).toContain('Example Component')
   })
 })
