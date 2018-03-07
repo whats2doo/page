@@ -12,6 +12,9 @@
 @endsection
 
 @section('content')
+    <div id="penis">
+        <penis></penis>
+    </div>
     @include('parts.whitepaper')
 @endsection
 

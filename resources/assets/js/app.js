@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import './bootstrap'
-import example from './components/example/example.vue'
+import penis from './components/penis/penis.vue'
 
 // fonts
 require('ionicons/dist/css/ionicons.css')
@@ -18,11 +18,11 @@ require('./footer')
 // manage vue objects
 Vue.create = obj => new Vue(obj)
 
-if (document.getElementById('#app')) {
+if (document.getElementById('penis')) {
   Vue.create({
-    el: '#app',
+    el: '#penis',
     components: {
-      example,
+      penis,
     },
   })
 }

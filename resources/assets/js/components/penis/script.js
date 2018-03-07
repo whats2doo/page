@@ -1,4 +1,4 @@
 export default {
-  name: 'example',
+  name: 'penis',
   mounted() {},
 }
