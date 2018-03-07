@@ -12,6 +12,7 @@
 @endsection
 
 @section('content')
+    <h1>testheadline</h1>
     @include('parts.whitepaper')
 @endsection
 
