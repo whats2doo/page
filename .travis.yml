@@ -1,0 +1,33 @@
+notifications:
+  email: false
+  # slack: coinraise:BkqGC6PRdyIrYdnRUDXTmOX7
+
+matrix:
+  include:
+    - language: php
+      php: 7.1
+      services:
+        # - mysql
+
+      before_install:
+        - cp ./.env_test ./.env
+
+      before_script:
+        - composer install --dev --prefer-source --no-interaction
+
+      script:
+        - ./vendor/bin/phpcs --standard=PSR2 --extensions=php ./app ./tests
+        - ./vendor/bin/phpstan analyse tests/Unit tests/Feature app/Http/Controllers/*Controller.php --level=5
+        - ./vendor/phpunit/phpunit/phpunit tests/Unit/*
+        - nohup php -S localhost:8000 -t public/ </dev/null &>/dev/null &
+        - PHP_SERVER_PID=$!
+        - ./vendor/bin/phpunit tests/Feature/*
+        - kill -9 $PHP_SERVER_PID
+
+    - language: node_js
+      node_js: "node" # latest stable node.js release
+      before_script:
+        - gem install scss_lint
+      script:
+        - yarn prod
+        - yarn js:test:prod
