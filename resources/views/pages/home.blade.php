@@ -6,14 +6,12 @@
     <header>
         @include('parts.navbar')
         <div id="W2D">
-            <example></example>
             <img src="{{ asset('images/W2D.svg') }}" alt="W2D">
         </div>
     </header>
 @endsection
 
 @section('content')
-    <h1>testheadline</h1>
     @include('parts.whitepaper')
 @endsection
 
