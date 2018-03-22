@@ -14,6 +14,7 @@ window.env = document.querySelector('html').getAttribute('data-env')
 // navbar scroll
 require('./navbar')
 require('./footer')
+require('./animations')
 
 // manage vue objects
 Vue.create = obj => new Vue(obj)
@@ -26,3 +27,4 @@ if (document.getElementById('penis')) {
     },
   })
 }
+

@@ -8,8 +8,17 @@
   color: white;
   font-weight: 700;
   text-shadow: 0 1px 1px rgba(30, 30, 30, 0.4);
+  position: relative;
 
   i {
     margin-right: 10px;
+  }
+
+
+
+  #window_cleaner{
+    position:absolute;
+    top:-100px;
+    left:5px;
   }
 }
