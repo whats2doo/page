@@ -1,14 +1,13 @@
-function loadAnimation(elementId, animationData){
+function loadAnimation(elementId, filename){
   let params = {
     container: document.getElementById(elementId),
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    animationData: animationData,
+    path: '/animations/'+filename,
     rendererSettings: {
-      scaleMode: 'noScale',
-      clearCanvas: false,
-      progressiveLoad: true, // Boolean, only svg renderer, loads dom elements when needed. Might speed up initialization for large number of elements.
+      clearCanvas: true,
+      progressiveLoad: false, // Boolean, only svg renderer, loads dom elements when needed. Might speed up initialization for large number of elements.
       hideOnTransparent: true //Boolean, only svg renderer, hides elements when opacity reaches 0 (defaults to true)
     }
   }
@@ -18,7 +17,7 @@ function loadAnimation(elementId, animationData){
   anim = lottie.loadAnimation(params)
 }
 
-loadAnimation('trainer_animation', trainerAnimation)
-loadAnimation('window_cleaner', windowCleanerAnimation)
-loadAnimation('carpenter_animation', carpenterAnimation)
-loadAnimation('people', djAnimation)
+loadAnimation('trainer_animation', 'trainer.json')
+loadAnimation('window_cleaner', 'window_cleaner.json')
+loadAnimation('carpenter_animation', 'carpenter.json')
+loadAnimation('people', 'dj.json')
