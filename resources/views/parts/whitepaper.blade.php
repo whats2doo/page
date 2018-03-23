@@ -5,7 +5,7 @@
         </div>
         <div class="row">
             <div class="col-xs-12">
-                <i class="ion-ios-cloud-download-outline"></i> {{ __('messages.whitepaper.link') }}
+                <a href=""><i class="ion-ios-cloud-download-outline"></i> {{ __('messages.whitepaper.link') }}</a>
             </div>
         </div>
     </div>

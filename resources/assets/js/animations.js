@@ -1,5 +1,5 @@
 function loadAnimation(elementId, filename) {
-  var animation;
+  let animation;
   animation = bodymovin.loadAnimation({
     container: document.getElementById(elementId),
     renderer: 'svg',
