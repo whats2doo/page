@@ -1,20 +1,16 @@
-function loadAnimation(elementId, filename){
-  let params = {
+function loadAnimation(elementId, filename) {
+  let animation = lottie.loadAnimation({
     container: document.getElementById(elementId),
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: '/animations/'+filename,
+    path: `/animations/${filename}`,
     rendererSettings: {
       clearCanvas: true,
-      progressiveLoad: false, // Boolean, only svg renderer, loads dom elements when needed. Might speed up initialization for large number of elements.
-      hideOnTransparent: true //Boolean, only svg renderer, hides elements when opacity reaches 0 (defaults to true)
+      progressiveLoad: false,
+      hideOnTransparent: true
     }
-  }
-
-  let anim
-
-  anim = lottie.loadAnimation(params)
+  })
 }
 
 loadAnimation('trainer_animation', 'trainer.json')
