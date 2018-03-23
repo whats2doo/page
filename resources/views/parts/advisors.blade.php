@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row text-center">
             <div class="container_inner">
-                <h2>Our Advisors</h2>
-                <p>W2Ds will also be used within the integrated What2doo ad platfrom. Impressions and clicks will be exchanged for W2Ds. These ads will be displayed within the user’s Job feed and there ToDo list.</p>
+                <h2>{{ __('messages.advisors.headline') }}</h2>
+                <p>{{ __('messages.advisors.text') }}</p>
             </div>
         </div>
     </div>
@@ -20,7 +20,18 @@
                     <p class="socialprofiles">
                         @isset($member['socialprofiles'])
                         @foreach ($member['socialprofiles'] as $profile=>$url)
-                            <a href="{{ $url }}"><i class="ion-social-{{ $profile }}"></i></a>
+
+                            @if ($profile == 'linkedin')
+                                @php ($iconname = 'logo-linkedin')
+                            @elseif ($profile == 'xing')
+                                @php ($iconname = '')
+                            @elseif ($profile == 'mail')
+                                @php ($iconname = 'ios-mail')
+                            @elseif ($profile == 'whats2doo')
+                                @php ($iconname = '')
+                            @endif
+
+                            <a href="{{ $url }}"><i class="ion-{{ $iconname }}"></i></a>
 
                         @endforeach
                         @endisset

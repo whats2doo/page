@@ -18,11 +18,15 @@
         <penis></penis>
     </div>
 
+    @include('parts.about')
+    @include('parts.mission')
     @include('parts.whitepaper')
     @include('parts.roadmap')
+    @include('parts.subscribe')
     @include('parts.team')
     @include('parts.companies')
     @include('parts.advisors')
+    @include('parts.people')
 @endsection
 
 @section('footer')

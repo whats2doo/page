@@ -1,24 +1,29 @@
 #whitepaper {
   width: 100%;
   height: 100%;
-  background: linear-gradient(160deg, #53f 15%, #05d5ff 80%);
+  background: linear-gradient(45deg, #00b4e3 15%, #008cde 80%);
   text-align: center;
-  padding: 60px 0 60px 0;
-  font-size: 40px;
+  padding: 75px 0 75px 0;
+  font-size: 42px;
   color: white;
   font-weight: 700;
   text-shadow: 0 1px 1px rgba(30, 30, 30, 0.4);
   position: relative;
 
   i {
-    margin-right: 10px;
+    margin-right: 20px;
+    font-size:100px;
+    vertical-align: middle;
   }
-
-
 
   #window_cleaner{
     position:absolute;
     top:-100px;
     left:5px;
   }
+
+  #window_cleaner_container{
+    width:50%;
+  }
+
 }

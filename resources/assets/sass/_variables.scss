@@ -28,7 +28,9 @@ $navbar-margin-bottom: 0px;
 $navbar-height: 60px;
 
 // Buttons
-$btn-default-color: $text-color;
+$btn-default-color: #ffffff;
+$btn-default-bg: #39b4ea;
+$btn-primary-bg: #15e3f3;
 
 // Inputs
 $input-border: lighten($text-color, 40%);

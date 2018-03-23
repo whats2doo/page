@@ -1,0 +1,54 @@
+#subscribe {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, #00b4e3 15%, #008cde 80%);
+  text-align: center;
+
+  position: relative;
+  -webkit-background-size:100%;
+  background-size:100%;
+
+  .subscribe-people{
+    width: 100%;
+    height: 100%;
+    padding: 75px 0 75px 0;
+    background: url("../images/people.png");
+    -webkit-background-size:90%;
+    background-size:90%;
+    background-repeat:no-repeat;
+    background-position: bottom center;
+  }
+
+  h2{
+    font-size: 42px;
+    color: white;
+    font-weight: 700;
+    text-shadow: 0 1px 1px rgba(30, 30, 30, 0.4);
+  }
+
+  #subscribe_input{
+    border-bottom-left-radius: 100px !important;
+    border-top-left-radius: 100px !important;
+    border:none;
+    height:58px;
+  }
+
+  .btn{
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    height:58px;
+    text-transform: uppercase;
+  }
+
+  .subscribe-btn{
+    margin-left:-3px;
+
+  }
+
+  .subscribe-form-container{
+    background: linear-gradient(45deg, #00b4e3 15%, #008cde 80%);
+    padding:10px;
+    border-radius:100px;
+    display: inline-block;
+  }
+}
