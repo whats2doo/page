@@ -1,5 +1,5 @@
 function loadAnimation(elementId, filename) {
-  let animation = lottie.loadAnimation({
+  const animation = bodymovin.loadAnimation({
     container: document.getElementById(elementId),
     renderer: 'svg',
     loop: true,
