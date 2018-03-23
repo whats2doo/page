@@ -13,6 +13,10 @@ const mix = require('laravel-mix')
 
 mix.js('resources/assets/js/app.js', 'public/js')
   .sass('resources/assets/sass/app.scss', 'public/css')
+  .copyDirectory('resources/assets/animations', 'public/animations')
+  .copyDirectory('resources/assets/images', 'public/images')
   .autoload({
     jquery: ['$', 'window.jQuery', 'jQuery', 'window.$', 'jquery', 'window.jquery'],
   })
+
+

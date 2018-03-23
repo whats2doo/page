@@ -1,6 +1,7 @@
+import bodymovin from 'bodymovin/build/player/bodymovin.min'
+
 function loadAnimation(elementId, filename) {
-  let animation;
-  animation = bodymovin.loadAnimation({
+  bodymovin.loadAnimation({
     container: document.getElementById(elementId),
     renderer: 'svg',
     loop: true,
