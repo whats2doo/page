@@ -1,5 +1,6 @@
 function loadAnimation(elementId, filename) {
-  const animation = bodymovin.loadAnimation({
+  var animation;
+  animation = bodymovin.loadAnimation({
     container: document.getElementById(elementId),
     renderer: 'svg',
     loop: true,
@@ -8,8 +9,8 @@ function loadAnimation(elementId, filename) {
     rendererSettings: {
       clearCanvas: true,
       progressiveLoad: false,
-      hideOnTransparent: true
-    }
+      hideOnTransparent: true,
+    },
   })
 }
 
