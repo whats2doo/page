@@ -18,21 +18,9 @@
                     <p class="jobtitle">{{ $member['jobtitle'] }}</p>
                     <p class="socialprofiles">
                         @if(!empty($member['socialprofiles']))
-                        @foreach ($member['socialprofiles'] as $profile=>$url)
-
-                            @if ($profile == 'linkedin')
-                                @php ($iconname = 'logo-linkedin')
-                            @elseif ($profile == 'xing')
-                                @php ($iconname = '')
-                            @elseif ($profile == 'mail')
-                                @php ($iconname = 'ios-mail')
-                            @elseif ($profile == 'whats2doo')
-                                @php ($iconname = '')
-                            @endif
-
-                            <a href="{{ $url }}"><i class="ion-{{ $iconname }}"></i></a>
-
-                        @endforeach
+                            @foreach ($member['socialprofiles'] as $profile)
+                                <a href="{{ $profile['url'] }}"><i class="ion-{{ $profile['icon'] }}"></i></a>
+                            @endforeach
                         @endif
                     </p>
                     <p>{{ __('messages.team.members_text.'.$member['text']) }}</p>
