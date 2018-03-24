@@ -7,17 +7,67 @@ $xingIcon = '';
 
 return [
     [
-        'name' => 'Ilja Leithold',
-        'jobtitle' => 'CEO',
-        'text' => 'ilja_leithold',
-        'image' => 'ilja-leithold.jpg',
+        'name' => 'K. Christian Vogel',
+        'jobtitle' => 'Germany - Investor with long Private Equity, Venture Capital and Consulting / interim management history',
+        'text' => 'christian_vogel',
+        'image' => 'christian-vogel.jpg',
         'socialprofiles' => [
             'whats2doo' => [
                 'url' => '',
                 'icon' => $whats2dooIcon
             ],
             'linkedin' => [
+                'url' => 'https://www.linkedin.com/in/k-christian-vogel-001238/',
+                'icon' => $linkedinIcon
+            ],
+            'xing' => [
+                'url' => 'https://www.xing.com/profile/KChristian_Vogel/cv',
+                'icon' => $xingIcon
+            ],
+            'mail' => [
                 'url' => '',
+                'icon' => $mailIcon
+            ]
+        ]
+    ],
+
+    [
+        'name' => 'Sascha Grumbach',
+        'jobtitle' => 'Germany - Private Equity Manager and expert for company building and -growth',
+        'text' => 'sascha_grumbach',
+        'image' => 'sacha-grumbach.jpg',
+        'socialprofiles' => [
+            'whats2doo' => [
+                'url' => 'https://www.whats2doo.com/userprofile/HyOL4iGse',
+                'icon' => $whats2dooIcon
+            ],
+            'linkedin' => [
+                'url' => 'https://www.linkedin.com/in/sascha-grumbach-852312103/',
+                'icon' => $linkedinIcon
+            ],
+            'xing' => [
+                'url' => 'https://www.xing.com/profile/Sascha_Grumbach/cv',
+                'icon' => $xingIcon
+            ],
+            'mail' => [
+                'url' => '',
+                'icon' => $mailIcon
+            ]
+        ]
+    ],
+
+    [
+        'name' => 'Edgar Kampers',
+        'jobtitle' => 'The Netherlands - Tokenomist, currency architect, fintech & circular economy innovator',
+        'text' => 'edgar_kampers',
+        'image' => 'edgar-kampers.jpg',
+        'socialprofiles' => [
+            'whats2doo' => [
+                'url' => '',
+                'icon' => $whats2dooIcon
+            ],
+            'linkedin' => [
+                'url' => 'https://www.linkedin.com/in/edgarkampers/',
                 'icon' => $linkedinIcon
             ],
             'xing' => [
@@ -32,17 +82,17 @@ return [
     ],
 
     [
-        'name' => 'Hannes Rothwell',
-        'jobtitle' => 'COO / Head of ICO',
-        'text' => 'hannes_rothwell',
-        'image' => 'hannes-rothwell.jpg',
+        'name' => 'Scott Morris',
+        'jobtitle' => 'USA – Blockchain- and Community Currency Expert',
+        'text' => 'scott_morris',
+        'image' => 'scott-morris.jpg',
         'socialprofiles' => [
             'whats2doo' => [
                 'url' => '',
                 'icon' => $whats2dooIcon
             ],
             'linkedin' => [
-                'url' => '',
+                'url' => 'https://www.linkedin.com/in/cscottmorris/',
                 'icon' => $linkedinIcon
             ],
             'xing' => [
@@ -57,17 +107,17 @@ return [
     ],
 
     [
-        'name' => 'Yanis Hamdali',
-        'jobtitle' => 'CEO',
-        'text' => 'W2Ds will also be used within the integrated What2doo ad platfrom. Impressions and clicks will be exchanged for W2Ds.',
-        'image' => 'yanis-hamdali.jpg',
+        'name' => 'Rob van Hilten',
+        'jobtitle' => 'The Netherlands - Expert in strategic and innovation consultancy and community currencies.',
+        'text' => 'rob_van_hilten',
+        'image' => 'rob-van-hilton.jpg',
         'socialprofiles' => [
             'whats2doo' => [
                 'url' => '',
                 'icon' => $whats2dooIcon
             ],
             'linkedin' => [
-                'url' => '',
+                'url' => 'https://www.linkedin.com/in/robvanhilten/',
                 'icon' => $linkedinIcon
             ],
             'xing' => [
@@ -82,17 +132,17 @@ return [
     ],
 
     [
-        'name' => 'Ilja Leithold',
-        'jobtitle' => 'CEO',
-        'text' => 'W2Ds will also be used within the integrated What2doo ad platfrom. Impressions and clicks will be exchanged for W2Ds.',
-        'image' => 'ilja-leithold.jpg',
+        'name' => 'Arie Ben David',
+        'jobtitle' => 'Israel - Expert in community currencies and cryptocurrencies, Founder & Chair of the Board at Haim Tov LTD (Group Market).',
+        'text' => 'arie_ben_david',
+        'image' => 'arie-ben-david.jpg',
         'socialprofiles' => [
             'whats2doo' => [
                 'url' => '',
                 'icon' => $whats2dooIcon
             ],
             'linkedin' => [
-                'url' => '',
+                'url' => 'https://www.linkedin.com/in/arie-ben-david-aa31219/',
                 'icon' => $linkedinIcon
             ],
             'xing' => [
@@ -107,17 +157,17 @@ return [
     ],
 
     [
-        'name' => 'Ilja Leithold',
-        'jobtitle' => 'CEO',
-        'text' => 'W2Ds will also be used within the integrated What2doo ad platfrom. Impressions and clicks will be exchanged for W2Ds.',
-        'image' => 'ilja-leithold.jpg',
+        'name' => 'Rasikh Morani',
+        'jobtitle' => 'USA – Expert for blockchain technology, technical planning, cryptocurrency modeling and development.',
+        'text' => 'rasikh_morani',
+        'image' => 'rasikh-morani.jpg',
         'socialprofiles' => [
             'whats2doo' => [
                 'url' => '',
                 'icon' => $whats2dooIcon
             ],
             'linkedin' => [
-                'url' => '',
+                'url' => 'https://www.linkedin.com/in/rasikh-morani-93802a58/',
                 'icon' => $linkedinIcon
             ],
             'xing' => [
@@ -132,17 +182,17 @@ return [
     ],
 
     [
-        'name' => 'Ilja Leithold',
-        'jobtitle' => 'CEO',
-        'text' => 'W2Ds will also be used within the integrated What2doo ad platfrom. Impressions and clicks will be exchanged for W2Ds.',
-        'image' => 'ilja-leithold.jpg',
+        'name' => 'Kamish Rehmuthulla',
+        'jobtitle' => 'USA – Entrepreneur and Cryptocurrency Planning Consultant.',
+        'text' => 'kamish_pehmuthulla',
+        'image' => 'kamish-pehmuthulla.jpg',
         'socialprofiles' => [
             'whats2doo' => [
                 'url' => '',
                 'icon' => $whats2dooIcon
             ],
             'linkedin' => [
-                'url' => '',
+                'url' => 'https://www.linkedin.com/in/kamish-r-7922729a/',
                 'icon' => $linkedinIcon
             ],
             'xing' => [

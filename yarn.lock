@@ -4181,6 +4181,10 @@ jest-regex-util@^22.1.0:
   version "22.1.0"
   resolved "https://registry.yarnpkg.com/jest-regex-util/-/jest-regex-util-22.1.0.tgz#5daf2fe270074b6da63e5d85f1c9acc866768f53"
 
+jquery-lazyload@^1.9.7:
+  version "1.9.7"
+  resolved "https://registry.yarnpkg.com/jquery-lazyload/-/jquery-lazyload-1.9.7.tgz#9982b388c533c0b611214b3c5aaa0b9fede071f7"
+
 jquery-viewport-checker@^1.8.8:
   version "1.8.8"
   resolved "https://registry.yarnpkg.com/jquery-viewport-checker/-/jquery-viewport-checker-1.8.8.tgz#cf0b5af930d5b1cd6836f71799f62ae1f57faa86"
@@ -4414,6 +4418,10 @@ lazy-cache@^2.0.2:
 lazy-req@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/lazy-req/-/lazy-req-1.1.0.tgz#bdaebead30f8d824039ce0ce149d4daa07ba1fac"
+
+lazyload@^2.0.0-beta.2:
+  version "2.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/lazyload/-/lazyload-2.0.0-beta.2.tgz#1dc729c3739f06fdc825702c33b9dd99f89ebcbd"
 
 lazystream@^1.0.0:
   version "1.0.0"
