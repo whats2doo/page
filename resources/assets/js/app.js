@@ -1,7 +1,9 @@
+import $ from 'jquery'
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
 import './bootstrap'
 import penis from './components/penis/penis.vue'
+
 
 // locales
 import en from './locales/en'
@@ -17,7 +19,11 @@ window.env = document.querySelector('html').getAttribute('data-env')
 require('./navbar')
 require('./footer')
 require('./animations')
+require('jquery-lazyload/jquery.lazyload.js')
 
+$('img.lazyload').lazyload({
+  threshold: 200
+})
 
 // i18n
 Vue.use(VueI18n)
@@ -42,4 +48,3 @@ if (document.getElementById('penis')) {
     },
   })
 }
-
