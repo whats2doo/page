@@ -1,0 +1,27 @@
+#team {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.teamimage {
+  border: 12px solid #ebf7fd;
+  position: relative;
+}
+
+.jobtitle {
+  font-weight: bold;
+  font-size: 12px !important;
+  color: #39b4ea !important;
+  text-transform: uppercase;
+}
+
+.socialprofiles {
+  padding-top: 0;
+  padding-bottom: 0;
+
+  a {
+    font-size: 28px;
+    color: #d9d9d9;
+    margin: 0 1px;
+  }
+}

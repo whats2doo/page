@@ -10,15 +10,14 @@ import de from './locales/de'
 // fonts
 require('ionicons/dist/css/ionicons.css')
 
-// images
-require('../images/W2D.svg')
-
 // env
 window.env = document.querySelector('html').getAttribute('data-env')
 
 // navbar scroll
 require('./navbar')
 require('./footer')
+require('./animations')
+
 
 // i18n
 Vue.use(VueI18n)
@@ -43,3 +42,4 @@ if (document.getElementById('penis')) {
     },
   })
 }
+

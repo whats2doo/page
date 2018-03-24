@@ -1,0 +1,43 @@
+#mission {
+  width: 100%;
+  background-color: #ebf7fd;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  position: relative;
+  -webkit-background-size: 90%;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+
+  p {
+    color: #999;
+  }
+
+  .mission_content {
+    margin-left: 110px;
+
+    h3 {
+      margin-top: 0;
+    }
+  }
+
+  .mission_content {
+    &:after{
+      clear: both;
+    }
+  }
+
+  .mission_icon {
+    width: 80px;
+    height: 80px;
+    float: left;
+    -webkit-background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .mission_item {
+    min-height: 150px;
+  }
+}

@@ -1057,6 +1057,10 @@ body-parser@1.18.2:
     raw-body "2.3.2"
     type-is "~1.6.15"
 
+bodymovin@^4.13.0:
+  version "4.13.0"
+  resolved "https://registry.yarnpkg.com/bodymovin/-/bodymovin-4.13.0.tgz#06d97c0130e2334dccb33bea638136f88a74540b"
+
 bonjour@^3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/bonjour/-/bonjour-3.5.0.tgz#8e890a183d8ee9a2393b3844c691a42bcf7bc9f5"
@@ -4176,6 +4180,10 @@ jest-message-util@^22.1.0:
 jest-regex-util@^22.1.0:
   version "22.1.0"
   resolved "https://registry.yarnpkg.com/jest-regex-util/-/jest-regex-util-22.1.0.tgz#5daf2fe270074b6da63e5d85f1c9acc866768f53"
+
+jquery-viewport-checker@^1.8.8:
+  version "1.8.8"
+  resolved "https://registry.yarnpkg.com/jquery-viewport-checker/-/jquery-viewport-checker-1.8.8.tgz#cf0b5af930d5b1cd6836f71799f62ae1f57faa86"
 
 jquery@^3.2:
   version "3.3.1"

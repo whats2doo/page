@@ -10,7 +10,9 @@ class HomeController extends Controller
     {
         return response()->view('pages.home', [
             'title' => 'Home',
-            'menu'  => config('menu')
+            'menu' => config('menu'),
+            'team' => config('team'),
+            'advisors' => config('advisors')
         ]);
     }
 }

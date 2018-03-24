@@ -4,9 +4,11 @@
 
 @section('header')
     <header>
-        @include('parts.navbar')
-        <div id="W2D">
-            <img src="{{ asset('images/W2D.svg') }}" alt="W2D">
+        <div class="header_bg">
+            @include('parts.navbar')
+            <div id="W2D">
+                <img src="{{ asset('images/W2D.svg') }}" alt="W2D">
+            </div>
         </div>
     </header>
 @endsection
@@ -15,17 +17,18 @@
     <div id="penis">
         <penis></penis>
     </div>
+
+    @include('parts.about')
+    @include('parts.mission')
     @include('parts.whitepaper')
+    @include('parts.roadmap')
+    @include('parts.subscribe')
+    @include('parts.team')
+    @include('parts.companies')
+    @include('parts.advisors')
+    @include('parts.people')
 @endsection
 
 @section('footer')
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    Das ist der Footer neu
-                </div>
-            </div>
-        </div>
-    </footer>
+    @include('parts.footer')
 @endsection
