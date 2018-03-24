@@ -5,12 +5,6 @@ import _each from 'lodash/each'
 
 require('jquery-viewport-checker/src/jquery.viewportchecker')
 
-// rendererSettings: {
-//   clearCanvas: true,
-//   progressiveLoad: false,
-//   hideOnTransparent: true,
-// },
-
 const animations = {
   data: {
     config: {
