@@ -1,5 +1,10 @@
 <?php
 
+$whats2dooIcon = '';
+$mailIcon = 'ios-mail';
+$linkedinIcon = 'logo-linkedin';
+$xingIcon = '';
+
 return [
     [
         'name' => 'Ilja Leithold',
@@ -8,16 +13,20 @@ return [
         'image' => 'ilja-leithold.jpg',
         'socialprofiles' => [
             'whats2doo' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $whats2dooIcon
             ],
             'linkedin' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $linkedinIcon
             ],
             'xing' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $xingIcon
             ],
             'mail' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $mailIcon
             ]
         ]
     ],
@@ -29,16 +38,20 @@ return [
         'image' => 'hannes-rothwell.jpg',
         'socialprofiles' => [
             'whats2doo' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $whats2dooIcon
             ],
             'linkedin' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $linkedinIcon
             ],
             'xing' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $xingIcon
             ],
             'mail' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $mailIcon
             ]
         ]
     ],
@@ -50,16 +63,20 @@ return [
         'image' => 'yanis-hamdali.jpg',
         'socialprofiles' => [
             'whats2doo' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $whats2dooIcon
             ],
             'linkedin' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $linkedinIcon
             ],
             'xing' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $xingIcon
             ],
             'mail' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $mailIcon
             ]
         ]
     ],
@@ -71,16 +88,20 @@ return [
         'image' => 'ilja-leithold.jpg',
         'socialprofiles' => [
             'whats2doo' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $whats2dooIcon
             ],
             'linkedin' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $linkedinIcon
             ],
             'xing' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $xingIcon
             ],
             'mail' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $mailIcon
             ]
         ]
     ],
@@ -92,16 +113,20 @@ return [
         'image' => 'ilja-leithold.jpg',
         'socialprofiles' => [
             'whats2doo' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $whats2dooIcon
             ],
             'linkedin' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $linkedinIcon
             ],
             'xing' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $xingIcon
             ],
             'mail' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $mailIcon
             ]
         ]
     ],
@@ -113,16 +138,20 @@ return [
         'image' => 'ilja-leithold.jpg',
         'socialprofiles' => [
             'whats2doo' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $whats2dooIcon
             ],
             'linkedin' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $linkedinIcon
             ],
             'xing' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $xingIcon
             ],
             'mail' => [
-                'url' => ''
+                'url' => '',
+                'icon' => $mailIcon
             ]
         ]
     ]
