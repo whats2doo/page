@@ -10,7 +10,7 @@
   background-position: bottom center;
 
   p {
-    color: #999999;
+    color: #999;
   }
 
   .mission_content {
@@ -21,8 +21,10 @@
     }
   }
 
-  .mission_content:after {
-    clear: both;
+  .mission_content {
+    &:after{
+      clear: both;
+    }
   }
 
   .mission_icon {
