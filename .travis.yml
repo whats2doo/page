@@ -27,8 +27,9 @@ matrix:
     - language: node_js
       node_js: "node" # latest stable node.js release
       before_script:
-        - gem install scss_lint
+        - npm install -g stylelint
       script:
         - yarn prod
         - yarn js:test:eslint
+        - yarn scss:test:stylelint
         - yarn js:test:prod
