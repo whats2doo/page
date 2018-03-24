@@ -17,7 +17,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     @foreach($menu as $menuItem)
                         <li>
-                            <a @isset($menuItem['target']) target="{{ $menuItem['target'] }}" @endif href="{{ $menuItem['href'] }}">{!! $menuItem['title'] !!}</a>
+                            <a @isset($menuItem['target']) target="{{ $menuItem['target'] }}" @endif href="{{ $menuItem['href'] }}">{{ __('messages.navigation.'.$menuItem['title']) }}</a>
                         </li>
                     @endforeach
                 </ul>

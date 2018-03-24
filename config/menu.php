@@ -2,44 +2,44 @@
 
 return [
     [
-        'title' => 'Home',
+        'title' => 'home',
         'href'  => '#home',
     ],
 
     [
-        'title' => 'FAQ\'s',
+        'title' => 'faq',
         'href'  => '#faq',
     ],
 
     [
-        'title' => 'Blog',
+        'title' => 'blog',
         'href'  => '#blog',
     ],
 
     [
-        'title' => 'Team',
+        'title' => 'team',
         'href'  => '#team',
     ],
 
     [
-        'title' => 'Documents',
+        'title' => 'documents',
         'href'  => '#documents',
     ],
 
     [
-        'title'  => '<i class="ion-logo-twitter"></i>',
+        'title'  => 'twitter',
         'href'   => 'https://github.com',
         'target' => '_blank',
     ],
 
     [
-        'title'  => '<i class="ion-logo-telegram"></i>',
+        'title'  => 'telegram',
         'href'   => 'https://github.com',
         'target' => '_blank',
     ],
 
     [
-        'title'  => '<i class="ion-logo-github"></i>',
+        'title'  => 'github',
         'href'   => 'https://github.com',
         'target' => '_blank',
     ],

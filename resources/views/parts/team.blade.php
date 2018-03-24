@@ -7,18 +7,17 @@
             </div>
         </div>
     </div>
-    @isset($team)
+    @if(!empty($team))
     <div class="container">
         <div class="row text-center">
             <div class="list_section">
-            @php ($i = 1)
             @foreach ($team as $member)
                 <div class="col-lg-3">
                     <img class="img-circle teamimage" src="{{ asset('images/team/'.$member['image']) }}" alt="" width="160" height="160">
                     <h3>{{ $member['name'] }}</h3>
                     <p class="jobtitle">{{ $member['jobtitle'] }}</p>
                     <p class="socialprofiles">
-                        @isset($member['socialprofiles'])
+                        @if(!empty($member['socialprofiles']))
                         @foreach ($member['socialprofiles'] as $profile=>$url)
 
                             @if ($profile == 'linkedin')
@@ -34,18 +33,17 @@
                             <a href="{{ $url }}"><i class="ion-{{ $iconname }}"></i></a>
 
                         @endforeach
-                        @endisset
+                        @endif
                     </p>
-                    <p>{{ $member['text'] }}</p>
+                    <p>{{ __('messages.team.members_text.'.$member['text']) }}</p>
 
                 </div>
-                @if ($i % 4 == 0)
+                @if ($loop->iteration % 4 == 0)
                     </div></div><div class="row text-center"><div class="list_section">
                 @endif
-                @php ($i++)
             @endforeach
             </div>
         </div>
     </div>
-    @endisset
+    @endif
 </section>

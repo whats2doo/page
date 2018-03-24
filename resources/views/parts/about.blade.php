@@ -3,8 +3,8 @@
         <div class="row">
             <div class="col-md-8">
                 <h2>{{ __('messages.about.headline') }}</h2>
-                <p>{{ __('messages.about.text.p1') }}</p>
-                <p>{{ __('messages.about.text.p2') }}</p>
+                <p>{{ __('messages.about.text_p1') }}</p>
+                <p>{{ __('messages.about.text_p2') }}</p>
             </div>
             <div class="col-md-4">
                 <div id="carpenter_animation"></div>

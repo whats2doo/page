@@ -26,6 +26,7 @@
     "expect": "^22.1.0",
     "ionicons": "^3.0.0",
     "jquery": "^3.2",
+    "jquery-viewport-checker": "^1.8.8",
     "jsdom": "^11.6.1",
     "jsdom-global": "^3.0.2",
     "laravel-mix": "^2.0.0",
