@@ -1,7 +1,7 @@
 <div id="whitepaper">
     <div class="container">
         <div id="window_cleaner_container">
-            <div id="window_cleaner"></div>
+            <div id="windowCleaner"></div>
         </div>
         <div class="row">
             <div class="col-xs-12">

@@ -13,7 +13,7 @@
             </div><!-- col -->
 
             <div class="col-md-5">
-                <div id="carpenter_animation"></div>
+                <div id="carpenter"></div>
             </div><!-- col -->
         </div><!-- row -->
     </div><!-- container -->

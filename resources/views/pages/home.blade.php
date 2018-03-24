@@ -26,7 +26,7 @@
     @include('parts.team')
     @include('parts.companies')
     @include('parts.advisors')
-    @include('parts.people')
+    @include('parts.dj')
 @endsection
 
 @section('footer')
