@@ -22,7 +22,7 @@ require('./animations')
 require('jquery-lazyload/jquery.lazyload.js')
 
 $('img.lazyload').lazyload({
-  threshold: 200
+  threshold: 200,
 })
 
 // i18n
