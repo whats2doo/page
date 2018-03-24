@@ -183,7 +183,7 @@ return [
 
     [
         'name' => 'Kristina Drenker',
-        'jobtitle' => 'Front End Developer',
+        'jobtitle' => 'Manager Communication Design & PR',
         'text' => 'kristina_drenker',
         'image' => 'kristina-drenker.jpg',
         'socialprofiles' => [
