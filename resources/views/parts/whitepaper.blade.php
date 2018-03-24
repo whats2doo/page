@@ -1,9 +1,9 @@
 <div id="whitepaper">
-    <div class="container">
-        <div id="window_cleaner_container">
-            <div id="windowCleaner"></div>
-        </div>
+    <div id="window_cleaner_container">
+        <div id="windowCleaner"></div>
+    </div>
 
+    <div class="container">
         <div class="row">
             <div class="col-xs-12">
                 <a href="{{ asset('documents/whitepaper.pdf') }}" target="_blank">
@@ -12,4 +12,4 @@
             </div><!-- col -->
         </div><!-- row -->
     </div><!-- container -->
-</div>
+</div><!-- whitepaper -->
