@@ -1,6 +1,4 @@
 import bodymovin from 'bodymovin/build/player/bodymovin.min'
-//import viewportChecker from 'jquery-viewport-checker/src/jquery.viewportchecker'
-
 
 function loadAnimation(elementId, filename) {
   bodymovin.loadAnimation({
@@ -16,15 +14,6 @@ function loadAnimation(elementId, filename) {
     },
   })
 }
-
-
-/*$('.chart_con').addClass("hideit").viewportChecker({
-  classToAdd: 'show_it animated fadeIn',
-  offset: 100,
-  callbackFunction: function(elem, action){
-    generateCharts();
-  }
-});*/
 
 loadAnimation('trainer_animation', 'trainer.json')
 loadAnimation('window_cleaner', 'window_cleaner.json')
