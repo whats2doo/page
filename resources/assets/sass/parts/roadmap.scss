@@ -12,10 +12,8 @@
 
   .roadmap_content {
     padding-left: 70px;
-  }
 
-  .roadmap_content {
-    &:after{
+    &::after {
       clear: both;
     }
   }
