@@ -1,47 +1,47 @@
-#roadmap{
-  padding-top:40px;
-  padding-bottom:40px;
+#roadmap {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-.timeline{
+.timeline {
 
-  .roadmap_icon{
+  .roadmap_icon {
     float: left;
-    width:60px;
+    width: 60px;
     text-align: center;
   }
 
-  .roadmap_content{
-    padding-left:70px;
+  .roadmap_content {
+    padding-left: 70px;
   }
 
-  .roadmap_content:after{
+  .roadmap_content:after {
     clear: both;
   }
 
-  ul{
+  ul {
 
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 
-    li{
+    li {
       list-style-type: none;
       position: relative;
       width: 2px;
       margin: 0 auto;
       background: #0097ee;
-      margin-bottom:-50px;
+      margin-bottom: -50px;
 
-      &:first-child{
-        padding-top:50px;
+      &:first-child {
+        padding-top: 50px;
       }
 
-      &:last-child{
-        margin-bottom:0;
-        padding-bottom:70px;
+      &:last-child {
+        margin-bottom: 0;
+        padding-bottom: 70px;
       }
 
-      .roadmap_container{
+      .roadmap_container {
         position: relative;
         bottom: 0;
         width: 400px;
@@ -61,10 +61,10 @@
       }
     }
 
-    li:nth-child(odd){
-      .roadmap_container{
+    li:nth-child(odd) {
+      .roadmap_container {
         left: 45px;
-        border-left:10px solid #0097ee;
+        border-left: 10px solid #0097ee;
       }
 
       .roadmap_container::before {
@@ -87,10 +87,10 @@
       }
     }
 
-    li:nth-child(even){
-      .roadmap_container{
+    li:nth-child(even) {
+      .roadmap_container {
         left: -439px;
-        border-right:10px solid #0097ee;
+        border-right: 10px solid #0097ee;
       }
 
       .roadmap_container::before {
@@ -114,14 +114,14 @@
     }
   }
 
-  p{
-    font-size:14px;
-    font-weight:300;
-    color:#979999;
-    line-height:1.4em;
+  p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #979999;
+    line-height: 1.4em;
   }
 
-  h3{
-    margin-top:0;
+  h3 {
+    margin-top: 0;
   }
 }

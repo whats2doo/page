@@ -8,16 +8,16 @@ class HomeController extends Controller
 {
     public function formatMembers($team):array
     {
-        for($i=0;$i<count($team);$i++){
-            if(!empty($team[$i]['socialprofiles'])){
-                foreach($team[$i]['socialprofiles'] as $profile=>$data){
-                    if($profile == 'linkedin'){
+        for ($i = 0; $i < count($team); $i++) {
+            if (!empty($team[$i]['socialprofiles'])) {
+                foreach ($team[$i]['socialprofiles'] as $profile => $data) {
+                    if ($profile == 'linkedin') {
                         $team[$i]['socialprofiles']['linkedin']['icon'] = 'logo-linkedin';
-                    }elseif($profile == 'mail'){
+                    } elseif ($profile == 'mail') {
                         $team[$i]['socialprofiles']['mail']['icon'] = 'ios-mail';
-                    }elseif($profile == 'whats2doo'){
+                    } elseif ($profile == 'whats2doo') {
                         $team[$i]['socialprofiles']['whats2doo']['icon'] = '';
-                    }elseif($profile == 'xing'){
+                    } elseif ($profile == 'xing') {
                         $team[$i]['socialprofiles']['xing']['icon'] = '';
                     }
                 }
