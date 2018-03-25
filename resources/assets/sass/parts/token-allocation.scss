@@ -10,7 +10,25 @@ $token-allocation-background: #ebf7fd;
     width: 100%;
     margin-top: 30px;
 
+    .chart-description {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      text-transform: uppercase;
+      height: 40px;
+      line-height: 40px;
+      top: 50%;
+      margin-top: -20px;
+      font-weight: 700;
+      font-size: 18px;
+
+      @media (max-width: $screen-xs-max) {
+        font-size: 14px;
+      }
+    }
+
     canvas {
+      position: relative;
       width: 100% !important;
       max-width: 800px;
       height: auto !important;

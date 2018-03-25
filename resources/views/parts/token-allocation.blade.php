@@ -8,14 +8,22 @@
         </div><!-- row -->
 
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <div class="chart">
+                    <div class="chart-description">
+                        Distribution
+                    </div><!-- chart-description -->
+
                     <canvas id="chart-distribution"></canvas>
                 </div><!-- chart -->
             </div><!-- col -->
 
-            <div class="col-sm-6">
+            <div class="col-md-6">
                 <div class="chart">
+                    <div class="chart-description">
+                        Use of Proceeds
+                    </div><!-- chart-description -->
+
                     <canvas id="chart-use-of-proceeds"></canvas>
                 </div><!-- chart -->
             </div><!-- col -->

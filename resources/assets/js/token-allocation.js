@@ -25,6 +25,7 @@ const chartDistribution = new Chart(chartDistributionElement, {
       display: false,
     },
     cutoutPercentage: 75,
+    animation: false,
   },
 })
 
@@ -50,5 +51,6 @@ const chartUseOfProceeds = new Chart(chartUseOfProceedsElement, {
       display: false,
     },
     cutoutPercentage: 75,
+    animation: false,
   },
 })
