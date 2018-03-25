@@ -1,0 +1,22 @@
+#numbers {
+  position: relative;
+  background: linear-gradient(45deg, #00b4e3 15%, #008cde 80%);
+  text-align: center;
+  padding: 75px 0 75px 0;
+  color: white;
+
+  .number {
+    margin-top: 30px;
+
+    .number-counter {
+      font-size: 60px;
+      font-weight: 900;
+      line-height: 60px;
+    }
+
+    .number-description {
+      font-weight: 300;
+      font-size: 20px;
+    }
+  }
+}
