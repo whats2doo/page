@@ -1,0 +1,19 @@
+$token-allocation-background: #ebf7fd;
+
+#token-allocation {
+  width: 100%;
+  padding: 40px 0 50px 0;
+  background: $token-allocation-background;
+
+  .chart {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+
+    canvas {
+      width: 100% !important;
+      max-width: 800px;
+      height: auto !important;
+    }
+  }
+}

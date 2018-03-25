@@ -44,6 +44,7 @@
     @include('parts.about')
     @include('parts.mission')
     @include('parts.numbers')
+    @include('parts.token-allocation')
     @include('parts.whitepaper')
     @include('parts.roadmap')
     @include('parts.subscribe')

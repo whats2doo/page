@@ -7,7 +7,7 @@ return [
         'invested-capital'   => 'Invested Capital',
     ],
 
-    'header'     => [
+    'header' => [
         'why'        => 'The one-stop-shopping solution for simple services and jobs',
         'token-sale' => 'Token <strong>Pre-Sale</strong> starts at <strong>01. June 2018</strong>',
         'official'   => 'Official ICO of whats2doo.com',
@@ -99,5 +99,10 @@ return [
         'team'      => 'Team',
         'documents' => 'Documents',
         'faq'       => 'FAQ',
-    ]
+    ],
+
+    'token-allocation' => [
+        'headline' => 'Token Allocation & Use of Fund',
+        'text'     => ''
+    ],
 ];

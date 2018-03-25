@@ -4,7 +4,6 @@ import VueI18n from 'vue-i18n'
 import './bootstrap'
 import penis from './components/penis/penis.vue'
 
-
 // locales
 import en from './locales/en'
 import de from './locales/de'
@@ -20,6 +19,7 @@ require('./navbar')
 require('./footer')
 require('./animations')
 require('jquery-lazyload/jquery.lazyload.js')
+require('./token-allocation')
 
 $('img.lazyload').lazyload({
   threshold: 200,
