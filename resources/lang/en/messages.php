@@ -1,6 +1,13 @@
 <?php
 
 return [
+    'header'     => [
+        'why'        => 'The one-stop-shopping solution for simple services and jobs',
+        'token-sale' => 'Token <strong>Pre-Sale</strong> starts at <strong>01. June 2018</strong>',
+        'official'   => 'Official ICO of whats2doo.com',
+        'sign-up'    => 'Sign up',
+        'whitepaper' => 'Whitepaper'
+    ],
     'about'      => [
         'headline' => 'What is Whats2doo and W2D?',
         'text_p1'  => 'Whats2doo is a fully automated peer-to-peer service marketplace. We bring people together: those who offer services – our so-called Helpers – and those who need them – we call them Requestors. The platform is online since June 2017 and has currently more than 5,000 registered users in already three German cities: Berlin, Hamburg and Munich. Our ambition is to grow globally and become the #1 marketplace for services and small jobs with a unique and easy to use customer experience for Helpers and Requesters.',
@@ -73,13 +80,9 @@ return [
         'link' => 'Download our Whitepaper'
     ],
     'navigation' => [
-        'home'      => 'home',
-        'faq'       => 'FAQ',
-        'blog'      => 'Blog',
+        'home'      => 'Home',
         'team'      => 'Team',
         'documents' => 'Documents',
-        'twitter'   => '',
-        'github'    => '',
-        'telegram'  => ''
+        'faq'       => 'FAQ',
     ]
 ];
