@@ -11,7 +11,7 @@
 
             <div id="mobile-call-to-action" class="pull-right hidden-md hidden-lg">
                 <a href="#" class="btn btn-default">
-                    Sign up
+                    {{ __('messages.header.sign-up') }}
                 </a>
             </div>
 
@@ -53,7 +53,7 @@
 
                     <li class="call-to-action hidden-xs hidden-sm">
                         <a href="#" class="btn btn-default">
-                            Sign up
+                            {{ __('messages.header.sign-up') }}
                         </a>
                     </li>
                 </ul>

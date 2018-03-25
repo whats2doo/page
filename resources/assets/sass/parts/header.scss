@@ -1,29 +1,49 @@
 header {
   min-height: 100vh;
   background: $brand-primary;
+  color: white;
   // background: linear-gradient(45deg, #008cde 80%, #00b4e3 15%);
 
   #w2d {
-    margin-top: 100px;
+    margin: 100px auto 0 auto;
     position: relative;
-    color: white;
-    text-transform: uppercase;
-    font-size: 300px;
-    text-align: center;
-    font-weight: 900;
+    width: 80%;
+  }
 
-    //#w2d-w,
-    //#w2d-2,
-    //#w2d-d {
-    //  display: inline-block;
-    //}
-    //
-    //#w2d-w {
-    //  #painter {
-    //    position: absolute;
-    //    top: 0;
-    //    left: 0;
-    //  }
-    //}
+  #header-content {
+    text-align: center;
+    color: white;
+
+    h1,
+    h2 {
+      margin: 0;
+      color: white;
+      font-weight: 500;
+    }
+
+    h1 {
+      font-size: 28px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+
+    #token-sale-timer {
+      margin-top: 50px;
+      font-size: 24px;
+    }
+
+    #header-buttons {
+      margin: 20px 0 22px 0;
+
+      > a.btn {
+        padding: 16px 38px;
+
+        &:first-child {
+          margin-right: 10px;
+        }
+      }
+    }
   }
 }
