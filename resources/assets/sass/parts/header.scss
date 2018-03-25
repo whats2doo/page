@@ -1,8 +1,9 @@
 header {
   min-height: 100vh;
-  background: $brand-primary;
+  // background: $brand-primary;
   color: white;
   // background: linear-gradient(45deg, #008cde 80%, #00b4e3 15%);
+  background: linear-gradient(45deg, #00b4e3 15%, #008cde 80%);
 
   #w2d {
     position: relative;
