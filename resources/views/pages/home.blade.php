@@ -19,20 +19,20 @@
 
                         <div id="token-sale-timer">
                             {!! __('messages.header.token-sale') !!}
-                        </div><!-- token-sale-timer -->
+                        </div>
 
                         <div id="header-buttons">
                             @spaceless
                             <a href="#" class="btn btn-default btn-lg">{{ __('messages.header.sign-up') }}</a>
                             <a href="#" class="btn btn-white btn-lg">{{ __('messages.header.whitepaper') }}</a>
                             @endspaceless
-                        </div><!-- header-buttons -->
+                        </div>
 
                         <h2>{{ __('messages.header.official') }}</h2>
-                    </div><!-- header-content -->
-                </div><!-- col -->
-            </div><!-- row -->
-        </div><!-- container -->
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 @endsection
 
