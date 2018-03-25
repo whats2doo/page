@@ -1,6 +1,12 @@
 <?php
 
 return [
+    'numbers' => [
+        'active-users'       => 'Active Users',
+        'montly-growth-rate' => 'Montly Growth Rate',
+        'invested-capital'   => 'Invested Capital',
+    ],
+
     'header'     => [
         'why'        => 'The one-stop-shopping solution for simple services and jobs',
         'token-sale' => 'Token <strong>Pre-Sale</strong> starts at <strong>01. June 2018</strong>',
@@ -8,15 +14,18 @@ return [
         'sign-up'    => 'Sign up',
         'whitepaper' => 'Whitepaper'
     ],
-    'about'      => [
+
+    'about' => [
         'headline' => 'What is Whats2doo and W2D?',
         'text_p1'  => 'Whats2doo is a fully automated peer-to-peer service marketplace. We bring people together: those who offer services – our so-called Helpers – and those who need them – we call them Requestors. The platform is online since June 2017 and has currently more than 5,000 registered users in already three German cities: Berlin, Hamburg and Munich. Our ambition is to grow globally and become the #1 marketplace for services and small jobs with a unique and easy to use customer experience for Helpers and Requesters.',
         'text_p2'  => 'W2D Tokens are ERC20 based utility tokens that have certain payment- and holding utilities associated with Whats2doo. The Whats2doo eco- system will be fuelled by using W2D. In the long run, as cryptocurrencies in general will have an increased adoption, we aim to further promote W2D as the payment of choice for our community.'
     ],
-    'companies'  => [
+
+    'companies' => [
         'companies.headline' => 'Companies we already successfully worked with'
     ],
-    'mission'    => [
+
+    'mission' => [
         'headline' => 'Changing the world is our mission!',
         'text'     => 'W2Ds will also be used within the integrated What2doo ad platfrom. Impressions and clicks will be exchanged for W2Ds. These ads will be displayed within the user’s Job feed.',
         'article1' => [
@@ -36,16 +45,19 @@ return [
             'text'     => 'An integrated, mutual review system installs trust within the community and ensures a high level of quality.'
         ]
     ],
-    'subscribe'  => [
+
+    'subscribe' => [
         'headline'    => 'Subscribe for Updates!',
         'btn'         => 'Subscribe',
         'placeholder' => 'Your E-Mail address...'
     ],
-    'roadmap'    => [
+
+    'roadmap' => [
         'headline' => 'Our Roadmap',
         'text'     => 'W2Ds will also be used within the integrated What2doo ad platfrom. Impressions and clicks will be exchanged for W2Ds. These ads will be displayed within the user’s Job feed and there ToDo list. The Whats2doo ad platform will aim to be a much better advertising method because we know our users much better.'
     ],
-    'team'       => [
+
+    'team' => [
         'headline'     => 'Our Team',
         'text'         => 'W2Ds will also be used within the integrated What2doo ad platfrom. Impressions and clicks will be exchanged for W2Ds. These ads will be displayed within the user’s Job feed and there ToDo list. The Whats2doo ad platform will aim to be a much better advertising method because we know our users much better.',
         'members_text' => [
@@ -62,7 +74,8 @@ return [
             'cake'                 => 'Cake is a team member since day #1. Whenever someone from the team needs a bit of love, Cake reliably provides cuddling and other activities to relieve stress or boost creativity.'
         ]
     ],
-    'advisors'   => [
+
+    'advisors' => [
         'headline'     => 'Our Advisors',
         'text'         => 'W2Ds will also be used within the integrated What2doo ad platfrom. Impressions and clicks will be exchanged for W2Ds. These ads will be displayed within the user’s Job feed and there ToDo list.',
         'members_text' => [
@@ -76,9 +89,11 @@ return [
             'kamish_pehmuthulla' => 'Kamish has developed a wide array of strategies and skills in the planning, development, and design of cryptocurrency image and financial planning. He is also experienced in managing funds and raising money through private organizations within the cryptocurrency space.'
         ]
     ],
+
     'whitepaper' => [
         'link' => 'Download our Whitepaper'
     ],
+
     'navigation' => [
         'home'      => 'Home',
         'team'      => 'Team',

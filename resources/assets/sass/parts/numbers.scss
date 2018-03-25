@@ -1,0 +1,59 @@
+#numbers {
+  position: relative;
+  background: linear-gradient(45deg, #00b4e3 15%, #008cde 80%);
+  text-align: center;
+  padding: 75px 0 85px 0;
+  color: white;
+  margin-bottom: 50px;
+
+  #gardener {
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+  }
+
+  .whats2doo-logo {
+    width: 100%;
+    padding-top: 50px;
+
+    @media (max-width: $screen-sm-max) {
+      padding-top: 40px;
+    }
+
+    @media (max-width: $screen-xs-max) {
+      padding-top: 0;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      max-width: 250px;
+    }
+  }
+
+  .number {
+    margin-top: 30px;
+
+    .number-counter {
+      font-size: 55px;
+      font-weight: 900;
+      line-height: 60px;
+      text-shadow: 0 1px 1px rgba(30, 30, 30, 0.2);
+
+      @media (max-width: $screen-sm-max) {
+        font-size: 45px;
+        line-height: 45px;
+      }
+
+      @media (max-width: $screen-xs-max) {
+        font-size: 32px;
+        line-height: 32px;
+      }
+    }
+
+    .number-description {
+      font-weight: 300;
+      font-size: 20px;
+    }
+  }
+}
