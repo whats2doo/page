@@ -7,16 +7,20 @@ const chartDistribution = new Chart(chartDistributionElement, {
   type: 'doughnut',
   data: {
     datasets: [{
-      data: [10, 20, 30],
+      data: [50, 23, 9, 6, 6, 5, 1],
       backgroundColor: [
-        'red',
+        '#3877eb', '#0397ee', '#38b5eb', '#14e2f3', '#61eef5', '#e1f3f7', '#b8f2f5',
       ],
     }],
 
     labels: [
+      'Crowd Sale',
+      'Future Company Financing',
+      'ICO Marketing',
       'Whats2doo Team',
-      'Marketing Campaign',
-      'Pre- & Main ICO',
+      'Advisors',
+      'Referral Progam',
+      'Bounty Campaign',
     ],
   },
   options: {
@@ -24,7 +28,7 @@ const chartDistribution = new Chart(chartDistributionElement, {
     legend: {
       display: false,
     },
-    cutoutPercentage: 75,
+    cutoutPercentage: 70,
     animation: false,
   },
 })
@@ -33,16 +37,18 @@ const chartUseOfProceeds = new Chart(chartUseOfProceedsElement, {
   type: 'doughnut',
   data: {
     datasets: [{
-      data: [10, 20, 30],
+      data: [42, 32, 19, 5, 3],
       backgroundColor: [
-        'red',
+        '#3877eb', '#0397ee', '#38b5eb', '#14e2f3', '#61eef5',
       ],
     }],
 
     labels: [
-      'Whats2doo Team',
-      'Marketing Campaign',
-      'Pre- & Main ICO',
+      'Marketing',
+      'Core Development',
+      'Operating Cost',
+      'Consulting and Legal Support',
+      'Advisors and Team',
     ],
   },
   options: {
@@ -50,7 +56,7 @@ const chartUseOfProceeds = new Chart(chartUseOfProceedsElement, {
     legend: {
       display: false,
     },
-    cutoutPercentage: 75,
+    cutoutPercentage: 70,
     animation: false,
   },
 })

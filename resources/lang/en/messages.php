@@ -103,6 +103,6 @@ return [
 
     'token-allocation' => [
         'headline' => 'Token Allocation & Use of Fund',
-        'text'     => ''
+        'crowd-sale' => '',
     ],
 ];

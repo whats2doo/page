@@ -16,10 +16,11 @@ class HomeController extends Controller
     public function home()
     {
         return response()->view('pages.home', [
-            'title'    => 'Home',
-            'menu'     => config('menu'),
-            'team'     => config('team'),
-            'advisors' => config('advisors')
+            'title'           => 'Home',
+            'menu'            => config('menu'),
+            'team'            => config('team'),
+            'advisors'        => config('advisors'),
+            'tokenAllocation' => config('token-allocation')
         ]);
     }
 }
