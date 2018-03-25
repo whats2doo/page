@@ -13,6 +13,16 @@ header {
       margin-top: 80px;
     }
 
+    // iphone 6, 7, 8
+    @media (max-width: 450px) and (min-width: 300px) and (max-height: 800px) and (min-height: 650px) {
+      margin-top: 140px;
+    }
+
+    // iphone x
+    @media (max-width: 400px) and (min-width: 300px) and (max-height: 1000px) and (min-height: 800px) {
+      margin-top: 180px;
+    }
+
     #painter {
       width: 80%;
       margin: 0 auto;
@@ -86,8 +96,17 @@ header {
       }
 
       @media (max-width: $screen-xs-max) {
-        margin-top: 30px;
         font-size: 16px;
+      }
+
+      // iphone 6, 7, 8
+      @media (max-width: 400px) and (min-width: 300px) and (max-height: 800px) and (min-height: 650px) {
+        margin-top: 70px;
+      }
+
+      // iphone x
+      @media (max-width: 400px) and (min-width: 300px) and (max-height: 1000px) and (min-height: 800px) {
+        margin-top: 70px;
       }
     }
 
