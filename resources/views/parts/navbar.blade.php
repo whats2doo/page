@@ -8,6 +8,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
+
+            <div id="mobile-call-to-action" class="pull-right hidden-md hidden-lg">
+                <a href="#" class="btn btn-default">
+                    Sign up
+                </a>
+            </div>
+
             <a class="navbar-brand" href="{{ url('/') }}">
                 <img class="logo-clear" src="{{ asset('images/w2d.svg') }}" alt="w2d-logo">
                 <img class="logo" src="{{ asset('images/w2d-primary.svg') }}" alt="w2d-logo">
@@ -28,15 +35,23 @@
 
                     @if(!empty(config('social')))
                         @foreach(config('social') as $socialItem)
-                            <li class="social @if($loop->first) social-first @endif @if($loop->last) social-last @endif">
+                            <li class="social hidden-xs hidden-sm @if($loop->first) social-first @endif @if($loop->last) social-last @endif">
                                 <a target="_blank" href="{{ $socialItem['href'] }}" title="{{ $socialItem['title'] }}">
                                     <i class="{{ $socialItem['icon'] }}"></i>
                                 </a>
                             </li>
                         @endforeach
+
+                        <li class="social hidden-md hidden-lg">
+                            @foreach(config('social') as $socialItem)
+                                <a target="_blank" href="{{ $socialItem['href'] }}" title="{{ $socialItem['title'] }}">
+                                    <i class="{{ $socialItem['icon'] }}"></i>
+                                </a>
+                            @endforeach
+                        </li>
                     @endif
 
-                    <li class="call-to-action">
+                    <li class="call-to-action hidden-xs hidden-sm">
                         <a href="#" class="btn btn-default">
                             Sign up
                         </a>

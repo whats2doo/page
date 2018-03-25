@@ -1,3 +1,6 @@
+$font-size-social-icons: 22px;
+
+// desktop
 @media (min-width: $screen-md-min) {
   #navbar-main {
     &.navbar {
@@ -58,7 +61,7 @@
         a {
           padding-left: 8px;
           padding-right: 8px;
-          font-size: 22px;
+          font-size: $font-size-social-icons;
         }
       }
 
@@ -78,6 +81,43 @@
             margin-top: 12.5px;
             color: #fff;
           }
+        }
+      }
+    }
+  }
+}
+
+// mobile
+@media (max-width: $screen-sm-max) {
+  #navbar-main {
+    &.navbar {
+      a.navbar-brand {
+        padding: 10px 15px;
+
+        img {
+          width: auto;
+
+          &.logo {
+            height: 40px;
+            display: block;
+          }
+
+          &.logo-clear {
+            display: none;
+          }
+        }
+      }
+
+      #mobile-call-to-action {
+        display: inline;
+        margin-top: 10.5px;
+        margin-right: 15px;
+      }
+
+      li.social {
+        > a {
+          font-size: $font-size-social-icons;
+          display: inline-block;
         }
       }
     }
