@@ -42,10 +42,20 @@ $font-size-social-icons: 22px;
           }
         }
 
-        a {
-          color: #fff;
-          font-size: 18px;
-          padding: 10px 18px;
+        ul.navbar-nav {
+          > li {
+            > a {
+              color: #fff;
+              font-size: 18px;
+              padding: 10px 18px;
+            }
+
+            &.dropdown.open {
+              > a {
+                background: transparent;
+              }
+            }
+          }
         }
       }
 
@@ -58,7 +68,7 @@ $font-size-social-icons: 22px;
           margin-right: 20px;
         }
 
-        a {
+        > a {
           padding-left: 8px;
           padding-right: 8px;
           font-size: $font-size-social-icons;
