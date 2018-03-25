@@ -33,6 +33,20 @@
                         </li>
                     @endforeach
 
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            {{ __('messages.navigation.documents') }} <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="{{ asset('documents/whitepaper.pdf') }}" target="_blank">Whitepaper</a>
+                            </li>
+                            <li>
+                                <a href="#">Another document</a>
+                            </li>
+                        </ul><!-- dropdown-menu -->
+                    </li><!-- dropdown-documents -->
+
                     @if(!empty(config('social')))
                         @foreach(config('social') as $socialItem)
                             <li class="social hidden-xs hidden-sm @if($loop->first) social-first @endif @if($loop->last) social-last @endif">

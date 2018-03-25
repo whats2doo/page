@@ -12,11 +12,6 @@ return [
     ],
 
     [
-        'title' => 'documents',
-        'href'  => '#documents',
-    ],
-
-    [
         'title' => 'faq',
         'href'  => '#faq',
     ],
