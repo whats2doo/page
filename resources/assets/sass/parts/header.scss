@@ -1,14 +1,4 @@
 header {
   min-height: 100vh;
-
-  #W2D {
-    text-align: center;
-    height: 500px;
-    width: 100%;
-
-    img {
-      height: 100%;
-      width: 100%;
-    }
-  }
+  background: $brand-primary;
 }

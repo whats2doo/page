@@ -8,20 +8,41 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Hannes</a>
-        </div>
+            <a class="navbar-brand" href="{{ url('/') }}">
+                <img class="logo-clear" src="{{ asset('images/w2d.svg') }}" alt="w2d-logo">
+                <img class="logo" src="{{ asset('images/w2d-primary.svg') }}" alt="w2d-logo">
+            </a>
+        </div><!-- navbar-header -->
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="w2d-navbar-collapse">
-            @isset($menu)
+            @if(!empty($menu))
                 <ul class="nav navbar-nav navbar-right">
                     @foreach($menu as $menuItem)
                         <li>
-                            <a @isset($menuItem['target']) target="{{ $menuItem['target'] }}" @endif href="{{ $menuItem['href'] }}">{{ __('messages.navigation.'.$menuItem['title']) }}</a>
+                            <a @isset($menuItem['target']) target="{{ $menuItem['target'] }}" @endif href="{{ $menuItem['href'] }}">
+                                {{ __('messages.navigation.'.$menuItem['title']) }}
+                            </a>
                         </li>
                     @endforeach
+
+                    @if(!empty(config('social')))
+                        @foreach(config('social') as $socialItem)
+                            <li class="social @if($loop->first) social-first @endif @if($loop->last) social-last @endif">
+                                <a target="_blank" href="{{ $socialItem['href'] }}" title="{{ $socialItem['title'] }}">
+                                    <i class="{{ $socialItem['icon'] }}"></i>
+                                </a>
+                            </li>
+                        @endforeach
+                    @endif
+
+                    <li class="call-to-action">
+                        <a href="#" class="btn btn-default">
+                            Sign up
+                        </a>
+                    </li>
                 </ul>
-            @endisset
+            @endif
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>

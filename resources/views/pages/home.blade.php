@@ -4,19 +4,14 @@
 
 @section('header')
     <header>
-        <div class="header_bg">
-            @include('parts.navbar')
-            <div id="W2D">
-                <img src="{{ asset('images/W2D.svg') }}" alt="W2D">
-            </div>
-        </div>
+        @include('parts.navbar')
     </header>
 @endsection
 
 @section('content')
-    <div id="penis">
-        <penis></penis>
-    </div>
+    {{--<div id="penis">--}}
+    {{--<penis></penis>--}}
+    {{--</div>--}}
 
     @include('parts.about')
     @include('parts.mission')

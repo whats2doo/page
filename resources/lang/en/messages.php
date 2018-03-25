@@ -73,13 +73,9 @@ return [
         'link' => 'Download our Whitepaper'
     ],
     'navigation' => [
-        'home'      => 'home',
-        'faq'       => 'FAQ',
-        'blog'      => 'Blog',
+        'home'      => 'Home',
         'team'      => 'Team',
         'documents' => 'Documents',
-        'twitter'   => '',
-        'github'    => '',
-        'telegram'  => ''
+        'faq'       => 'FAQ',
     ]
 ];
