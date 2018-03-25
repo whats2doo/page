@@ -109,4 +109,14 @@
             </div><!-- col -->
         </div><!-- row -->
     </div><!-- container -->
+
+    <div id="berlin">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div id="trainer"></div>
+                </div><!-- col -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- berlin -->
 </div><!-- token-allocation -->
