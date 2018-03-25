@@ -11,6 +11,7 @@
                 <div class="col-xs-12">
                     <div id="w2d">
                         <div id="painter"></div>
+                        <div id="cleaner"></div>
                     </div><!-- w2d -->
 
                     <div id="header-content">

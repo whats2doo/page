@@ -5,14 +5,28 @@ header {
   // background: linear-gradient(45deg, #008cde 80%, #00b4e3 15%);
 
   #w2d {
-    margin: 100px auto 0 auto;
     position: relative;
-    width: 80%;
+    width: 100%;
+    margin-top: 100px;
+
+    #painter {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    #cleaner {
+      // height: 280px;
+      height: 80%;
+      position: absolute;
+      bottom: 15px;
+      left: 0;
+    }
   }
 
   #header-content {
     text-align: center;
     color: white;
+    margin-top: 30px;
 
     h1,
     h2 {

@@ -8,6 +8,11 @@ require('jquery-viewport-checker/src/jquery.viewportchecker')
 const animations = {
   data: {
     config: {
+      cleaner: {
+        id: 'cleaner',
+        config: 'cleaner.json',
+        animation: null,
+      },
       painter: {
         id: 'painter',
         config: 'painter.json',
