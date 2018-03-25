@@ -5,6 +5,18 @@
 @section('header')
     <header>
         @include('parts.navbar')
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    @spaceless
+                    <div id="w2d">
+                        <div id="painter"></div>
+                    </div>
+                    @endspaceless
+                </div>
+            </div>
+        </div>
     </header>
 @endsection
 
