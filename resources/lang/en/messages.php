@@ -116,4 +116,40 @@ return [
         'consulting-and-legal-support' => 'Consulting and Legal Support',
         'advisors-and-team'            => 'Advisors and Team',
     ],
+
+    'ico' => [
+        'pre-ico' => [
+            'tab'      => 'Pre-ICO',
+            'text'     => 'asdfasdf asdfkljas lkdfjalskdj flakösdj flkasjdf lkasjd flköasdj flkasjdf',
+            'hier-key' => [
+                'title'       => '',
+                'description' => ''
+            ],
+            'hier-key' => [
+                'title'       => '',
+                'description' => ''
+            ],
+            'hier-key' => [
+                'title'       => '',
+                'description' => ''
+            ],
+        ],
+
+        'main-ico' => [
+            'tab'      => 'Main-ICO',
+            'text'     => 'asdfasdf asdfkljas lkdfjalskdj flakösdj flkasjdf lkasjd flköasdj flkasjdf',
+            'hier-key' => [
+                'title'       => '',
+                'description' => ''
+            ],
+            'hier-key' => [
+                'title'       => '',
+                'description' => ''
+            ],
+            'hier-key' => [
+                'title'       => '',
+                'description' => ''
+            ],
+        ],
+    ],
 ];

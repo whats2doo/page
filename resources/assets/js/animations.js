@@ -10,7 +10,7 @@ const animations = {
     config: {
       carRepair: {
         id: 'carRepair',
-        config: 'car-repair.json',
+        config: 'car_repair.json',
         animation: null,
       },
       dogsitter: {

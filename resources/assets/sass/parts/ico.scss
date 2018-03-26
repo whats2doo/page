@@ -4,4 +4,66 @@ $ico-background: #eef5f7;
   width: 100%;
   padding: 20px 0 50px 0;
   background: $ico-background;
+
+  .ico-tabs {
+    > ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 30px;
+
+      > li {
+        display: inline-block;
+        font-size: 30px;
+        font-weight: 700;
+        border-bottom: 7px solid white;
+        padding: 10px 20px 10px 20px;
+        width: 50%;
+        text-align: center;
+
+        &:first-child {
+          border-bottom-left-radius: 5px;
+        }
+
+        &:last-child {
+          border-bottom-right-radius: 5px;
+        }
+
+        &.active,
+        &:hover {
+          border-color: $brand-primary;
+        }
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  #main-ico-info {
+    display: none;
+  }
+
+  #pre-ico-info,
+  #main-ico-info {
+    .ico-info-text {
+      margin-bottom: 30px;
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+
+      li {
+        margin-bottom: 15px;
+
+        .ico-info-title {
+          font-weight: 700;
+          margin-bottom: 3px;
+        }
+      }
+    }
+  }
 }
