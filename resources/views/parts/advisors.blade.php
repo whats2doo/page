@@ -12,7 +12,7 @@
                 <div class="list_section">
                     @foreach ($advisors as $member)
                         <div class="col-sm-6 col-md-3 col-lg-3 member">
-                            <img class="img-circle teamimage lazyload" src="{{ asset('images/team/placeholder.jpg') }}"
+                            <img class="img-circle teamimage lazyload" src="{{ asset('images/icons/eclipse.svg') }}"
                                  data-original="{{ asset('images/team/'.$member['image']) }}" alt="" width="160"
                                  height="160">
                             <h3>{{ $member['name'] }}</h3>
@@ -21,8 +21,9 @@
                                 @if(!empty($member['socialprofiles']))
                                     @foreach ($member['socialprofiles'] as $profile)
                                         @if ($profile['url'] != '')
-                                            <a href="{{ $profile['url'] }}"><i
-                                                        class="ion-{{ $profile['icon'] }}"></i></a>
+                                            <a href="{{ $profile['url'] }}" target="_blank">
+                                                <i class="ion-{{ $profile['icon'] }}"></i>
+                                            </a>
                                         @endif
                                     @endforeach
                                 @endif
