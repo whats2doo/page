@@ -117,4 +117,109 @@ return [
         'consulting-and-legal-support' => 'Consulting and Legal Support',
         'advisors-and-team'            => 'Advisors and Team',
     ],
+
+    'ico' => [
+        'pre-ico' => [
+            'tab'                    => 'Pre-ICO',
+            'text'                   => 'Our Pre-ICO will beginn on June 1, 2018 and will run for 30 days until June 30, 2018. During the Pre-ICO there will be 45,000,000 W2D avilable.',
+            'max-for-sale'           => [
+                'title'       => 'Maximum for sale Pre-ICO',
+                'description' => '45,000,000 W2D (max. 5,000 ETH)'
+            ],
+            'pre-ico-price'          => [
+                'title'       => 'Pre-ICO price',
+                'description' => '1 ETH = 9,000 W2D'
+            ],
+            'min-transaction-amount' => [
+                'title'       => 'Minimum transaction amount',
+                'description' => '0.5 ETH'
+            ],
+
+            'min-pre-ico-goal' => [
+                'title'       => 'Minimum Pre-ICO goal',
+                'description' => 'No minimum'
+            ],
+
+            'pre-ico-sale-period' => [
+                'title'       => 'Pre-ICO sale period',
+                'description' => '01:00am UTC June 01, 2018 to 01:00am UTC June 30, 2018'
+            ],
+
+            'coin-distribution' => [
+                'title'       => 'Coin distribution',
+                'description' => 'Smart contract will distribute tokens instantly upon receiving ETH'
+            ],
+
+            'bonus-rate' => [
+                'title'       => 'Bonus Rate',
+                'description' => 'Our Pre-ICO has an exclusive bonus rate of 3,000 W2D Coins per 1 ETH contribution for the entire period.'
+            ],
+        ],
+
+        'main-ico' => [
+            'tab'                    => 'Main-ICO',
+            'text'                   => 'Our Main-ICO will beginn on August 1, 2018 and will run for 30 days until August 30, 2018. During the ICO there will be 150,000,000 W2D avilable.',
+            'max-for-sale'           => [
+                'title'       => 'Maximum for sale ICO',
+                'description' => '150,000,000 W2D (max. 25,000 ETH)'
+            ],
+            'main-ico-price'         => [
+                'title'       => 'ICO price',
+                'description' => '1 ETH = 6,000 W2D'
+            ],
+            'min-transaction-amount' => [
+                'title'       => 'Minimum transaction amount',
+                'description' => '0.04 ETH'
+            ],
+            'min-main-ico-goal'      => [
+                'title'       => 'Minimum goal for ICO (soft cap):',
+                'description' => '2,500 ETH'
+            ],
+            'main-ico-sale-period'   => [
+                'title'       => 'Pre-ICO sale period',
+                'description' => '01:00am UTC August 01, 2018 to 01:00am UTC August 30, 2018'
+            ],
+
+            'coin-distribution' => [
+                'title'       => 'Coin distribution',
+                'description' => 'Smart contract will distribute tokens instantly upon receiving ETH'
+            ],
+
+            'bonus-rate' => [
+                'title'       => 'Bonus Rate',
+                'description' => 'Our main ICO will have an ongoing bonus structure for the entire crowd sale period. The following scheme applies.',
+                'table'       => [
+                    'first-3-hours' => [
+                        'title' => 'First 3 hours',
+                        'value' => '1 ETH = 7,500 W2D (Bonus: 1,500 W2D / 1 ETH)'
+                    ],
+
+                    'first-day' => [
+                        'title' => 'First day',
+                        'value' => '1 ETH = 7,200 W2D (Bonus: 1,200 W2D / 1 ETH)'
+                    ],
+
+                    'week-1' => [
+                        'title' => 'Week 1',
+                        'value' => '1 ETH = 6,900 W2D (Bonus: 900 W2D / 1 ETH)'
+                    ],
+
+                    'week-2' => [
+                        'title' => 'Week 2',
+                        'value' => '1 ETH = 6,600 W2D (Bonus: 600 W2D / 1 ETH)'
+                    ],
+
+                    'week-3' => [
+                        'title' => 'Week 3',
+                        'value' => '1 ETH = 6,300 W2D (Bonus: 300 W2D / 1 ETH)'
+                    ],
+
+                    'week-4' => [
+                        'title' => 'Week 4',
+                        'value' => '1 ETH = 6,000 W2D'
+                    ],
+                ]
+            ],
+        ],
+    ],
 ];
