@@ -22,7 +22,7 @@ require('jquery-lazyload/jquery.lazyload.js')
 require('./token-allocation')
 require('./ico')
 
-$('img.lazyload').lazyload({
+$('.lazyload').lazyload({
   threshold: 200,
 })
 

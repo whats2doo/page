@@ -26,8 +26,8 @@ return [
     ],
 
     'mission' => [
-        'headline' => 'Changing the world is our mission!',
-        'text'     => 'W2Ds will also be used within the integrated What2doo ad platfrom. Impressions and clicks will be exchanged for W2Ds. These ads will be displayed within the user’s Job feed.',
+        'headline' => 'Change the World - Do What You Love!',
+        'text'     => 'At Whats2doo, we want to become the #1 marketplace for all kinds of services and small jobs with the best possible user experience for our community',
         'article1' => [
             'headline' => 'Smart matching with direct booking',
             'text'     => 'Our smart algorithm based on the team’s headhunting experience matches only suitable Helpers and Requesters and allows for direct booking.'
@@ -54,17 +54,17 @@ return [
 
     'roadmap' => [
         'headline' => 'Our Roadmap',
-        'text'     => 'W2Ds will also be used within the integrated What2doo ad platfrom. Impressions and clicks will be exchanged for W2Ds. These ads will be displayed within the user’s Job feed and there ToDo list. The Whats2doo ad platform will aim to be a much better advertising method because we know our users much better.'
+        'text'     => 'We are eager to open our platform to the world. We developed an aspiring roadmap to bring this vision to life.'
     ],
 
     'team' => [
         'headline'     => 'Our Team',
-        'text'         => 'W2Ds will also be used within the integrated What2doo ad platfrom. Impressions and clicks will be exchanged for W2Ds. These ads will be displayed within the user’s Job feed and there ToDo list. The Whats2doo ad platform will aim to be a much better advertising method because we know our users much better.',
+        'text'         => 'We hired the best team of entrepreneurs, developers and marketing specialists to achieve our ambitious goals.',
         'members_text' => [
-            'ilja_leithold'        => 'Ilja is a serial entrepreneur who was involved in founding many successful businesses such as PERM4 from scratch to valuations of EUR >100m. His track record goes back through various executive positions in headhunting- and e-commerce start-ups and he is part of the Berlin crypto-scene since the early days. While being invested in many successful Berlin start-ups, his full dedication is now on making Whats2doo a sustainable success story. Ilja as the CEO is responsible for strategy, staff, legal and funding.',
-            'hannes_rothwell'      => 'Hannes is the Chief Operating Officer of Whats2doo and responsible for product management and the ICO. He worked in a bunch of headhunting start-ups, together with Ilja, in Berlin and was as a project manager at Accenture’s IT Strategy practice. He also has his own event agency and business consultancy. Hannes is into the cryptocurrency scene since more than five years and has built a broad network and solid knowledge in this field. For the future, he will lead implementation of the technical development with the CTO.',
-            'yanis_hamdali'        => 'Yanis, as Chief Marketing Officer, is responsible for the marketing concept, campaigns, funds allocation and the rollout of the expansion supporting campaigns in our target regions. Previously, he worked for Bayer, one of the world\'s largest life science companies, as a global project- and marketing manager for the 1,5bn Animal Health Division, where he was responsible for international PR campaigns. His passion for cryptocurrencies dates back to 2015. He is a successful crypto investor and -consultant with profound experience in trading and investing.',
-            'lucas_loeffel'        => 'Lucas was into Development long before studying computer sciences. He is a passionate full stack developer with years of experiences. Lucas helped growing one of the leading German IT companies and built the infrastructure for millions of visitors. He started some crypto-projects last year and joined Whats2doo for the ICO. As CTO, Lucas is responsible for Development, Security and Blockchain integration at Whats2doo.',
+            'ilja_leithold'        => 'Ilja is a serial entrepreneur who was involved in founding multiple successful businesses such as PERM4 or ITSalesRecruitment from scratch to valuations of EUR >100m. As our CEO, he gives the shirt off his back to make Whats2doo a success.',
+            'hannes_rothwell'      => 'Hannes is responsible for operations at Whats2doo and is leading the ICO. He manages the company on the ground and will accelerate W2D Tokens to the moon. His extensive knowledge as a business consultant supports him to do so.',
+            'yanis_hamdali'        => 'Yanis and his team are responsible for marketing of Whats2doo and the ICO.  Before joining Whats2doo, he has gained experience in global Communications and Marketing at Bayer, where he successfully led the global rollout of many digital projects.',
+            'lucas_loeffel'        => 'Lucas helped growing one of the leading German IT companies and has experiences in building infrastructures for millions of visitors. He is now using this knowledge to build and grow a safe and reliable infrastructure for Whats2doo and the ICO.',
             'patrick_rujan'        => 'Patrick studied together with Ilja and then accompanied him on different stations. He is responsible for operational marketing and community management within Whats2doo. When he realized the potential of Bitcoin & Co., he invested all his savings and is looking forward to this wise decision today. He will also be intensively involved in the operational management of marketing and public relations activities during the ICO.',
             'jacqueline_odendahl'  => 'Jackie has worked on Controlling and Accounting Projects with many different international clients as a Senior Consultant for EY’s Advisory practice. She is responsible for Controlling and Accounting at Whats2doo and for the ICO.',
             'julian_daiber'        => 'Julian has been a passionate web developer and designer for over 10 years. He is part of Whats2doo\'s founding team from the beginning and has been responsible for developing the web application and our user management system. Before joining Whats2doo, he worked extensively for various major corporations on the development of their websites and platforms. For more than two years, he has worked extensively with the Ethereum blockchain and other emerging cryptocurrencies.',
@@ -77,7 +77,7 @@ return [
 
     'advisors' => [
         'headline'     => 'Our Advisors',
-        'text'         => 'W2Ds will also be used within the integrated What2doo ad platfrom. Impressions and clicks will be exchanged for W2Ds. These ads will be displayed within the user’s Job feed and there ToDo list.',
+        'text'         => 'We got an international team of advisors on board to support our mission of becoming the #1 marketplace for services and small jobs. Our advisors are a diversified team of committed experts from the fields of Blockchain Technology, Marketplaces, Finance and Marketing.',
         'members_text' => [
             'christian_vogel'    => 'Christian supports family businesses and start-ups, mainly solving shareholder, financing, growth and digitalization challenges. His private investment focus are firms with a technology edge. He worked for more than 20 years in leading Private Equity and Tech-Venture Capital firms in Germany. From 2007-2017 he and his teams invested as involved investors in more than 30 Private Equity-transactions solving succession and growth issue and in more than 40 technology start-ups. In this time, he raised four funds. Previously he was head of in-house consulting at a large family-owned automotive company, leading the major projects and making the company ready for huge growth. The firm is working in this organization until today. Before that he was restructuring consultant and interim manager. He studied mechanical engineering at RWTH Aachen and Diplom-Ingenieur (Dipl.-Ing.).',
             'sascha_grumbach'    => 'Sascha Is serial entrepreneur in the Tech industry but also has a great passion for structured processes as well as organizing ideas and people to teams and companies. He co-founded and is managing director at Argopreneurs and Argo Brainworks, a coaching and consulting company. Argo uses exponential technologies and innovative methods to foster the “new” in companies. He also founded Argo Labs and Mantilope. Mantilope specializes in turning business ideas into a reality by guiding their development from scratch to market entry, either domestically or internationally. As an entrepreneur, he founded kardea.de a one-stop shopping health platform. His business experience before this is diverse and clearly leading to service and consultancy.',
@@ -102,7 +102,8 @@ return [
     ],
 
     'token-allocation' => [
-        'headline'                     => 'Token Allocation & Use of Fund',
+        'headline'                     => 'Token Allocation & Use of Funds',
+        'text'                         => 'Whats2doo is aiming to change the world by giving people the opportunity to do what they love. Therefore, we are doing an ICO. The maximum of coins that will ever be created is 300,000,000 W2D. The Soft Cap is set at 2,500 ETH.',
         'crowd-sale'                   => 'Crowd Sale',
         'future-company-financing'     => 'Future Company Financing',
         'ico-marketing'                => 'ICO Marketing',
