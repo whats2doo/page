@@ -102,7 +102,18 @@ return [
     ],
 
     'token-allocation' => [
-        'headline' => 'Token Allocation & Use of Fund',
-        'crowd-sale' => '',
+        'headline'                     => 'Token Allocation & Use of Fund',
+        'crowd-sale'                   => 'Crowd Sale',
+        'future-company-financing'     => 'Future Company Financing',
+        'ico-marketing'                => 'ICO Marketing',
+        'whats2doo-team'               => 'Whats2doo Team',
+        'advisors'                     => 'Advisors',
+        'referral-program'             => 'Referral Progam',
+        'bounty-campaign'              => 'Bounty Campaign',
+        'marketing'                    => 'Marketing',
+        'core-development'             => 'Core Development',
+        'operating-cost'               => 'Operating Cost',
+        'consulting-and-legal-support' => 'Consulting and Legal Support',
+        'advisors-and-team'            => 'Advisors and Team',
     ],
 ];

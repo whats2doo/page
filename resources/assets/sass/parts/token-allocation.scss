@@ -4,6 +4,10 @@ $token-allocation-background: #ebf7fd;
   width: 100%;
   padding: 40px 0 50px 0;
   // background: $token-allocation-background;
+  background-image: url('../../images/berlin.svg');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding-bottom: 250px;
 
   .chart {
     position: relative;
@@ -42,6 +46,8 @@ $token-allocation-background: #ebf7fd;
       list-style: none;
 
       li {
+        margin-bottom: 15px;
+
         .legend-color {
           width: 18px;
           height: 18px;
@@ -89,8 +95,18 @@ $token-allocation-background: #ebf7fd;
       }
     }
   }
+}
 
-  #berlin {
-    background: grey;
+#token-allocation-animation {
+  width: 100%;
+  position: relative;
+  background: $token-allocation-background;
+  height: 50px;
+
+  #dogsitter {
+    position: absolute;
+    width: auto;
+    height: 400px;
+    top: -400px;
   }
 }

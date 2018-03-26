@@ -7,7 +7,7 @@ const chartDistribution = new Chart(chartDistributionElement, {
   type: 'doughnut',
   data: {
     datasets: [{
-      data: [50, 23, 9, 6, 6, 5, 1],
+      data: [150000000, 69000000, 27000000, 18000000, 18000000, 15000000, 3000000],
       backgroundColor: [
         '#3877eb', '#0397ee', '#38b5eb', '#14e2f3', '#61eef5', '#e1f3f7', '#b8f2f5',
       ],

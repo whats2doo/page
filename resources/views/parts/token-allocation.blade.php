@@ -20,7 +20,7 @@
                 @if(!empty($tokenAllocation['distribution']))
                     <div class="chart-legend">
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-xs-6">
                                 <ul>
                                     @if(!empty($tokenAllocation['distribution']['left']))
                                         @foreach($tokenAllocation['distribution']['left'] as $distributionLeftItem)
@@ -37,7 +37,7 @@
                                 </ul>
                             </div><!-- col -->
 
-                            <div class="col-sm-6">
+                            <div class="col-xs-6">
                                 <ul>
                                     @if(!empty($tokenAllocation['distribution']['right']))
                                         @foreach($tokenAllocation['distribution']['right'] as $distributionLeftItem)
@@ -70,7 +70,7 @@
                 @if(!empty($tokenAllocation['use-of-proceeds']))
                     <div class="chart-legend">
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-xs-6">
                                 <ul>
                                     @if(!empty($tokenAllocation['use-of-proceeds']['left']))
                                         @foreach($tokenAllocation['use-of-proceeds']['left'] as $useOfProccedsLeftItem)
@@ -87,7 +87,7 @@
                                 </ul>
                             </div><!-- col -->
 
-                            <div class="col-sm-6">
+                            <div class="col-xs-6">
                                 <ul>
                                     @if(!empty($tokenAllocation['use-of-proceeds']['right']))
                                         @foreach($tokenAllocation['use-of-proceeds']['right'] as $useOfProccedsRightItem)
@@ -109,14 +109,8 @@
             </div><!-- col -->
         </div><!-- row -->
     </div><!-- container -->
-
-    <div id="berlin">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div id="trainer"></div>
-                </div><!-- col -->
-            </div><!-- row -->
-        </div><!-- container -->
-    </div><!-- berlin -->
 </div><!-- token-allocation -->
+
+<div id="token-allocation-animation">
+    <div id="dogsitter"></div>
+</div>
