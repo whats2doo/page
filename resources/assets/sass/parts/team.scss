@@ -1,6 +1,10 @@
 #team {
   padding-top: 40px;
   padding-bottom: 40px;
+
+  .member {
+    margin-top: 30px;
+  }
 }
 
 .teamimage {
@@ -10,18 +14,58 @@
 
 .jobtitle {
   font-weight: bold;
-  font-size: 12px !important;
-  color: #39b4ea !important;
+  font-size: 12px;
+  color: $brand-primary;
   text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .socialprofiles {
   padding-top: 0;
   padding-bottom: 0;
+  height: 40px;
+  margin-bottom: 10px;
 
   a {
     font-size: 28px;
     color: #d9d9d9;
-    margin: 0 1px;
+    margin: 0 3px;
+
+    &:hover,
+    &:visited,
+    &:focus {
+      color: $brand-primary;
+      text-decoration: none;
+    }
+  }
+
+  .ion-logo-xing {
+    background-image: url('../../images/icons/xing-logo.svg');
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+
+    &:hover,
+    &:visited,
+    &:focus {
+      background-image: url('../../images/icons/xing-logo-hover.svg');
+    }
+  }
+
+  .ion-logo-whats2doo {
+    background-image: url('../../images/icons/whats2doo-logo.svg');
+    display: inline-block;
+    height: 20px;
+    width: 25px;
+    background-size: cover;
+
+    &:hover,
+    &:visited,
+    &:focus {
+      background-image: url('../../images/icons/whats2doo-logo-hover.svg');
+    }
   }
 }

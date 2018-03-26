@@ -98,6 +98,9 @@ const animations = {
           return
         }
 
+        // do not play dj at this moment
+        if (elem[0].id === 'dj') return
+
         // play animation
         animations.data.config[elem[0].id].animation.play()
       },
