@@ -1,11 +1,11 @@
 import expect from 'expect'
-import penis from '../../resources/assets/js/components/penis/penis.vue'
+import roadmap from '../../resources/assets/js/components/roadmap/roadmap.vue'
 import { mountLocale } from './util'
 
-describe('Penis', () => {
+describe('Map', () => {
   it('first test', () => {
-    const wrapper = mountLocale(penis)
+    const wrapper = mountLocale(roadmap)
 
-    expect(wrapper.html()).toContain('Header en')
+    expect(wrapper.html()).toContain('2017')
   })
 })

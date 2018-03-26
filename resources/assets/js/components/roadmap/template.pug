@@ -1,0 +1,29 @@
+#roadmap(xmlns:v-on="http://www.w3.org/1999/xhtml")
+  .container
+    .row
+      .col-sm-12.col-md-8.col-md-offset-2.col-lg-6.col-lg-offset-3.text-center
+        h2 {{ $t(config.headline) }}
+        p {{ $t(config.description) }}
+
+    .row
+      .col-xs-12
+        .timeline-nav
+          ul
+            template(v-for="year in nav.items" v-if="year")
+              li(
+              v-on:click="changeYear(year.value)"
+              v-bind:class="{ active: year.active }"
+              ) {{ year.value }}
+        .timeline
+          ul
+            li(v-for="Q in currentYearData" v-if="Q")
+              .roadmap_container
+                time
+                  template(v-if="Q.time") {{ Q.time }}
+                .roadmap_icon
+                  img(src="/images/icons/check.png" alt="icon")
+                .roadmap_content
+                  h3
+                    template(v-if="Q.headline") {{ $t(Q.headline) }}
+                  p
+                    template(v-if="Q.description") {{ $t(Q.description) }}
