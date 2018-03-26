@@ -19,6 +19,7 @@
     "babel-eslint": "^8.2.1",
     "bodymovin": "^4.13.0",
     "bootstrap-sass": "^3.3.7",
+    "chart.js": "^2.7.2",
     "cross-env": "^5.1",
     "eslint": "^4.16.0",
     "eslint-config-airbnb-base": "^12.1.0",
