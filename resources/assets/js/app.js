@@ -21,7 +21,7 @@ require('./animations')
 require('jquery-lazyload/jquery.lazyload.js')
 require('./token-allocation')
 
-$('img.lazyload').lazyload({
+$('.lazyload').lazyload({
   threshold: 200,
 })
 

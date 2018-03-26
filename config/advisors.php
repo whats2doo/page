@@ -1,14 +1,14 @@
 <?php
 
-$whats2dooIcon = '';
+$whats2dooIcon = 'logo-whats2doo';
 $mailIcon = 'ios-mail';
 $linkedinIcon = 'logo-linkedin';
-$xingIcon = '';
+$xingIcon = 'logo-xing';
 
 return [
     [
         'name' => 'K. Christian Vogel',
-        'jobtitle' => 'Germany - Investor with long Private Equity, Venture Capital and Consulting / interim management history',
+        'jobtitle' => 'VC & PE - Expert Germany',
         'text' => 'christian_vogel',
         'image' => 'christian-vogel.jpg',
         'socialprofiles' => [
@@ -33,9 +33,9 @@ return [
 
     [
         'name' => 'Sascha Grumbach',
-        'jobtitle' => 'Germany - Private Equity Manager and expert for company building and -growth',
+        'jobtitle' => 'Company Builder & Consultant - Germany',
         'text' => 'sascha_grumbach',
-        'image' => 'sacha-grumbach.jpg',
+        'image' => 'sascha-grumbach.jpg',
         'socialprofiles' => [
             'whats2doo' => [
                 'url' => 'https://www.whats2doo.com/userprofile/HyOL4iGse',
@@ -58,7 +58,7 @@ return [
 
     [
         'name' => 'Edgar Kampers',
-        'jobtitle' => 'The Netherlands - Tokenomist, currency architect, fintech & circular economy innovator',
+        'jobtitle' => 'Token & Currency Architect Expert - Netherlands',
         'text' => 'edgar_kampers',
         'image' => 'edgar-kampers.jpg',
         'socialprofiles' => [
@@ -83,7 +83,7 @@ return [
 
     [
         'name' => 'Scott Morris',
-        'jobtitle' => 'USA – Blockchain- and Community Currency Expert',
+        'jobtitle' => 'Blockchan & Community Currency Expert - USA',
         'text' => 'scott_morris',
         'image' => 'scott-morris.jpg',
         'socialprofiles' => [
@@ -108,9 +108,9 @@ return [
 
     [
         'name' => 'Rob van Hilten',
-        'jobtitle' => 'The Netherlands - Expert in strategic and innovation consultancy and community currencies.',
+        'jobtitle' => 'Strategic & Innovation Consulatnt - Netherlands',
         'text' => 'rob_van_hilten',
-        'image' => 'rob-van-hilton.jpg',
+        'image' => 'rob-van-hilten.jpg',
         'socialprofiles' => [
             'whats2doo' => [
                 'url' => '',
@@ -133,7 +133,7 @@ return [
 
     [
         'name' => 'Arie Ben David',
-        'jobtitle' => 'Israel - Expert in community currencies and cryptocurrencies, Founder & Chair of the Board at Haim Tov LTD (Group Market).',
+        'jobtitle' => 'Community & cryptouccrencie Expert - Netherlands',
         'text' => 'arie_ben_david',
         'image' => 'arie-ben-david.jpg',
         'socialprofiles' => [
@@ -158,7 +158,7 @@ return [
 
     [
         'name' => 'Rasikh Morani',
-        'jobtitle' => 'USA – Expert for blockchain technology, technical planning, cryptocurrency modeling and development.',
+        'jobtitle' => 'Blockchain Expert - USA',
         'text' => 'rasikh_morani',
         'image' => 'rasikh-morani.jpg',
         'socialprofiles' => [
@@ -183,9 +183,9 @@ return [
 
     [
         'name' => 'Kamish Rehmuthulla',
-        'jobtitle' => 'USA – Entrepreneur and Cryptocurrency Planning Consultant.',
+        'jobtitle' => 'Entrepreneur & ICO Expert - USA',
         'text' => 'kamish_pehmuthulla',
-        'image' => 'kamish-pehmuthulla.jpg',
+        'image' => 'kamish-rehmuthulla.jpg',
         'socialprofiles' => [
             'whats2doo' => [
                 'url' => '',

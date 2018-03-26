@@ -1,6 +1,10 @@
 #team {
   padding-top: 40px;
   padding-bottom: 40px;
+
+  .member {
+    margin-top: 30px;
+  }
 }
 
 .teamimage {
@@ -13,15 +17,35 @@
   font-size: 12px !important;
   color: #39b4ea !important;
   text-transform: uppercase;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .socialprofiles {
   padding-top: 0;
   padding-bottom: 0;
+  height: 40px;
 
   a {
     font-size: 28px;
     color: #d9d9d9;
     margin: 0 1px;
+  }
+
+  .ion-logo-xing {
+    background-image: url('../../images/icons/xing-logo.svg');
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+  }
+
+  .ion-logo-whats2doo {
+    background-image: url('../../images/icons/whats2doo-logo.svg');
+    display: inline-block;
+    height: 20px;
+    width: 25px;
+    background-size: cover;
   }
 }

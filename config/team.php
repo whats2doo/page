@@ -1,9 +1,9 @@
 <?php
 
-$whats2dooIcon = '';
+$whats2dooIcon = 'logo-whats2doo';
 $mailIcon = 'ios-mail';
 $linkedinIcon = 'logo-linkedin';
-$xingIcon = '';
+$xingIcon = 'logo-xing';
 
 return [
     [
@@ -13,15 +13,15 @@ return [
         'image' => 'ilja-leithold.jpg',
         'socialprofiles' => [
             'whats2doo' => [
-                'url' => '',
+                'url' => 'https://www.whats2doo.com/userprofile/r1DslZsYe',
                 'icon' => $whats2dooIcon
             ],
             'linkedin' => [
-                'url' => '',
+                'url' => 'https://www.linkedin.com/in/ilja-leithold/',
                 'icon' => $linkedinIcon
             ],
             'xing' => [
-                'url' => '',
+                'url' => 'https://www.xing.com/profile/Ilja_Leithold/',
                 'icon' => $xingIcon
             ],
             'mail' => [
@@ -38,15 +38,15 @@ return [
         'image' => 'hannes-rothwell.jpg',
         'socialprofiles' => [
             'whats2doo' => [
-                'url' => '',
+                'url' => 'https://www.whats2doo.com/userprofile/S1mpNgjYx',
                 'icon' => $whats2dooIcon
             ],
             'linkedin' => [
-                'url' => '',
+                'url' => 'https://www.linkedin.com/in/hannesrothwell/',
                 'icon' => $linkedinIcon
             ],
             'xing' => [
-                'url' => '',
+                'url' => 'https://www.xing.com/profile/Hannes_Rothwell/cv',
                 'icon' => $xingIcon
             ],
             'mail' => [
@@ -63,15 +63,15 @@ return [
         'image' => 'yanis-hamdali.jpg',
         'socialprofiles' => [
             'whats2doo' => [
-                'url' => '',
+                'url' => 'https://www.whats2doo.com/userprofile/Syht5MGib',
                 'icon' => $whats2dooIcon
             ],
             'linkedin' => [
-                'url' => '',
+                'url' => 'https://www.linkedin.com/in/yanishamdali/',
                 'icon' => $linkedinIcon
             ],
             'xing' => [
-                'url' => '',
+                'url' => 'https://www.xing.com/profile/Yanis_Hamdali/cv',
                 'icon' => $xingIcon
             ],
             'mail' => [
@@ -92,11 +92,11 @@ return [
                 'icon' => $whats2dooIcon
             ],
             'linkedin' => [
-                'url' => '',
+                'url' => 'https://www.linkedin.com/in/lucas-l%C3%B6ffel-919458103/',
                 'icon' => $linkedinIcon
             ],
             'xing' => [
-                'url' => '',
+                'url' => 'https://www.xing.com/profile/Lucas_Loeffel2/cv',
                 'icon' => $xingIcon
             ],
             'mail' => [
@@ -113,15 +113,15 @@ return [
         'image' => 'patrick-rujan.jpg',
         'socialprofiles' => [
             'whats2doo' => [
-                'url' => '',
+                'url' => 'https://www.whats2doo.com/userprofile/HyMiTaoax',
                 'icon' => $whats2dooIcon
             ],
             'linkedin' => [
-                'url' => '',
+                'url' => 'https://www.linkedin.com/in/patrick-rujan-a76a54b9/',
                 'icon' => $linkedinIcon
             ],
             'xing' => [
-                'url' => '',
+                'url' => 'https://www.xing.com/profile/Patrick_Rujan/cv',
                 'icon' => $xingIcon
             ],
             'mail' => [
@@ -142,11 +142,11 @@ return [
                 'icon' => $whats2dooIcon
             ],
             'linkedin' => [
-                'url' => '',
+                'url' => 'https://www.linkedin.com/in/jacqueline-odendahl-68074493/',
                 'icon' => $linkedinIcon
             ],
             'xing' => [
-                'url' => '',
+                'url' => 'https://www.xing.com/profile/Jacqueline_Odendahl/cv',
                 'icon' => $xingIcon
             ],
             'mail' => [
@@ -163,7 +163,7 @@ return [
         'image' => 'julian-daiber.jpg',
         'socialprofiles' => [
             'whats2doo' => [
-                'url' => '',
+                'url' => 'https://www.whats2doo.com/userprofile/S1JyfUd9x',
                 'icon' => $whats2dooIcon
             ],
             'linkedin' => [
@@ -171,7 +171,7 @@ return [
                 'icon' => $linkedinIcon
             ],
             'xing' => [
-                'url' => '',
+                'url' => 'https://www.xing.com/profile/Julian_Daiber/cv',
                 'icon' => $xingIcon
             ],
             'mail' => [
@@ -192,11 +192,11 @@ return [
                 'icon' => $whats2dooIcon
             ],
             'linkedin' => [
-                'url' => '',
+                'url' => 'https://www.linkedin.com/in/kristinadrenker/',
                 'icon' => $linkedinIcon
             ],
             'xing' => [
-                'url' => '',
+                'url' => 'https://www.xing.com/profile/KristinaLisa_Drenker/cv',
                 'icon' => $xingIcon
             ],
             'mail' => [
