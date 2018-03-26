@@ -8,6 +8,11 @@ require('jquery-viewport-checker/src/jquery.viewportchecker')
 const animations = {
   data: {
     config: {
+      carRepair: {
+        id: 'carRepair',
+        config: 'car-repair.json',
+        animation: null,
+      },
       dogsitter: {
         id: 'dogsitter',
         config: 'dogsitter.json',
