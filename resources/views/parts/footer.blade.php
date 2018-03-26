@@ -9,16 +9,23 @@
                 <div class="footer-title">{{ __('messages.footer.title-sitemap') }}</div>
                 @if(!empty(config('menu-footer')))
                     <div class="row">
-                    <ul class="col-md-6 col-sm-6 col-xs-6">
-                        @foreach(config('menu-footer') as $item)
-                            <li><a href="{{ $item['href'] }}">{{ __('messages.footer.navigation.'.$item['title']) }}</a></li>
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <ul>
+                                @foreach(config('menu-footer') as $item)
+                                    <li>
+                                        <a href="{{ $item['href'] }}">{{ __('messages.footer.navigation.'.$item['title']) }}</a>
+                                    </li>
 
-                            @if ($loop->iteration % 4 == 0)
-                                </ul><ul class="col-md-6 col-sm-6 col-xs-6">
-                            @endif
-                        @endforeach
-                    </ul>
-                    <div class="clearfix"></div>
+                                    @if ($loop->iteration % 4 == 0)
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-6">
+                            <ul>
+                                @endif
+                                @endforeach
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
                     </div>
                 @endif
             </div>
