@@ -19,9 +19,10 @@
                             <div class="jobtitle">{{ $member['jobtitle'] }}</div>
                             <div class="socialprofiles">
                                 @if(!empty($member['socialprofiles']))
-                                    @foreach ($member['socialprofiles'] as $profile=>$values)
+                                    @foreach ($member['socialprofiles'] as $profile => $values)
                                         @if ($values['url'] != '')
-                                            <a href="{{ $values['url'] }}" target="_blank" title="{{ ucfirst($profile) }}">
+                                            <a href="{{ $values['url'] }}" target="_blank"
+                                               title="{{ ucfirst($profile) }}">
                                                 <i class="ion-{{ $values['icon'] }}"></i>
                                             </a>
                                         @endif
