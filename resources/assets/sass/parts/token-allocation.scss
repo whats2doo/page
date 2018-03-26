@@ -113,9 +113,17 @@ $token-allocation-background: #ebf7fd;
     height: 400px;
     top: -400px;
 
-    @media (max-width: $screen-xs-max) {
+    @media (max-width: $screen-sm-max) {
       width: 100%;
       height: auto;
+      top: -350px;
+    }
+
+    @media (max-width: $screen-xs-max) {
+      top: -300px;
+    }
+
+    @media (max-width: 600px) {
       top: -200px;
     }
   }
