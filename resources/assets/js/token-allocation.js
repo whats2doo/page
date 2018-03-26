@@ -1,9 +1,10 @@
+/* eslint-disable no-new */
 import { Chart } from 'chart.js'
 
 const chartDistributionElement = document.getElementById('chart-distribution').getContext('2d')
 const chartUseOfProceedsElement = document.getElementById('chart-use-of-proceeds').getContext('2d')
 
-const chartDistribution = new Chart(chartDistributionElement, {
+new Chart(chartDistributionElement, {
   type: 'doughnut',
   data: {
     datasets: [{
@@ -33,7 +34,7 @@ const chartDistribution = new Chart(chartDistributionElement, {
   },
 })
 
-const chartUseOfProceeds = new Chart(chartUseOfProceedsElement, {
+new Chart(chartUseOfProceedsElement, {
   type: 'doughnut',
   data: {
     datasets: [{
