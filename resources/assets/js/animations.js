@@ -99,7 +99,7 @@ const animations = {
         }
 
         // play animation
-        animations.data.config[elem[0].id].animation.play()
+        // animations.data.config[elem[0].id].animation.play()
       },
     })
   },
