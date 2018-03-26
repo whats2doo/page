@@ -103,10 +103,20 @@ $token-allocation-background: #ebf7fd;
   background: $token-allocation-background;
   height: 50px;
 
+  @media (max-width: $screen-sm-max) {
+    height: 1px;
+  }
+
   #dogsitter {
     position: absolute;
     width: auto;
     height: 400px;
     top: -400px;
+
+    @media (max-width: $screen-xs-max) {
+      width: 100%;
+      height: auto;
+      top: -200px;
+    }
   }
 }
