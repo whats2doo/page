@@ -20,7 +20,8 @@ class HomeController extends Controller
             'menu'            => config('menu'),
             'team'            => config('team'),
             'advisors'        => config('advisors'),
-            'tokenAllocation' => config('token-allocation')
+            'tokenAllocation' => config('token-allocation'),
+            'ico'             => config('ico')
         ]);
     }
 }
