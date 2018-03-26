@@ -2,7 +2,7 @@ import $ from 'jquery'
 import Vue from 'vue'
 import VueI18n from 'vue-i18n'
 import './bootstrap'
-import penis from './components/penis/penis.vue'
+import roadmap from './components/roadmap/roadmap.vue'
 
 // locales
 import en from './locales/en'
@@ -40,12 +40,12 @@ const i18n = new VueI18n({
 // manage vue objects
 Vue.create = obj => new Vue(obj)
 
-if (document.getElementById('penis')) {
+if (document.getElementById('roadmap-app')) {
   Vue.create({
-    el: '#penis',
+    el: '#roadmap-app',
     i18n,
     components: {
-      penis,
+      roadmap,
     },
   })
 }

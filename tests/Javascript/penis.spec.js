@@ -1,5 +1,5 @@
 import expect from 'expect'
-import penis from '../../resources/assets/js/components/penis/penis.vue'
+import penis from '../../resources/assets/js/components/roadmap/penis.vue'
 import { mountLocale } from './util'
 
 describe('Penis', () => {
