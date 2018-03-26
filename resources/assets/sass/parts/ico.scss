@@ -5,6 +5,16 @@ $ico-background: #eef5f7;
   padding: 20px 0 50px 0;
   background: $ico-background;
 
+  #carRepair {
+    #carRepair {
+      @media (max-width: $screen-sm-max) {
+        max-width: 400px;
+        text-align: center;
+        width: 100%;
+      }
+    }
+  }
+
   .ico-tabs {
     > ul {
       list-style: none;
@@ -20,6 +30,10 @@ $ico-background: #eef5f7;
         padding: 10px 20px 10px 20px;
         width: 50%;
         text-align: center;
+
+        @media (max-width: $screen-xs-max) {
+          font-size: 20px;
+        }
 
         &:first-child {
           border-bottom-left-radius: 5px;

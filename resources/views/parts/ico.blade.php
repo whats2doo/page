@@ -1,7 +1,7 @@
 <div id="ico">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-md-8 col-lg-6">
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="ico-tabs">
@@ -118,7 +118,8 @@
                 </div><!-- row -->
             </div><!-- col -->
 
-            <div class="col-sm-6">
+            <!-- -3 col-lg-push-2 col-lg-offset-0 col-md-4 col-md-push-1 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3 -->
+            <div class="col-md-4 col-md-offset-0 col-lg-4 col-lg-push-2 col-lg-offset-0 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3">
                 <div id="carRepair"></div>
             </div><!-- col -->
         </div><!-- row -->
