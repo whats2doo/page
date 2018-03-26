@@ -1,20 +1,20 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 col-xs-12 footer-logo">
                 <img src="{{ asset('images/w2d-primary-text.svg') }}" width="180">
                 <div class="copyright">{{ __('messages.footer.copyright') }}</div>
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="footer-title">{{ __('messages.footer.title-sitemap') }}</div>
                 @if(!empty(config('menu-footer')))
                     <div class="row">
-                    <ul class="col-md-6 col-sm-6">
+                    <ul class="col-md-6 col-sm-6 col-xs-6">
                         @foreach(config('menu-footer') as $item)
                             <li><a href="{{ $item['href'] }}">{{ __('messages.footer.navigation.'.$item['title']) }}</a></li>
 
                             @if ($loop->iteration % 4 == 0)
-                                </ul><ul class="col-md-6 col-sm-6">
+                                </ul><ul class="col-md-6 col-sm-6 col-xs-6">
                             @endif
                         @endforeach
                     </ul>
@@ -22,7 +22,7 @@
                     </div>
                 @endif
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 col-xs-6">
                 <div class="footer-title">{{ __('messages.footer.title-documents') }}</div>
                 <ul>
                     <li>
@@ -34,7 +34,7 @@
                 </ul>
 
             </div>
-            <div class="col-md-3 col-sm-6">
+            <div class="col-md-3 col-sm-6 col-xs-6">
                 <div class="footer-title">{{ __('messages.footer.title-social') }}</div>
                 @if(!empty(config('social')))
                     <ul>

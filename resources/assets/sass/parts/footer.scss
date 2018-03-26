@@ -4,6 +4,12 @@ html {
   min-height: 100%;
 }
 
+@media (min-width: $screen-xs-min) {
+  .footer-logo {
+    text-align: center;
+  }
+}
+
 footer {
   position: absolute;
   bottom: 0;
