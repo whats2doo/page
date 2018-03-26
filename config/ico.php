@@ -56,25 +56,20 @@ return [
             ],
 
             [
-                'text'        => 'messages.ico.main-ico.pre-ico-price.title',
-                'description' => 'messages.ico.main-ico.pre-ico-price.description',
+                'text'        => 'messages.ico.main-ico.main-ico-price.title',
+                'description' => 'messages.ico.main-ico.main-ico-price.description',
             ],
 
             [
                 'text'        => 'messages.ico.main-ico.min-transaction-amount.title',
                 'description' => 'messages.ico.main-ico.min-transaction-amount.description',
             ],
-
-            [
-                'text'        => 'messages.ico.main-ico.min-main-ico-goal.title',
-                'description' => 'messages.ico.main-ico.min-main-ico-goal.description',
-            ],
         ],
 
         'right' => [
             [
                 'text'        => 'messages.ico.main-ico.main-ico-sale-period.title',
-                'description' => 'messages.ico.pre-ico.main-ico-sale-period.description',
+                'description' => 'messages.ico.main-ico.main-ico-sale-period.description',
             ],
 
             [
@@ -83,8 +78,40 @@ return [
             ],
 
             [
-                'text'        => 'messages.ico.main-ico.bonus-rate.title',
-                'description' => 'messages.ico.main-ico.bonus-rate.description',
+                'text'        => 'messages.ico.main-ico.min-main-ico-goal.title',
+                'description' => 'messages.ico.main-ico.min-main-ico-goal.description',
+            ],
+        ],
+
+        'table' => [
+            [
+                'title' => 'messages.ico.main-ico.bonus-rate.table.first-3-hours.title',
+                'value' => 'messages.ico.main-ico.bonus-rate.table.first-3-hours.value',
+            ],
+
+            [
+                'title' => 'messages.ico.main-ico.bonus-rate.table.first-day.title',
+                'value' => 'messages.ico.main-ico.bonus-rate.table.first-day.value',
+            ],
+
+            [
+                'title' => 'messages.ico.main-ico.bonus-rate.table.week-1.title',
+                'value' => 'messages.ico.main-ico.bonus-rate.table.week-1.value',
+            ],
+
+            [
+                'title' => 'messages.ico.main-ico.bonus-rate.table.week-2.title',
+                'value' => 'messages.ico.main-ico.bonus-rate.table.week-2.value',
+            ],
+
+            [
+                'title' => 'messages.ico.main-ico.bonus-rate.table.week-3.title',
+                'value' => 'messages.ico.main-ico.bonus-rate.table.week-3.value',
+            ],
+
+            [
+                'title' => 'messages.ico.main-ico.bonus-rate.table.week-4.title',
+                'value' => 'messages.ico.main-ico.bonus-rate.table.week-4.value',
             ],
         ],
     ],

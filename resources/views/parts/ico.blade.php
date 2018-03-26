@@ -58,7 +58,7 @@
                             <div id="main-ico-info">
                                 <div class="col-xs-12">
                                     <div class="ico-info-text">
-                                        {{ __('messages.ico.pre-ico.text') }}
+                                        {{ __('messages.ico.main-ico.text') }}
                                     </div><!-- ico-info-text -->
                                 </div><!-- col -->
 
@@ -87,6 +87,31 @@
                                         @endif
                                     </ul>
                                 </div><!-- col -->
+
+                                <div class="col-xs-12">
+                                    <div class="main-ico-bonus-rate">
+                                        <div class="main-ico-bonus-rate-title">
+                                            {{ __('messages.ico.main-ico.bonus-rate.title')}}
+                                        </div><!-- main-ico-bonus-rate-title -->
+
+                                        <div class="main-ico-bonus-rate-description">
+                                            {{ __('messages.ico.main-ico.bonus-rate.description') }}
+                                        </div><!-- main-ico-bonus-rate-description -->
+
+                                        @if(!empty($ico['main-ico']['table']))
+                                            <div class="main-ico-bonus-rate-table">
+                                                <table class="table">
+                                                    @foreach($ico['main-ico']['table'] as $icoTableItem)
+                                                        <tr>
+                                                            <th>{{ __($icoTableItem['title']) }}</th>
+                                                            <td>{{ __($icoTableItem['value']) }}</td>
+                                                        </tr>
+                                                    @endforeach
+                                                </table>
+                                            </div><!-- main-ico-bonus-rate-table -->
+                                        @endif
+                                    </div><!-- main-ico-bonus-rate -->
+                                </div>
                             </div><!-- main-ico-info -->
                         </div><!-- row -->
                     </div><!-- col-xs-12 -->

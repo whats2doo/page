@@ -43,6 +43,17 @@ $ico-background: #eef5f7;
 
   #main-ico-info {
     display: none;
+
+    .main-ico-bonus-rate {
+      .main-ico-bonus-rate-title {
+        font-weight: 700;
+        margin-bottom: 3px;
+      }
+
+      .main-ico-bonus-rate-description {
+        margin-bottom: 30px;
+      }
+    }
   }
 
   #pre-ico-info,
