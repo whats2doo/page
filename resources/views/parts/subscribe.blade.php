@@ -1,4 +1,4 @@
-<div id="subscribe">
+<section id="subscribe">
     <div class="subscribe-people">
         <div class="container">
             <div class="row">
@@ -20,4 +20,4 @@
             </div>
         </div>
     </div>
-</div>
+</section>

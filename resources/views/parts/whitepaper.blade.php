@@ -1,4 +1,4 @@
-<div id="whitepaper">
+<section id="whitepaper">
     <div id="window_cleaner_container">
         <div id="windowCleaner"></div>
     </div>
@@ -12,4 +12,4 @@
             </div><!-- col -->
         </div><!-- row -->
     </div><!-- container -->
-</div><!-- whitepaper -->
+</section><!-- whitepaper -->

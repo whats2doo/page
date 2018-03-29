@@ -1,4 +1,4 @@
-<div id="token-allocation">
+<section id="token-allocation">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center">
@@ -109,8 +109,8 @@
             </div><!-- col -->
         </div><!-- row -->
     </div><!-- container -->
-</div><!-- token-allocation -->
+</section><!-- token-allocation -->
 
-<div id="token-allocation-animation">
+<section id="token-allocation-animation">
     <div id="dogsitter"></div>
-</div>
+</section>

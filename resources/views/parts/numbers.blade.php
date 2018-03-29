@@ -1,4 +1,4 @@
-<div id="numbers">
+<section id="numbers">
     <div id="gardener"></div>
 
     <div class="container">
@@ -28,4 +28,4 @@
             @endif
         </div><!-- row -->
     </div><!-- container -->
-</div><!-- numbers -->
+</section><!-- numbers -->
