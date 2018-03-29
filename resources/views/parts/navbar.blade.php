@@ -24,7 +24,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="w2d-navbar-collapse">
             @if(!empty($menu))
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right" role="tablist">
                     @foreach($menu as $menuItem)
                         <li>
                             <a @isset($menuItem['target']) target="{{ $menuItem['target'] }}" @endif href="{{ $menuItem['href'] }}">
