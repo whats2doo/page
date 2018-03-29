@@ -1,5 +1,5 @@
 <div id="whitepaper">
-    <div id="window_cleaner_container">
+    <div id="window-cleaner-container">
         <div id="windowCleaner"></div>
     </div>
 
