@@ -30,6 +30,7 @@
     "jquery": "^3.2",
     "jquery-lazyload": "^1.9.7",
     "jquery-viewport-checker": "^1.8.8",
+    "jquery.scrollto": "^2.1.2",
     "jsdom": "^11.6.1",
     "jsdom-global": "^3.0.2",
     "laravel-mix": "^2.0.0",

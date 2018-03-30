@@ -1,5 +1,14 @@
 import $ from 'jquery'
 
+require('jquery.scrollto/jquery.scrollTo.min.js')
+
+$('nav#navbar-main ul li a').bind('click', function (e) {
+  e.preventDefault()
+  $.scrollTo(this.hash, 1000, {
+    offset: -60
+  })
+})
+
 const navbar = {
   window: null,
   navbar: null,
