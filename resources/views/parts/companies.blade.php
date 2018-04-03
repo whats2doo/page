@@ -6,7 +6,7 @@
     </div>
 </section>
 
-<section id="company_logos" class="box">
+<section id="company-logos" class="box">
     <div class="container">
         <div class="row text-center">
             <h2>{{ __('messages.companies.headline') }}</h2>
