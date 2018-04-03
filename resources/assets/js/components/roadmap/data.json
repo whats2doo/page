@@ -1,6 +1,7 @@
 {
   "headline": "roadmap.headline",
   "description": "roadmap.description",
+  "imagedir": "/images/roadmap/",
   "2017": [
     {
       "time": "Q1 17",
@@ -12,7 +13,7 @@
       "time": "Q2 17",
       "headline": "roadmap.2017.q2.headline",
       "description": "roadmap.2017.q2.description",
-      "image": "roadmap.2017.q1.image"
+      "image": "roadmap.2017.q2.image"
     },
     {
       "time": "Q3 17",
@@ -38,7 +39,7 @@
       "time": "Q2 18",
       "headline": "roadmap.2018.q2.headline",
       "description": "roadmap.2018.q2.description",
-      "image": "roadmap.2018.q1.image"
+      "image": "roadmap.2018.q2.image"
     },
     {
       "time": "Q3 18",
@@ -64,7 +65,7 @@
       "time": "Q2 19",
       "headline": "roadmap.2019.q2.headline",
       "description": "roadmap.2019.q2.description",
-      "image": "roadmap.2019.q1.image"
+      "image": "roadmap.2019.q2.image"
     },
     {
       "time": "Q3 19",

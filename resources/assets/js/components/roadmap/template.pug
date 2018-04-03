@@ -21,7 +21,7 @@
                 time
                   template(v-if="Q.time") {{ Q.time }}
                 .roadmap_icon
-                  img(src="/images/icons/check.png" alt="icon")
+                  img(:src="config.imagedir + $t(Q.image)" alt="icon")
                 .roadmap_content
                   h3
                     template(v-if="Q.headline") {{ $t(Q.headline) }}
