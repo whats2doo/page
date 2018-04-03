@@ -11,11 +11,11 @@
             <div class="row">
                 @foreach(config('mission') as $missionItem)
                     <div class="col-md-6 mission_item">
-                        <div class="mission_icon pull-left">
+                        <div class="mission-icon pull-left">
                             <img src="{{ asset('images/icons/' . $missionItem['icon']) }}" alt="icon">
                         </div><!-- mission_icon -->
 
-                        <div class="mission_content">
+                        <div class="mission-content">
                             <h3>{{ __($missionItem['headline']) }}</h3>
                             <p>{{ __($missionItem['text']) }}</p>
                         </div><!-- mission_content -->

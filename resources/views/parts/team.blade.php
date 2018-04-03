@@ -9,7 +9,7 @@
 
         @if(!empty($team))
             <div class="row text-center">
-                <div class="list_section">
+                <div class="list-section">
                     @foreach ($team as $member)
                         <div class="col-sm-6 col-md-3 col-lg-3 member">
                             <img class="img-circle teamimage lazyload" src="{{ asset('images/icons/eclipse.svg') }}"
@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="list_section">
+                <div class="list-section">
                     @endif
                     @endforeach
                 </div>
