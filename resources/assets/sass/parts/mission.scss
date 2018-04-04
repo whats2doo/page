@@ -7,14 +7,14 @@ $mission-icon-size: 80px;
   padding: 40px 0 50px 0;
   background-color: $mission-background;
 
-  .mission_item {
+  .mission-item {
     margin-top: 30px;
 
     @media (min-width: $screen-md-min) {
       min-height: $mission-item-min-height;
     }
 
-    .mission_content {
+    .mission-content {
       margin-left: 110px;
 
       h3 {
@@ -22,7 +22,7 @@ $mission-icon-size: 80px;
       }
     }
 
-    .mission_icon {
+    .mission-icon {
       width: $mission-icon-size;
       height: $mission-icon-size;
 
