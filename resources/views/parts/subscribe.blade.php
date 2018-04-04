@@ -8,7 +8,7 @@
                         <form class="form-inline">
                             <div class="form-group">
                                 <div class="input-group">
-                                    <input id="subscribe_input" type="text" class="form-control" id="exampleInputAmount" placeholder="{{ __('messages.subscribe.placeholder') }}">
+                                    <input id="subscribe-input" type="text" class="form-control" id="exampleInputAmount" placeholder="{{ __('messages.subscribe.placeholder') }}">
                                 </div>
                                 <div class="input-group subscribe-btn">
                                     <button type="submit" class="btn btn-lg btn-primary">{{ __('messages.subscribe.btn') }} <i class="ion-ios-arrow-round-forward-outline"></i></button>
