@@ -12,4 +12,4 @@
             </div><!-- col -->
         </div><!-- row -->
     </div><!-- container -->
-</div><!-- whitepaper -->
+</section><!-- whitepaper -->
