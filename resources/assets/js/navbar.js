@@ -2,12 +2,30 @@ import $ from 'jquery'
 
 require('jquery.scrollto/jquery.scrollTo.min.js')
 
-$('nav#navbar-main ul li a').bind('click', function scroll(e) {
-  e.preventDefault()
-  $.scrollTo(this.hash, 1000, {
+function scrollPageTo($target) {
+  const currentScrollHeight = document.body.scrollHeight
+
+  $(window).stop(true).scrollTo($target, {
+    duration: 600,
     offset: -60,
-  })
-})
+    progress() {
+      // If the page scroll height changes, scroll afresh to the shifted target
+      if (currentScrollHeight !== document.body.scrollHeight) scrollPageTo($target);
+    },
+  });
+}
+
+$('nav#navbar-main ul li a').click(function (e) {
+  e.preventDefault()
+  const id = $(this).attr('href')
+
+  if (!id) {
+    return false
+  }
+  scrollPageTo(id)
+
+  return true
+});
 
 const navbar = {
   window: null,
