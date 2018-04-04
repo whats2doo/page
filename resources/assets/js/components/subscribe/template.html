@@ -1,0 +1,31 @@
+<div class="subscribe-people">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2>{{ $t('subscribe.headline') }}</h2>
+                <div class="subscribe-form-container">
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input id="subscribe_input" type="email" class="form-control" :placeholder="$t('subscribe.placeholder')" v-model="email" required="required" v-on:click="clearError">
+                            </div>
+                            <div class="input-group subscribe-btn">
+                                <div class="btn btn-lg btn-primary" v-on:click="submitEmail">{{ $t('subscribe.btn') }} <i class="ion-ios-arrow-round-forward-outline"></i></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="subscribe-error">{{ error }}</div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay">
+        <div class="icon-con">
+            <i class="ion-ios-checkmark-outline"></i>
+        </div>
+    </div>
+</div>

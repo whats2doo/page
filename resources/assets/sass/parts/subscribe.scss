@@ -26,15 +26,15 @@
   }
 
   #subscribe_input {
-    border-bottom-left-radius: 100px !important;
-    border-top-left-radius: 100px !important;
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
     border: none;
     height: 58px;
   }
 
   .btn {
-    border-bottom-left-radius: 0 !important;
-    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
     height: 58px;
     text-transform: uppercase;
   }
@@ -48,5 +48,92 @@
     padding: 10px;
     border-radius: 100px;
     display: inline-block;
+  }
+
+  .subscribe-error {
+    background-color: $brand-danger;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 100px;
+    display: none;
+  }
+
+  .overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-image: url('../../images/icons/eclipse.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px;
+    z-index: 10;
+    display: none;
+
+    .icon-con {
+      width: 150px;
+      height: 150px;
+      text-align: center;
+      border-radius: 50%;
+      background-color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -75px;
+      margin-left: -75px;
+      line-height: 150px;
+      animation: pop 0.5s ease-out 1;
+      display: none;
+
+      i {
+        font-size: 96px;
+        vertical-align: middle;
+        color: $brand-success;
+      }
+    }
+  }
+
+  @keyframes pop {
+    0% {
+      transform: scale(0);
+    }
+
+    50% {
+      transform: scale(1.5);
+    }
+  }
+
+  @media (max-width: $screen-sm-max) {
+    .form-inline .input-group {
+      display: inline-table;
+      vertical-align: middle;
+    }
+  }
+
+  @media (max-width: $screen-xs-max) {
+    .form-inline .input-group {
+      display: block;
+      vertical-align: middle;
+    }
+
+    .subscribe-form-container {
+      display: block;
+      background: none;
+    }
+
+    #subscribe_input {
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      border-radius: 100px;
+    }
+
+    .btn {
+      margin-top: 15px;
+      -webkit-border-radius: 100px;
+      -moz-border-radius: 100px;
+      border-radius: 100px;
+    }
   }
 }

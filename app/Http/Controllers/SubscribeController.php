@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-
 /**
  * Class SubscribeController
  * @package App\Http\Controllers
@@ -59,7 +58,7 @@ class SubscribeController extends Controller
 
                 return true;
             }
-        }else{
+        } else {
             return false;
         }
     }
@@ -71,7 +70,7 @@ class SubscribeController extends Controller
         $response = $this->sg->client->contactdb()->lists()->_($list_id)->recipients()->_($id)->post();
         if ($response->statusCode() == 201) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }
