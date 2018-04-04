@@ -7,7 +7,7 @@
     <title>@yield('title')</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}?v={{ rand(1,9999) }}" media="screen" type="text/css">
 </head>
-<body data-spy="scroll" data-target="#navbar-main">
+<body>
 
 @include('parts.env')
 @yield('header')

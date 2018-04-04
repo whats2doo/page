@@ -1,5 +1,10 @@
 import $ from 'jquery'
 
+$('body').scrollspy({
+  target: '#navbar-main',
+  offset: $('#navbar-main').innerHeight(),
+})
+
 const navbar = {
   window: null,
   navbar: null,
