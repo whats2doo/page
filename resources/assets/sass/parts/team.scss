@@ -32,10 +32,9 @@
     font-size: 28px;
     color: #d9d9d9;
     margin: 0 3px;
+    text-decoration: none;
 
-    &:hover,
-    &:visited,
-    &:focus {
+    &:hover {
       color: $brand-primary;
       text-decoration: none;
     }
@@ -48,9 +47,7 @@
     width: 20px;
     background-size: cover;
 
-    &:hover,
-    &:visited,
-    &:focus {
+    &:hover {
       background-image: url('../../images/icons/xing-logo-hover.svg');
     }
   }
@@ -62,9 +59,7 @@
     width: 25px;
     background-size: cover;
 
-    &:hover,
-    &:visited,
-    &:focus {
+    &:hover {
       background-image: url('../../images/icons/whats2doo-logo-hover.svg');
     }
   }
