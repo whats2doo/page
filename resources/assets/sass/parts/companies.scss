@@ -4,9 +4,10 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: bottom center;
+  margin-top: -80px;
 }
 
-#company_logos {
+#company-logos {
   background-color: #eef5f7;
   padding-top: 15px;
   padding-bottom: 50px;
@@ -16,5 +17,16 @@
     text-transform: uppercase;
     color: #999;
     margin-bottom: 20px;
+  }
+
+  a {
+    padding: 20px;
+    display: inline-block;
+    opacity: 0.5;
+  }
+
+  img {
+    filter: grayscale(100%);
+    height: 40px;
   }
 }
