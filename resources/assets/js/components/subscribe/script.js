@@ -1,8 +1,4 @@
-import $ from 'jquery'
-import Vue from 'vue'
-import VueResource from 'vue-resource';
-
-Vue.use(VueResource)
+import axios from 'axios'
 
 export default {
   name: 'subscribe',
@@ -11,6 +7,7 @@ export default {
       submitted: false,
       email: '',
       error: '',
+      loader: false,
     }
   },
   methods: {
@@ -20,32 +17,30 @@ export default {
       }
     },
     showError(error) {
-      $('#subscribe .subscribe-error').css('display', 'inline-block')
       this.error = error
     },
     clearError() {
-      $('#subscribe .subscribe-error').hide()
       this.error = ''
     },
     hideLoader() {
-      $('#subscribe .overlay').hide()
+      this.loader = false
     },
     showLoader() {
-      $('#subscribe .overlay').show()
-      $('#subscribe .icon-con').hide()
+      this.loader = true
     },
     showSuccess() {
-      $('#subscribe .icon-con').show()
+      this.submitted = true
+      this.email = ''
     },
     loadAPI() {
       this.showLoader()
       const url = `api/subscribe?email=${this.email}`
 
-      Vue.http.get(url)
+      axios.get(url)
         .then((response) => {
           if (response.status === 200) {
-            if (response.body === 'exists') {
-              this.hideLoader()
+            if (response.data === 'exists') {
+              this.loader = false
               this.showError('E-Mail address is already registered!')
             } else {
               this.showSuccess()

@@ -1,0 +1,21 @@
+#subscribe(xmlns:v-on="http://www.w3.org/1999/xhtml")
+    .subscribe-people
+      .container
+        .row
+          .col-xs-12
+            h2 {{ $t('subscribe.headline') }}
+            .subscribe-form-container
+              form.form-inline
+                .form-group
+                  .input-group
+                    input#subscribe-input.form-control(type="email" :placeholder="$t('subscribe.placeholder')" v-model="email" required="required" v-on:click="clearError")
+                  .input-group.subscribe-btn
+                    .btn.btn-lg.btn-primary(v-on:click="submitEmail")
+                      | {{ $t('subscribe.btn') }}
+                      i.ion-ios-arrow-round-forward-outline
+        .row
+          .col-xs-12
+            .subscribe-error(v-if="error") {{ error }}
+      .overlay(v-if="loader")
+        .icon-con(v-if="submitted")
+          i.ion-ios-checkmark-outline

@@ -19,12 +19,12 @@
         </div>
         <div class="row">
             <div class="col-xs-12">
-                <div class="subscribe-error">{{ error }}</div>
+                <div v-if="error" class="subscribe-error">{{ error }}</div>
             </div>
         </div>
     </div>
-    <div class="overlay">
-        <div class="icon-con">
+    <div v-if="loader" class="overlay">
+        <div v-if="submitted" class="icon-con">
             <i class="ion-ios-checkmark-outline"></i>
         </div>
     </div>
