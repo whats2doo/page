@@ -65,7 +65,8 @@ class SubscribeController extends Controller
 
     public function addToList($id): int
     {
-        $response = $this->sg->client->contactdb()->lists()->_(getenv('SENDGRID_LIST_ID'))->recipients()->_($id)->post();
+        $list_id = getenv('SENDGRID_LIST_ID');
+        $response = $this->sg->client->contactdb()->lists()->_($list_id)->recipients()->_($id)->post();
 
         return $response->statusCode();
     }
