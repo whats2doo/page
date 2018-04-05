@@ -67,6 +67,7 @@ return [
 
     'faq' => [
         'headline' => 'Frequently Asked Questions',
+        'showmore' => 'Show More',
         'item1' => [
             'headline' => 'What is Whats2doo?',
             'text' => 'Is a marketplace for customers, sole entrepreneur’s, company’s and corporations. They can offer and buy services from the crowd and are able to be in line with demand. What2doo is already available to the public to sign up and use on any device with an internet connection. Web: https://whats2doo.com'

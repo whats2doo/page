@@ -6,7 +6,7 @@ const footer = {
   window: null,
 
   handle() {
-    this.body.css('margin-bottom', this.footer.height())
+    this.body.css('margin-bottom', this.footer.innerHeight())
   },
 
   init() {
