@@ -18,14 +18,11 @@ class GooglePageSpeed extends TestCase
     /** @var Client $client */
     private $client;
 
-    /**
-     * @param ClientInterface $client
-     */
-    public function setUp(ClientInterface $client)
+    public function setUp()
     {
         parent::setUp();
 
-        $this->client = $client;
+        $this->client = new Client();
     }
 
     /**
