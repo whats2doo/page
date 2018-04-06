@@ -22,6 +22,7 @@ require('./animations')
 require('jquery-lazyload/jquery.lazyload.js')
 require('./token-allocation')
 require('./ico')
+require('./faq')
 
 $('.lazyload').lazyload({
   threshold: 200,
