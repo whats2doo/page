@@ -10,7 +10,7 @@
                   .input-group
                     input#subscribe-input.form-control(type="email" :placeholder="$t('subscribe.placeholder')" v-model="email" required="required" v-on:click="clearError")
                   .input-group.subscribe-btn
-                    .btn.btn-lg.btn-primary(v-on:click="submitEmail")
+                    button.btn.btn-lg.btn-primary(v-on:click.prevent="submitEmail")
                       | {{ $t('subscribe.btn') }}
                       i.ion-ios-arrow-round-forward-outline
         .row
