@@ -19,9 +19,8 @@ $('nav#navbar-main ul li a').click(function (e) {
   e.preventDefault()
   const id = $(this).attr('href')
 
-  if (!id) {
-    return false
-  }
+  if (!id) return false
+
   scrollPageTo(id)
 
   return true
