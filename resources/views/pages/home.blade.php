@@ -40,7 +40,7 @@
     {{--<div id="penis">--}}
     {{--<penis></penis>--}}
     {{--</div>--}}
-
+    @include('parts.companies-header')
     @include('parts.about')
     @include('parts.mission')
     @include('parts.numbers')
