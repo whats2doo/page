@@ -2,6 +2,13 @@ export default {
   header: {
     example: 'Header en',
   },
+  subscribe: {
+    errorEmailExists: 'E-Mail address is already registered!',
+    errorEmailNotValid: 'E-Mail address is not valid!',
+    headline: 'Subscribe for Updates!',
+    btn: 'Subscribe',
+    placeholder: 'Your E-Mail address...',
+  },
   roadmap: {
     headline: 'Roadmap',
     description: 'We are eager to open our platform to the world. We developed an aspiring roadmap to bring this vision to life.',
