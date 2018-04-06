@@ -33,6 +33,11 @@
                 </div>
             </div>
         </div>
+        <div class="header-background">
+            <span class="square"></span>
+            <span class="circle"></span>
+            <span class="circle1"></span>
+        </div>
     </header>
 @endsection
 
