@@ -53,6 +53,11 @@ const animations = {
         config: 'dj.json',
         animation: null,
       },
+      houseman: {
+        id: 'houseman',
+        config: 'houseman.json',
+        animation: null,
+      },
     },
     activeAnimation: null,
   },

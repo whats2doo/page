@@ -37,10 +37,7 @@
 @endsection
 
 @section('content')
-    {{--<div id="penis">--}}
-    {{--<penis></penis>--}}
-    {{--</div>--}}
-    @include('parts.companies-header')
+
     @include('parts.about')
     @include('parts.mission')
     @include('parts.numbers')
@@ -52,6 +49,7 @@
     @include('parts.team')
     @include('parts.companies')
     @include('parts.advisors')
+    @include('parts.faq')
     @include('parts.dj')
 @endsection
 
