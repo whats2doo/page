@@ -2,28 +2,31 @@
 
 namespace Tests\Feature;
 
-use GuzzleHttp\Client;
 use Tests\TestCase;
 
 /**
- * Class GooglePageSpeed
+ * Class SubscribeTest
  * @package Tests\Feature
  */
-class GooglePageSpeed extends TestCase
+class SubscribeTest extends TestCase
 {
-    const GOOGLE_PAGE_SPEED_URL = 'https://www.googleapis.com/pagespeedonline/v4/runPagespeed?url=';
-    const GOOGLE_PAGE_SPEED_MIN = 85;
-
-    /** @var Client $client */
-    private $client;
-
-    public function setUp()
+    public function testSubscribeWithNewEmail()
     {
-        parent::setUp();
+        $response = $this->json('GET', 'api/subscribe', [
+            'email' => random_int(1000, 9999) . '@test.de'
+        ]);
 
-        $this->client = new Client();
+        $response->assertStatus(200);
+        $this->assertEquals($response->getOriginalContent(), 'success');
     }
 
-    public function testSubscribe()
+    public function testSubscribeWithExistingEmail()
+    {
+        $response = $this->json('GET', 'api/subscribe', [
+            'email' => 'julian@whats2doo.com'
+        ]);
+
+        $response->assertStatus(200);
+        $this->assertEquals($response->getOriginalContent(), 'exists');
     }
 }
