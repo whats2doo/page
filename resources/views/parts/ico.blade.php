@@ -1,4 +1,4 @@
-<div id="ico">
+<section id="ico">
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-lg-6">
@@ -124,4 +124,4 @@
             </div><!-- col -->
         </div><!-- row -->
     </div><!-- container -->
-</div><!-- ico -->
+</section><!-- ico -->

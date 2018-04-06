@@ -1,3 +1,3 @@
-<div id="roadmap-app">
+<section id="roadmap-app">
     <roadmap></roadmap>
-</div><!-- roadmap-app -->
+</section><!-- roadmap-app -->
