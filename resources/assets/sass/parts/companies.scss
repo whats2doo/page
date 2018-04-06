@@ -28,9 +28,9 @@
     opacity: 0.5;
     filter: grayscale(100%);
     height: 40px;
-  }
-
-  @media (max-width: $screen-sm-max) {
-    height: 30px;
+    
+    @media (max-width: $screen-sm-max) {
+      height: 30px;
+    }
   }
 }
