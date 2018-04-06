@@ -1,0 +1,27 @@
+#company-logos-header {
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  h2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 20px;
+  }
+
+  a {
+    padding: 20px;
+    display: inline-block;
+  }
+
+  img {
+    opacity: 0.5;
+    filter: grayscale(100%);
+    height: 40px;
+
+    @media (max-width: $screen-sm-max) {
+      height: 30px;
+    }
+  }
+}
