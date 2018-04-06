@@ -49,7 +49,6 @@
     @include('parts.team')
     @include('parts.companies')
     @include('parts.advisors')
-    @include('parts.faq')
     @include('parts.dj')
 @endsection
 
