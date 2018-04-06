@@ -17,4 +17,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::middleware('guest:api')->get('subscribe', 'SubscribeController@insert');
+Route::middleware('guest:api')->get('subscribe', 'SubscribeController@subscribe');

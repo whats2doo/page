@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use SendGrid;
+use Illuminate\Http\JsonResponse;
 
 /**
  * Class SubscribeController
@@ -10,67 +12,117 @@ use Illuminate\Http\Request;
  */
 class SubscribeController extends Controller
 {
-    public $sg;
+    /** @var string $sendGridApiKey */
+    private $sendGridApiKey;
 
-    public function sendGridConnect()
+    /** @var mixed $sendGridListId */
+    private $sendGridListId;
+
+    /** @var SendGrid $sendGrid */
+    private $sendGrid;
+
+    /** @var string $email */
+    private $email;
+
+    /**
+     * SubscribeController constructor.
+     */
+    public function __construct()
     {
-        $sg = new \SendGrid(getenv('SENDGRID_API_KEY'));
-        return $sg;
+        $this->sendGridApiKey = env('SENDGRID_API_KEY');
+        $this->sendGridListId = env('SENDGRID_LIST_ID');
     }
 
-    public function insert(Request $request)
+    /**
+     * @return void
+     */
+    private function initSendGrid()
     {
-        if (!$this->validateEmail($request['email'])) {
-            return response()->json(null, 400);
-        }
-        return  $this->getResponse($request['email']);
+        $this->sendGrid = new SendGrid($this->sendGridApiKey);
     }
 
-    public function getResponse($email)
+    /**
+     * @param Request $request
+     * @return JsonResponse
+     */
+    public function subscribe(Request $request): JsonResponse
     {
-        $this->sg = $this->sendGridConnect();
+        $request->validate(['email' => 'required|email']);
+        $this->email = $request['email'];
 
-        if ($this->insertEmail($email)) {
+        $this->initSendGrid();
+
+        if ($this->insertEmail()) {
             return response()->json('success', 200);
         }
+
         return response()->json('exists', 200);
     }
 
-    public function validateEmail($email): bool
+    /**
+     * @param $response
+     * @return array
+     */
+    private function getResponseBody($response): array
     {
-        return filter_var($email, FILTER_VALIDATE_EMAIL);
+        return json_decode($response->body(), true);
     }
 
-    public function insertEmail($email): bool
+    /**
+     * @param $response
+     * @param $body
+     * @return bool
+     */
+    private function insertEmailIsValid($response, $body): bool
     {
-        $request_body = (object)['email' => $email];
-        $response = $this
-            ->sg
-            ->client->
-            contactdb()->
-            recipients()->
-            post([$request_body]);
+        return $response->statusCode() == 201 && $body['new_count'] == 1;
+    }
 
-        $body = json_decode($response->body());
+    /**
+     * @return bool
+     */
+    private function insertEmail(): bool
+    {
+        $response = $this->postEmail();
 
-        if ($response->statusCode() == 201 && $body->new_count == 1) {
-            $this->addToList($body->persisted_recipients[0]);
-            return true;
+        $body = $this->getResponseBody($response);
+
+        if (!$this->insertEmailIsValid($response, $body)) {
+            return false;
         }
-        return false;
+
+        if ($this->addToList($body['persisted_recipients'][0]) !== 201) {
+            return false;
+        }
+
+        return true;
     }
 
-    public function addToList($id): int
+    /**
+     * @param string $id
+     * @return int
+     */
+    private function addToList(string $id): int
     {
-        $response = $this
-            ->sg
-            ->client->contactdb()
+        return $this->sendGrid->client
+            ->contactdb()
             ->lists()
-            ->_(getenv('SENDGRID_LIST_ID'))
+            ->_($this->sendGridListId)
             ->recipients()
             ->_($id)
-            ->post();
+            ->post()
+            ->statusCode();
+    }
 
-        return $response->statusCode();
+    /**
+     * @return mixed
+     */
+    private function postEmail()
+    {
+        return $this->sendGrid
+            ->client
+            ->contactdb()
+            ->recipients()
+            ->post([(object)['email' => $this->email]]);
     }
 }
