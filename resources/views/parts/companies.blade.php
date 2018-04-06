@@ -20,6 +20,6 @@
                     @endforeach
                 </div><!-- col -->
             </div><!-- row -->
-        </div>
-    </section>
+        </div><!-- container -->
+    </section><!-- company-logos -->
 @endif
