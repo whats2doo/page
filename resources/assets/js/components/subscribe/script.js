@@ -1,54 +1,64 @@
-import axios from 'axios'
+import subscribeService from '../../services/subscribe'
 
 export default {
   name: 'subscribe',
   data() {
     return {
       submitted: false,
-      email: '',
-      error: '',
+      email: null,
+      error: false,
       loader: false,
     }
   },
   methods: {
     submitEmail() {
-      if (this.email !== '') {
-        this.loadAPI()
-      }
+      if (this.email !== null) this.loadAPI()
     },
+
     showError(error) {
       this.error = error
     },
+
     clearError() {
-      this.error = ''
+      this.error = null
     },
+
     hideLoader() {
       this.loader = false
     },
+
     showLoader() {
       this.loader = true
     },
+
     showSuccess() {
       this.submitted = true
-      this.email = ''
+      this.email = null
     },
+
     loadAPI() {
       this.showLoader()
-      const url = `api/subscribe?email=${this.email}`
 
-      axios.get(url)
+      subscribeService.subscribe(this.email)
         .then((response) => {
-          if (response.status === 200) {
-            if (response.data === 'exists') {
+          console.log(response)
+
+          switch (response) {
+            case 'success':
+              this.showSuccess()
+              break
+            case 'exists':
               this.loader = false
               this.showError('E-Mail address is already registered!')
-            } else {
-              this.showSuccess()
-            }
+              break
+            case 'failed':
+              this.loader = false
+              this.showError('Invalid E-Mail address')
+              break
+            default:
+              this.hideLoader()
+              break
           }
-        }).catch(() => {
-          this.hideLoader()
-          this.showError('E-Mail not valid!')
         })
     },
   },

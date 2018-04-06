@@ -29,4 +29,14 @@ class SubscribeTest extends TestCase
         $response->assertStatus(200);
         $this->assertEquals($response->getOriginalContent(), 'exists');
     }
+
+    public function testSubscribeWithInvalidEmail()
+    {
+        $response = $this->json('GET', 'api/subscribe', [
+            'email' => 'invalid-email'
+        ]);
+
+        $response->assertStatus(200);
+        $this->assertEquals($response->getOriginalContent(), 'failed');
+    }
 }

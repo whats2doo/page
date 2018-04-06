@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use SendGrid;
 use Illuminate\Http\JsonResponse;
+use Validator;
 
 /**
  * Class SubscribeController
@@ -47,7 +48,12 @@ class SubscribeController extends Controller
      */
     public function subscribe(Request $request): JsonResponse
     {
-        $request->validate(['email' => 'required|email']);
+        $validator = Validator::make($request->all(), ['email' => 'required|email']);
+
+        if ($validator->fails()) {
+            return response()->json('failed', 200);
+        }
+
         $this->email = $request['email'];
 
         $this->initSendGrid();
