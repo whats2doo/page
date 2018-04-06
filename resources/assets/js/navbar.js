@@ -1,5 +1,10 @@
 import $ from 'jquery'
 
+$('body').scrollspy({
+  target: '#navbar-main',
+  offset: $('#navbar-main').innerHeight(),
+})
+
 require('jquery.scrollto/jquery.scrollTo.min.js')
 
 function scrollPageTo($target) {
