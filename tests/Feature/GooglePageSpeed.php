@@ -3,7 +3,6 @@
 namespace Tests\Feature;
 
 use GuzzleHttp\Client;
-use GuzzleHttp\ClientInterface;
 use Tests\TestCase;
 
 /**
@@ -18,6 +17,9 @@ class GooglePageSpeed extends TestCase
     /** @var Client $client */
     private $client;
 
+    /**
+     * @return void
+     */
     public function setUp()
     {
         parent::setUp();
@@ -26,14 +28,14 @@ class GooglePageSpeed extends TestCase
     }
 
     /**
-     * @return bool
+     * @return null
      */
     public function testGooglePageSpeed()
     {
         if ($this->app->environment() === 'testing') {
             $this->assertTrue(true);
 
-            return true;
+            return null;
         }
 
         $response = $this->client->get(self::GOOGLE_PAGE_SPEED_URL . env('APP_URL'));
