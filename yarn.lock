@@ -4295,7 +4295,13 @@ jquery-viewport-checker@^1.8.8:
   version "1.8.8"
   resolved "https://registry.yarnpkg.com/jquery-viewport-checker/-/jquery-viewport-checker-1.8.8.tgz#cf0b5af930d5b1cd6836f71799f62ae1f57faa86"
 
-jquery@^3.2:
+jquery.scrollto@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/jquery.scrollto/-/jquery.scrollto-2.1.2.tgz#e7580d9c7ac46ef5bb25319483f6f45713fd7c6c"
+  dependencies:
+    jquery ">=1.8"
+
+jquery@>=1.8, jquery@^3.2:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
 
