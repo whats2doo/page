@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="200px" height="200px" viewBox="0 0 200 200" enable-background="new 0 0 200 200" xml:space="preserve">
+<g>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#84D7E8" d="M190.2,33.341c2.5-0.003,5.015,0.967,6.929,2.868
+		C199.03,38.12,200,40.62,200,43.149l-0.012,113.721c0.012,2.5-0.958,5.032-2.869,6.931c-1.912,1.937-4.419,2.857-6.927,2.857H9.795
+		c-2.506,0-5.013-0.931-6.932-2.848C0.97,161.902,0,159.37,0,156.87L0.006,43.149c0-2.52,0.954-5.023,2.861-6.94
+		c1.914-1.901,4.429-2.855,6.927-2.868H190.2z"/>
+	<g>
+		<rect x="24.906" y="141.229" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" width="31.266" height="5.883"/>
+		<rect x="64.536" y="141.229" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" width="31.27" height="5.866"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="135.457,147.111 104.185,147.095 104.185,141.229 
+			135.457,141.229 		"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="175.088,147.111 143.828,147.111 143.816,141.229 
+			175.088,141.229 		"/>
+	</g>
+	<rect x="24.906" y="100.584" fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" width="70.9" height="21.175"/>
+	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#3F4A5A" points="200,81.118 0.006,81.122 0.006,52.886 200,52.892 	"/>
+	<circle fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" cx="138.727" cy="111.174" r="15.583"/>
+	<circle fill-rule="evenodd" clip-rule="evenodd" fill="#3F4A5A" cx="159.505" cy="111.174" r="15.583"/>
+</g>
+</svg>
