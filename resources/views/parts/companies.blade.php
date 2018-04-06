@@ -5,12 +5,21 @@
         </div>
     </div>
 </section>
-
-<section id="company_logos" class="box">
-    <div class="container">
-        <div class="row text-center">
-            <h2>{{ __('messages.companies.headline') }}</h2>
-            <img src="{{ asset('images/company_logos.png') }}" width="100%">
-        </div>
-    </div>
-</section>
+@if(!empty(config('companies')))
+    <section id="company-logos" class="box">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <h2>{{ __('messages.companies.headline') }}</h2>
+                </div><!-- col -->
+                <div class="col-md-12">
+                    @foreach(config('companies') as $company)
+                        <a href="{{ $company['url'] }}" target="_blank" title="{{ $company['title'] }}">
+                            <img src="{{ asset('images/companies/' . $company['image']) }}">
+                        </a>
+                    @endforeach
+                </div><!-- col -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </section><!-- company-logos -->
+@endif
