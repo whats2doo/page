@@ -41,7 +41,7 @@ return [
     ],
 
     'companies' => [
-        'companies.headline' => 'Companies we already successfully worked with'
+        'headline' => 'Companies we already successfully worked with'
     ],
 
     'mission' => [

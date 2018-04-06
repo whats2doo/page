@@ -1,4 +1,4 @@
-import bodymovin from 'bodymovin/build/player/bodymovin.min'
+import lottie from 'lottie-web/build/player/lottie.min'
 import _map from 'lodash/map'
 import _join from 'lodash/join'
 import _each from 'lodash/each'
@@ -65,6 +65,7 @@ const animations = {
   },
 
   init() {
+    lottie.setQuality('low')
     // load animations
     _each(animations.data.config, (item) => {
       item.animation = animations.loadAnimation(item.id, item.config)
@@ -74,7 +75,7 @@ const animations = {
   },
 
   loadAnimation(elementId, filename) {
-    return bodymovin.loadAnimation({
+    return lottie.loadAnimation({
       container: document.getElementById(elementId),
       renderer: 'svg',
       loop: true,
