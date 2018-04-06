@@ -3,6 +3,7 @@
         <div class="houseman-background"></div>
         <div id="houseman"></div>
     </section>
+
     <section id="faq">
         <div class="container">
             <div class="row">
@@ -17,9 +18,7 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading" role="tab" id="heading{{ $loop->iteration }}">
                                     <h4 class="panel-title">
-                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
-                                           href="#collapse{{ $loop->iteration }}" aria-expanded="false"
-                                           aria-controls="collapse{{ $loop->iteration }}">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ $loop->iteration }}" aria-expanded="false" aria-controls="collapse{{ $loop->iteration }}">
                                             <div class="faq-number pull-left">
                                                 {{ $loop->iteration }}
                                             </div>
@@ -30,11 +29,10 @@
                                         </a>
                                     </h4>
                                 </div><!-- panel-heading -->
-                                <div id="collapse{{ $loop->iteration }}" class="panel-collapse collapse" role="tabpanel"
-                                     aria-labelledby="heading{{ $loop->iteration }}">
+                                <div id="collapse{{ $loop->iteration }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading{{ $loop->iteration }}">
                                     <div class="panel-body">
                                         {!! __($faqItem['text']) !!}
-                                    </div>
+                                    </div><!-- panel-body -->
                                 </div><!-- collapse -->
                             </div><!-- panel-default -->
                         @endforeach
