@@ -29,16 +29,16 @@
                                             <div class="clearfix"></div>
                                         </a>
                                     </h4>
-                                </div>
+                                </div><!-- panel-heading -->
                                 <div id="collapse{{ $loop->iteration }}" class="panel-collapse collapse" role="tabpanel"
                                      aria-labelledby="heading{{ $loop->iteration }}">
                                     <div class="panel-body">
-                                        {{ __($faqItem['text']) }}
+                                        {!! __($faqItem['text']) !!}
                                     </div>
-                                </div>
-                            </div>
+                                </div><!-- collapse -->
+                            </div><!-- panel-default -->
                         @endforeach
-                    </div>
+                    </div><!-- accordion -->
                 </div><!-- col -->
             </div><!-- row -->
             <div class="row gradient">

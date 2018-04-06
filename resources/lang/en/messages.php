@@ -98,36 +98,7 @@ return [
         ],
         'item8' => [
             'headline' => 'What ETH compatible wallets are recommended?',
-            'text' => 'We recommend using either:
-
-MetaMask (Chrome browser addon) or
-
-MyEtherWallet (no download needed).
-
-The following wallets are known to be incompatible wallets; this is not a complete list. Do not use any of the following wallets to participate in the W2D Token distribution:
-
-Any Bitcoin exchange
-
-Any Ethereum exchange
-
-Jaxx
-
-Exodus
-
-Coinbase
-
-Poloniex
-
-Kraken
-
-Bitstamp
-
-Bitfinex
-
-Bittrex
-
-Cex.io
-'
+            'text' => 'We recommend using either:<p>MetaMask (Chrome browser addon) or MyEtherWallet (no download needed).<p>The following wallets are known to be incompatible wallets; this is not a complete list. Do not use any of the following wallets to participate in the W2D Token distribution:</p><p>Any Bitcoin exchange<br>Any Ethereum exchange<br>Jaxx<br>Exodus<br>Coinbase<br>Poloniex<br>Kraken<br>Bitstamp<br>Bitfinex<br>Bittrex<br>Cex.io</p>'
         ],
         'item9' => [
             'headline' => 'Is there a minimum purchase for W2D Tokens?',
