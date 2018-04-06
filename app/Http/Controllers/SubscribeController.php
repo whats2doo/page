@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use SendGrid;
 use Illuminate\Http\JsonResponse;
-use Illuminate\Validation\Validator;
+use Illuminate\Support\Facades\Validator;
 
 /**
  * Class SubscribeController
@@ -25,18 +25,13 @@ class SubscribeController extends Controller
     /** @var string $email */
     private $email;
 
-    /** @var Validator $validator */
-    private $validator;
-
     /**
      * SubscribeController constructor.
-     * @param Validator $validator
      */
-    public function __construct(Validator $validator)
+    public function __construct()
     {
         $this->sendGridApiKey = env('SENDGRID_API_KEY');
         $this->sendGridListId = env('SENDGRID_LIST_ID');
-        $this->validator = $validator;
     }
 
     /**
@@ -48,18 +43,24 @@ class SubscribeController extends Controller
     }
 
     /**
+     * @return bool
+     */
+    private function validateEmail(): bool
+    {
+        return filter_var($this->email, FILTER_VALIDATE_EMAIL);
+    }
+
+    /**
      * @param Request $request
      * @return JsonResponse
      */
     public function subscribe(Request $request): JsonResponse
     {
-        $validator = $this->validator->make($request->all(), ['email' => 'required|email']);
+        $this->email = $request['email'];
 
-        if ($validator->fails()) {
+        if (!$this->validateEmail()) {
             return response()->json('failed', 200);
         }
-
-        $this->email = $request['email'];
 
         $this->initSendGrid();
 
