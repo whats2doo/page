@@ -47,7 +47,7 @@ $faq-background: #eef5f7;
   }
 
   .faq-title {
-    padding-left: 60px;
+    padding-left: 70px;
     padding-top: 15px;
     font-size: 18px;
 
@@ -80,11 +80,13 @@ $faq-background: #eef5f7;
   }
 
   .panel-body {
-    padding-left: 78px;
+    padding-left: 88px;
     padding-top: 0;
+    padding-bottom: 20px;
     font-size: $font-size-base;
     color: $text-color;
     border: none;
+    margin-top: -10px;
 
     @media (max-width: $screen-sm-min) {
       padding-top: 5px;
