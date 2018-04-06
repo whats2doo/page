@@ -5,6 +5,10 @@ namespace Tests\Feature;
 use GuzzleHttp\Client;
 use Tests\TestCase;
 
+/**
+ * Class GooglePageSpeed
+ * @package Tests\Feature
+ */
 class GooglePageSpeed extends TestCase
 {
     const GOOGLE_PAGE_SPEED_URL = 'https://www.googleapis.com/pagespeedonline/v4/runPagespeed?url=';
