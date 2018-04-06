@@ -7,7 +7,7 @@ yarn prod
 
 # php code quality
 ./vendor/bin/phpcs --standard=PSR2 --extensions=php ./app ./tests
-./vendor/bin/phpstan analyse tests/Unit tests/Feature app/Http/Controllers/*Controller.php --level=5
+./vendor/bin/phpstan analyse tests/Unit tests/Feature app/Http/Controllers/*Controller.php --level=1
 
 # php tests
 ./vendor/phpunit/phpunit/phpunit tests/Unit/*
