@@ -20,13 +20,15 @@ function scrollPageTo($target) {
   });
 }
 
-$('nav#navbar-main ul li a').click(function (e) {
+// data-scroll="subscribe"
+
+$('[data-scroll!=\'\'][data-scroll]').click(function (e) {
   e.preventDefault()
-  const id = $(this).attr('href')
+  const id = $(this).attr('data-scroll')
 
   if (!id) return false
 
-  scrollPageTo(id)
+  scrollPageTo(`#${id}`)
 
   return true
 });

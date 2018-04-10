@@ -27,7 +27,7 @@
                 <ul class="nav navbar-nav navbar-right" role="tablist">
                     @foreach($menu as $menuItem)
                         <li>
-                            <a @isset($menuItem['target']) target="{{ $menuItem['target'] }}" @endif href="{{ $menuItem['href'] }}">
+                            <a @isset($menuItem['target']) target="{{ $menuItem['target'] }}" @endif href="{{ $menuItem['href'] }}" data-scroll="{{ $menuItem['scroll'] or '' }}">
                                 {{ __('messages.navigation.'.$menuItem['title']) }}
                             </a>
                         </li>
