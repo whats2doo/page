@@ -1,35 +1,30 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-3 col-sm-6 col-xs-12 footer-logo">
+            <div class="col-md-3 col-sm-6 col-xs-12 footer-logo footer-col">
                 <img src="{{ asset('images/w2d-primary-text.svg') }}" width="180">
                 <div class="copyright">{{ __('messages.footer.copyright') }}</div>
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="col-md-3 col-sm-6 col-xs-12 footer-col">
                 <div class="footer-title">{{ __('messages.footer.title-sitemap') }}</div>
                 @if(!empty(config('menu-footer')))
                     <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <ul>
-                                @foreach(config('menu-footer') as $item)
-                                    <li>
-                                        <a href="{{ $item['href'] }}">{{ __('messages.footer.navigation.'.$item['title']) }}</a>
-                                    </li>
-
-                                    @if ($loop->iteration % 4 == 0)
-                            </ul>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-6">
-                            <ul>
-                                @endif
-                                @endforeach
-                            </ul>
-                        </div>
+                        @foreach (collect(config('menu-footer'))->split(2) as $chunk)
+                            <div class="col-md-6 col-sm-6 col-xs-6">
+                                <ul>
+                                    @foreach ($chunk as $item)
+                                        <li>
+                                            <a href="{{ $item['href'] }}">{{ __('messages.footer.navigation.'.$item['title']) }}</a>
+                                        </li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endforeach
                         <div class="clearfix"></div>
                     </div>
                 @endif
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="col-md-3 col-sm-6 col-xs-6 footer-col">
                 <div class="footer-title">{{ __('messages.footer.title-documents') }}</div>
                 <ul>
                     <li>
@@ -41,7 +36,7 @@
                 </ul>
 
             </div>
-            <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="col-md-3 col-sm-6 col-xs-6 footer-col">
                 <div class="footer-title">{{ __('messages.footer.title-social') }}</div>
                 @if(!empty(config('social')))
                     <ul>

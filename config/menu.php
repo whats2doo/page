@@ -7,6 +7,11 @@ return [
     ],
 
     [
+        'title' => 'roadmap',
+        'href'  => '#roadmap',
+    ],
+
+    [
         'title' => 'team',
         'href'  => '#team',
     ],

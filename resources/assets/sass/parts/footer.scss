@@ -26,6 +26,12 @@ footer {
     margin-bottom: 20px;
   }
 
+  .footer-col {
+    @media (max-width: $screen-sm-max) {
+      margin-top: 30px;
+    }
+  }
+
   ul {
     padding: 0;
     margin: 0;

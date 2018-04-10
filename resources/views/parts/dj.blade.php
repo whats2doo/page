@@ -1,1 +1,1 @@
-<div id="dj"></div>
+<section id="dj"></section>

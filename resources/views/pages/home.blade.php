@@ -45,9 +45,6 @@
 @endsection
 
 @section('content')
-    {{--<div id="penis">--}}
-    {{--<penis></penis>--}}
-    {{--</div>--}}
 
     @include('parts.about')
     @include('parts.mission')
@@ -60,6 +57,7 @@
     @include('parts.team')
     @include('parts.companies')
     @include('parts.advisors')
+    @include('parts.faq')
     @include('parts.dj')
 @endsection
 

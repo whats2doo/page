@@ -41,7 +41,7 @@ return [
     ],
 
     'companies' => [
-        'companies.headline' => 'Companies we already successfully worked with'
+        'headline' => 'Companies we already successfully worked with'
     ],
 
     'mission' => [
@@ -62,6 +62,83 @@ return [
         'article4' => [
             'headline' => 'Reviews for Requesters and Helpers',
             'text' => 'An integrated, mutual review system installs trust within the community and ensures a high level of quality.'
+        ]
+    ],
+
+    'faq' => [
+        'headline' => 'Frequently Asked Questions',
+        'showmore' => 'Show More',
+        'item1' => [
+            'headline' => 'What is Whats2doo?',
+            'text' => 'Is a marketplace for customers, sole entrepreneur’s, company’s and corporations. They can offer and buy services from the crowd and are able to be in line with demand. What2doo is already available to the public to sign up and use on any device with an internet connection. Web: https://whats2doo.com'
+        ],
+        'item2' => [
+            'headline' => 'Who is building the Whats2doo Platform and W2D Token?',
+            'text' => 'Whats2doo GmbH, a Berlin based IT company, is building the Whats2doo Platform and W2D Token. With employees in Berlin and advisors based around the world, the company focuses on developing software that is easy to use for the user. For more information about Whats2doo GmbH, please visit whats2doo.com/team.'
+        ],
+        'item3' => [
+            'headline' => 'What are W2D Tokens?',
+            'text' => 'W2D tokens are ERC-20 compatible tokens distributed on the Ethereum blockchain pursuant to a related ERC-20 smart contract (the “W2D Tokens”).'
+        ],
+        'item4' => [
+            'headline' => 'Can the W2D Tokens be used to pay for a service on Whats2doo?',
+            'text' => 'As of now W2D can not be used to pay for services on Whats2doo.com. Once the ICO is finished we´ll implement the Multi Wallet into each Whats2doo Account and then it will be possible to pay for services with W2D Tokens.'
+        ],
+        'item5' => [
+            'headline' => 'What does W2D stand for?',
+            'text' => 'We believe that people only give their best if they do what they love. W2D stands for Whats2doo, which follows the mission to enable people TO DO WHAT THEY LOVE and are best at.'
+        ],
+        'item6' => [
+            'headline' => 'How does the W2D Token distribution work?',
+            'text' => 'The W2D Token distribution will take place through the Pre-ICO over 30 days starting on June 01, 2018 at 00:01 UTC* and the ICO over 30 days starting on August 01,2018 at 00:01 UTC*. One Hundred Fifty million (150,000,000) W2D Tokens will be distributed according to the schedule below: 45,000,000 W2D Tokens (15% of the total amount of  Tokens) will be distributed during a 30 day period beginning on June 01, 2018 at 00:01 UTC* and ending on June 30, 2018 at 12:59:59 UTC* (the “Pre-ICO”). 150,000,000 W2D Tokens (50% of the total amount of W2D Tokens) will be distributed during a 30 day period beginning on August 01, 2018 at 00:01 UTC* and ending on June 30, 2018 at 12:59:59 UTC* (the “ICO”), 27,000,000 W2D (9% of the total amount of W2D Tokens) will be reserved for advertising the Pre-ICO and ICO cannot be traded or transferred on the Ethereum network.'
+        ],
+        'item7' => [
+            'headline' => 'How can I participate in the W2D Token distribution?',
+            'text' => 'To participate in the W2D Token distribution, you will need an Ethereum compatible wallet or an application where you and only you hold the private keys. Private keys are needed to correctly interact with smart contract functions, like transferring cryptographic tokens. Do not send ether (“ETH”) directly from cryptocurrency exchanges, only an ETH compatible wallet. For detailed information and suggestions on how to purchase W2D Tokens, click here'
+        ],
+        'item8' => [
+            'headline' => 'What ETH compatible wallets are recommended?',
+            'text' => 'We recommend using either:<p>MetaMask (Chrome browser addon) or MyEtherWallet (no download needed).<p>The following wallets are known to be incompatible wallets; this is not a complete list. Do not use any of the following wallets to participate in the W2D Token distribution:</p><p>Any Bitcoin exchange<br>Any Ethereum exchange<br>Jaxx<br>Exodus<br>Coinbase<br>Poloniex<br>Kraken<br>Bitstamp<br>Bitfinex<br>Bittrex<br>Cex.io</p>'
+        ],
+        'item9' => [
+            'headline' => 'Is there a minimum purchase for W2D Tokens?',
+            'text' => 'The minimum contribution accepted during the Pre-ICO period of the W2D Token distribution is 0.5 ETH and durin the ICO period 0.04 ETH. Smaller contribution amounts will be rejected.'
+        ],
+        'item10' => [
+            'headline' => 'How can I see how much ETH has been contributed during the period of the W2D Token distribution?',
+            'text' => 'The amount of ETH received during the Pre-ICO and ICO period will be displayed on the ico.whats2doo.com website. The history of ETH contributed in previous periods can be viewed on the Ethereum blockchain.'
+        ],
+        'item11' => [
+            'headline' => 'Why can’t U.S. citizens, residents or entities purchase W2D Tokens?',
+            'text' => 'It was decided that U.S. citizens, residents and entities should be excluded from purchasing W2D Tokens in the token distribution because of some of the logistical challenges associated with differing regulations in the many states of the United States of America. Whats2doo GmbH does not believe that the distribution of W2D Tokens or W2D Tokens themselves are securities, commodities, swaps on either securities or commodities, or similar financial instruments. The W2DTokens are not designed for investment or speculative purposes and should not be considered as a type of investment. Nevertheless, U.S. citizens, residents and entities should not purchase or attempt to purchase W2D Tokens.'
+        ],
+        'item12' => [
+            'headline' => 'I have contributed to the W2D Token distribution. When do I receive W2D Tokens?',
+            'text' => 'After you transaction is confirmed you may claim any W2D Tokens allocated as an ERC-20 compatible token on the Ethereum blockchain.'
+        ],
+        'item13' => [
+            'headline' => 'Are W2D Tokens transferable?',
+            'text' => 'While Whats2doo GmbH will not be involved in any way in the transferability of the W2D Tokens, it is possible that W2D Tokens could be transferred on a peer-to-peer basis or on platforms operated by 3rd parties during the W2D Token distribution period.'
+        ],
+        'item14' => [
+            'headline' => 'Are there network fees when transferring W2D Tokens?',
+            'text' => 'Yes, the W2D Token is an ERC-20 compatible token; therefore, transfers will be subject to ETH gas fees like all other transactions on the Ethereum network.'
+        ],
+        'item15' => [
+            'headline' => 'What happens if I can’t contribute ETH or don’t receive my W2D Tokens?',
+            'text' => 'The W2D Token distribution contract, W2D Token smart contract and the W2D Tokens are being provided on an “as is” and “as available” basis without representations, warranties, promises or guarantees whatsoever of any kind made by Whats2doo GmbH. Prior to purchasing W2D Tokens, you should ensure that you carry out your own examination and investigation and carefully review in their entirety the risks associated with purchasing W2d Tokens as set forth in the Purchase Agreement. Purchases of W2D Tokens are non-refundable and purchases cannot be cancelled. Under no circumstances will you be entitled to receive money or compensation for any W2D Tokens purchased or your inability to purchase W2D Tokens.'
+        ],
+        'item16' => [
+            'headline' => 'Where do the proceeds from the W2D Token distribution go?',
+            'text' => 'Proceeds from the W2D Token distribution will be the revenue of Whats2doo GmbH.'
+        ],
+        'item17' => [
+            'headline' => 'What does Whats2doo GmbH plan to use proceeds from the W2D Token distribution for?',
+            'text' => 'As a private company, proceeds of the W2D Token distribution will be utilized by Whats2doo GmbH in its sole discretion. Whats2doo GmbH intends to use certain of the proceeds for general administration and operating expenses, as well as to build a platform that enables people to offer services to other entities.'
+        ],
+        'item18' => [
+            'headline' => 'Will Whats2doo GmbH be contributing to the W2DToken distribution?',
+            'text' => 'No, during the entire W2D Token distribution period, Whats2doo GmbH will not do any of the following: Whats2doo GmbH will not purchase W2D Tokens by any means; Whats2doo GmbH will not pay any dividends to its shareholders; and Whats2doo GmbH will not perform any share buybacks.'
         ]
     ],
 
@@ -118,6 +195,7 @@ return [
         'team' => 'Team',
         'documents' => 'Documents',
         'faq' => 'FAQ',
+        'roadmap' => 'Roadmap'
     ],
 
     'token-allocation' => [
