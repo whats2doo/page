@@ -35,8 +35,11 @@
         </div>
         <div class="header-background">
             <span class="square"></span>
-            <span class="circle"></span>
-            <span class="circle1"></span>
+            <span class="circle">
+                <span class="circle1-container">
+                   <span class="circle1"></span>
+                </span>
+            </span>
         </div>
     </header>
 @endsection
