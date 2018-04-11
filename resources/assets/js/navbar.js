@@ -31,8 +31,8 @@ $('nav#navbar-main ul li a').click(function (e) {
   return true
 });
 
-$('.dropdown').on('hide.bs.dropdown', () => {
-  $('.dropdown').addClass('closed')
+$('.dropdown').on('hide.bs.dropdown', (dropdown) => {
+  $(dropdown.target).addClass('closed')
 })
 
 $('.dropdown').on('show.bs.dropdown', () => {
