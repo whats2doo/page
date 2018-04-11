@@ -52,9 +52,9 @@ if (document.getElementById('roadmap-app')) {
   })
 }
 
-if (document.getElementById('subscribe')) {
+if (document.getElementById('subscribe-container')) {
   Vue.create({
-    el: '#subscribe',
+    el: '#subscribe-container',
     i18n,
     components: {
       subscribe,
