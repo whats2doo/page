@@ -3,6 +3,71 @@ $font-size-social-icons: 22px;
 // desktop
 @media (min-width: $screen-md-min) {
   #navbar-main {
+
+    @keyframes fadeInDropdown {
+      0% {
+        opacity: 0;
+        transform: scaleY(0);
+      }
+
+      100% {
+        opacity: 1;
+        transform: scaleY(1);
+      }
+    }
+
+    @keyframes fadeOutDropdown {
+      0% {
+        opacity: 1;
+        transform: scaleY(1);
+      }
+
+      100% {
+        opacity: 0;
+        transform: scaleY(0);
+        display: none;
+      }
+    }
+
+    ul.navbar-nav {
+      > li {
+        > .dropdown-menu {
+          background-color: rgba(255, 255, 255, 0.95);
+          transform-origin: top;
+
+          > li {
+            > a {
+              color: $brand-primary;
+
+              &:hover,
+              &:focus {
+                color: #fff;
+                background-color: $brand-primary;
+              }
+            }
+          }
+        }
+
+        &.dropdown.open {
+          > .dropdown-menu {
+            animation: fadeInDropdown 0.2s ease-in 1;
+          }
+
+          > a {
+            background: transparent;
+          }
+        }
+
+        &.dropdown.closed {
+          > .dropdown-menu {
+            animation: fadeOutDropdown 0.2s ease-in 1;
+            animation-fill-mode: forwards;
+            display: block;
+          }
+        }
+      }
+    }
+
     &.navbar {
       a.navbar-brand {
         padding: 10px 15px;

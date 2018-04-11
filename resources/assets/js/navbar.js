@@ -31,6 +31,14 @@ $('nav#navbar-main ul li a').click(function (e) {
   return true
 });
 
+$('.dropdown').on('hide.bs.dropdown', () => {
+  $('.dropdown').addClass('closed')
+})
+
+$('.dropdown').on('show.bs.dropdown', () => {
+  $('.dropdown').removeClass('closed')
+})
+
 const navbar = {
   window: null,
   navbar: null,
