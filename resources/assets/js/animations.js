@@ -69,11 +69,19 @@ const animations = {
     return `#${_join(selectorArray, ', #')}`
   },
 
+  removePlaceholder() {
+    $('#placeholder-image').css({ opacity: 0 })
+    animations.data.config.painter.animation.play()
+  },
+
   init() {
     lottie.setQuality('low')
     // load animations
     _each(animations.data.config, (item) => {
       item.animation = animations.loadAnimation(item.id, item.config)
+      if (item.id === 'painter') {
+        item.animation.addEventListener('data_ready', animations.removePlaceholder);
+      }
     })
 
     animations.runViewportChecker()
