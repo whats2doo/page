@@ -15,7 +15,7 @@
                 </a>
             </div>
 
-            <a class="navbar-brand" href="{{ url('/') }}">
+            <a class="navbar-brand" href="{{ url('/') }}" data-scroll="home">
                 <img class="logo-clear" src="{{ asset('images/w2d.svg') }}" alt="w2d-logo">
                 <img class="logo" src="{{ asset('images/w2d-primary.svg') }}" alt="w2d-logo">
             </a>

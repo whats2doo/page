@@ -2,9 +2,9 @@
 
 return [
     [
-        'title' => 'home',
-        'href'  => '#home',
-        'scroll' => 'home',
+        'title' => 'about',
+        'href'  => '#about',
+        'scroll' => 'about',
     ],
 
     [

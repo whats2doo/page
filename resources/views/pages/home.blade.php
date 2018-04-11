@@ -3,7 +3,7 @@
 @section('title', $title)
 
 @section('header')
-    <header>
+    <header id="home">
         @include('parts.navbar')
 
         <div class="container">
