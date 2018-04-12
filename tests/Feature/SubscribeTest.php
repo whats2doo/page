@@ -10,7 +10,7 @@ use Tests\TestCase;
  */
 class SubscribeTest extends TestCase
 {
-    /*public function testSubscribeWithNewEmail()
+    public function testSubscribeWithNewEmail()
     {
         $response = $this->json('GET', 'api/subscribe', [
             'email' => random_int(1000, 9999) . '@test.de'
@@ -38,5 +38,5 @@ class SubscribeTest extends TestCase
 
         $response->assertStatus(200);
         $this->assertEquals($response->getOriginalContent(), 'failed');
-    }*/
+    }
 }
