@@ -21,7 +21,7 @@ matrix:
         - ./vendor/phpunit/phpunit/phpunit tests/Unit/*
         - nohup php -S localhost:8000 -t public/ </dev/null &>/dev/null &
         - PHP_SERVER_PID=$!
-        - ./vendor/bin/phpunit tests/Feature/*
+        # - ./vendor/bin/phpunit tests/Feature/*
         - kill -9 $PHP_SERVER_PID
 
     - language: node_js
