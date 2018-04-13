@@ -3,7 +3,7 @@ header {
   // background: $brand-primary;
   color: white;
   // background: linear-gradient(45deg, #008cde 80%, #00b4e3 15%);
-  background: linear-gradient(-20deg, #00b4e3 15%, #008cde 80%);
+  background: linear-gradient(-20deg, #00b4e3 15%, #0167d3 80%);
 
   .container {
     z-index: 2;
@@ -20,19 +20,21 @@ header {
     left: 0;
 
     .square {
-      background: linear-gradient(300deg, transparent 15%, #008cde 80%);
-      height: 200%;
-      width: 30%;
+      background: linear-gradient(to bottom, transparent 15%, #008cde 80%);
+      height: 100%;
+      width: 50%;
       display: block;
       position: absolute;
       top: 0;
-      left: 0;
-      transform: skewY(67deg);
+      left: -25%;
+      transform: skew(15deg);
+      transform-origin: center;
     }
 
     .circle {
       position: absolute;
-      background: linear-gradient(280deg, #00b4e3 15%, #008cde 80%);
+      background: linear-gradient(0deg, #00b4e3 0%, #008cde 30%);
+      // linear-gradient(-70deg, transparent 0%, #008cde 90%)
       height: 205vw;
       width: 205vw;
       display: block;
@@ -40,17 +42,35 @@ header {
       right: -100vw;
       overflow: hidden;
 
+      @media (max-width: 900px) {
+        height: 200vh;
+        width: 200vw;
+        display: block;
+        border-radius: 50%;
+        right: -100vw;
+        overflow: hidden;
+      }
+
       .circle1-container {
         position: relative;
+        height: 100vh;
 
         .circle1 {
           position: absolute;
-          background: linear-gradient(to bottom, transparent 15%, #008cde 80%);
+          background: linear-gradient(to bottom, transparent 15%, #0167d3 80%);
           height: 100vw;
           width: 100vw;
           display: block;
           border-radius: 50%;
           left: -7vw;
+
+          @media (max-width: 1024px) {
+            bottom: -150vw;
+          }
+
+          @media (max-width: 450px) {
+            display: none;
+          }
         }
       }
     }
