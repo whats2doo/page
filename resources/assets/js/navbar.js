@@ -45,11 +45,14 @@ const navbar = {
   handle() {
     if (this.window.scrollTop() < 100) {
       this.navbar.addClass('navbar-clear')
+      this.navbar.removeClass('show-navigation')
 
       return
     }
 
     this.navbar.removeClass('navbar-clear')
+    this.navbar.removeClass('navbar-no-animation')
+    this.navbar.addClass('show-navigation')
   },
 
   init() {

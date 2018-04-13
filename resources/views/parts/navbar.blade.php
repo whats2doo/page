@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top navbar-clear" id="navbar-main">
+<nav class="navbar navbar-default navbar-fixed-top navbar-clear navbar-no-animation" id="navbar-main">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">

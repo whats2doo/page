@@ -146,6 +146,16 @@ $font-size-social-icons: 22px;
       @keyframes fadeInNavigation {
         0% {
           opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @keyframes slideInNavigation {
+        0% {
+          opacity: 0;
           transform: scaleY(0);
           transform-origin: top;
         }
@@ -157,12 +167,20 @@ $font-size-social-icons: 22px;
         }
       }
 
+      &.show-navigation {
+        animation: fadeInNavigation 0.2s ease-in 1;
+      }
+
+      &.hide-navigation {
+        animation: fadeOutNavigation 0.2s ease-in 1;
+      }
+
       &.navbar-clear {
         background: transparent;
         border: none;
         color: #fff;
         padding-top: 20px;
-        animation: fadeInNavigation 0.2s ease-in 1;
+        animation: slideInNavigation 0.2s ease-in 1;
 
         a.navbar-brand {
           padding: 0 15px;
@@ -177,6 +195,10 @@ $font-size-social-icons: 22px;
               display: block;
             }
           }
+        }
+
+        &.navbar-no-animation {
+          animation: initial;
         }
 
         ul.navbar-nav {
