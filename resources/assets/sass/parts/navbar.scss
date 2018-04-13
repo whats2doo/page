@@ -3,7 +3,6 @@ $font-size-social-icons: 22px;
 // desktop
 @media (min-width: $screen-md-min) {
   #navbar-main {
-
     @keyframes fadeInDropdown {
       0% {
         opacity: 0;
@@ -40,6 +39,24 @@ $font-size-social-icons: 22px;
           border-radius: 3px;
           border: 1px solid #e2e2e2;
 
+          .whitepaper-menu-item {
+            background-color: #39b4ea;
+            color: #fff;
+            margin: 0 5px 5px 5px;
+
+            .whitepaper-menu-icon {
+              font-size: 84px;
+              text-align: center;
+            }
+
+            .whitepaper-menu-title {
+              text-align: center;
+              font-size: 14px;
+              margin-top: -20px;
+              padding-bottom: 20px;
+            }
+          }
+
           > li {
             > a {
               color: $brand-primary;
@@ -56,10 +73,10 @@ $font-size-social-icons: 22px;
         &.dropdown.open {
           > .dropdown-menu {
             animation: fadeInDropdown 0.2s ease-in 1;
-          }
 
-          > a {
-            background: transparent;
+            > a {
+              background: transparent;
+            }
           }
         }
 
@@ -169,7 +186,17 @@ $font-size-social-icons: 22px;
 
 // mobile
 @media (max-width: $screen-sm-max) {
+  .navbar-fixed-top {
+    .navbar-collapse {
+      max-height: 70vh;
+    }
+  }
+
   #navbar-main {
+    .whitepaper-menu-icon {
+      font-size: 90px;
+    }
+
     &.navbar {
       a.navbar-brand {
         padding: 10px 15px;

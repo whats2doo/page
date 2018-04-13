@@ -39,7 +39,14 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="{{ asset('documents/whitepaper.pdf') }}" target="_blank">Whitepaper</a>
+                                <a href="{{ asset('documents/whitepaper.pdf') }}" target="_blank" class="whitepaper-menu-item">
+                                    <div class="whitepaper-menu-icon">
+                                        <i class="ion-ios-cloud-download-outline"></i>
+                                    </div>
+                                    <div class="whitepaper-menu-title">
+                                        Whitepaper
+                                    </div>
+                                </a>
                             </li>
                             <li>
                                 <a href="#">Another document</a>
