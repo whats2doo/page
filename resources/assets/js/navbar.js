@@ -43,7 +43,7 @@ const navbar = {
   window: null,
   navbar: null,
   handle() {
-    if (this.window.scrollTop() === 0) {
+    if (this.window.scrollTop() < 100) {
       this.navbar.addClass('navbar-clear')
 
       return

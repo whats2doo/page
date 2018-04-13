@@ -143,11 +143,26 @@ $font-size-social-icons: 22px;
         }
       }
 
+      @keyframes fadeInNavigation {
+        0% {
+          opacity: 0;
+          transform: scaleY(0);
+          transform-origin: top;
+        }
+
+        100% {
+          opacity: 1;
+          transform: scaleY(1);
+          transform-origin: center;
+        }
+      }
+
       &.navbar-clear {
         background: transparent;
         border: none;
         color: #fff;
         padding-top: 20px;
+        animation: fadeInNavigation 0.2s ease-in 1;
 
         a.navbar-brand {
           padding: 0 15px;
