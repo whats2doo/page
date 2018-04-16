@@ -26,7 +26,11 @@ $('nav#navbar-main ul li a').click(function (e) {
 
   if (!id) return false
 
-  $('.navbar-collapse').removeClass('in')
+  const navbarCollapse = $('.navbar-collapse')
+  
+  if(navbarCollapse).hasClass('in'){
+    navbarCollapse.removeClass('in')
+  }
 
   scrollPageTo(id)
 
