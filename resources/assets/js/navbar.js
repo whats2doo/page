@@ -20,9 +20,9 @@ function scrollPageTo($target) {
   });
 }
 
-$('nav#navbar-main ul li a').click(function (e) {
+$('[data-scroll!=\'\'][data-scroll]').click(function (e) {
   e.preventDefault()
-  const id = $(this).attr('href')
+  const id = $(this).attr('data-scroll')
 
   if (!id) return false
 
@@ -32,7 +32,7 @@ $('nav#navbar-main ul li a').click(function (e) {
     navbarCollapse.removeClass('in')
   }
 
-  scrollPageTo(id)
+  scrollPageTo(`#${id}`)
 
   return true
 });
