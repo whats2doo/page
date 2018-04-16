@@ -10,6 +10,10 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div id="w2d">
+                        <div id="w2d-placeholder">
+                            <img id="placeholder-image" src="{{ asset('images/w2d-placeholder-bg.svg') }}">
+                            <img id="shadow" src="{{ asset('images/shadow.svg') }}">
+                        </div>
                         <div id="painter"></div>
                         <div id="cleaner"></div>
                     </div><!-- w2d -->

@@ -1,44 +1,101 @@
 header {
   min-height: 100vh;
-  // background: $brand-primary;
   color: white;
-  // background: linear-gradient(45deg, #008cde 80%, #00b4e3 15%);
   background: linear-gradient(45deg, #00b4e3 15%, #008cde 80%);
 
   #w2d {
     position: relative;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 160px;
 
     @media (max-width: $screen-md-max), (max-height: 850px) {
-      margin-top: 80px;
+      margin-top: 140px;
     }
 
     // iphone 6, 7, 8
     @media (max-width: 450px) and (min-width: 300px) and (max-height: 800px) and (min-height: 650px) {
-      margin-top: 140px;
+      margin-top: 200px;
     }
 
     // iphone x
     @media (max-width: 400px) and (min-width: 300px) and (max-height: 1000px) and (min-height: 800px) {
-      margin-top: 180px;
+      margin-top: 240px;
     }
 
     #painter {
-      width: 80%;
-      margin: 0 auto;
+      position: absolute;
+      width: 70%;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 0;
 
       @media (max-width: $screen-xs-max) {
         width: 100%;
       }
     }
 
+    #w2d-placeholder {
+      text-align: center;
+      position: relative;
+
+      img {
+        width: 70%;
+        position: relative;
+        z-index: 1;
+
+        @media (max-width: $screen-xs-max) {
+          width: 100%;
+        }
+      }
+
+      #shadow {
+        bottom: -5px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: auto;
+        opacity: 0.6;
+        filter: blur(3px);
+      }
+    }
+
     #cleaner {
-      // height: 280px;
-      height: 80%;
       position: absolute;
-      bottom: 15px;
-      left: 0;
+      bottom: -15px;
+      width: 70%;
+      left: 50%;
+      transform: translateX(-50%);
+
+      @media (max-width: $screen-xs-max) {
+        width: 100%;
+      }
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 0.6;
+      }
+    }
+
+    @keyframes bounceIn {
+      0% {
+        opacity: 0;
+        transform: translateY(-20%);
+      }
+
+      60% {
+        transform: translateY(-5);
+        opacity: 0.6;
+      }
+
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
     }
   }
 
