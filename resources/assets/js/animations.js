@@ -58,6 +58,16 @@ const animations = {
         config: 'houseman.json',
         animation: null,
       },
+      peopleLeft: {
+        id: 'peopleLeft',
+        config: 'sub2-left.json',
+        animation: null,
+      },
+      peopleRight: {
+        id: 'peopleRight',
+        config: 'sub2-right.json',
+        animation: null,
+      },
     },
     activeAnimation: null,
   },
@@ -103,9 +113,6 @@ const animations = {
 
           return
         }
-
-        // do not play dj at this moment
-        if (elem[0].id === 'dj') return
 
         // play animation
         animations.data.config[elem[0].id].animation.play()

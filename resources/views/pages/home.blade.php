@@ -18,13 +18,15 @@
                         <h1>{{ __('messages.header.why') }}</h1>
 
                         <div id="token-sale-timer">
-                            {!! __('messages.header.token-sale') !!}
+                            <div id="countdown">
+                                <countdown></countdown>
+                            </div>
                         </div>
 
                         <div id="header-buttons">
                             @spaceless
-                            <a href="#" class="btn btn-default btn-lg">{{ __('messages.header.sign-up') }}</a>
-                            <a href="#" class="btn btn-white btn-lg">{{ __('messages.header.whitepaper') }}</a>
+                            <a href="#subscribe" data-scroll="subscribe" class="btn btn-default btn-lg">{{ __('messages.header.subscribe') }}</a>
+                            <a href="{{ asset('documents/whitepaper.pdf') }}" class="btn btn-white btn-lg" target="_blank">{{ __('messages.header.whitepaper') }}</a>
                             @endspaceless
                         </div>
 
