@@ -58,6 +58,16 @@ const animations = {
         config: 'houseman.json',
         animation: null,
       },
+      peopleLeft: {
+        id: 'peopleLeft',
+        config: 'sub2-left.json',
+        animation: null,
+      },
+      peopleRight: {
+        id: 'peopleRight',
+        config: 'sub2-right.json',
+        animation: null,
+      },
     },
     activeAnimation: null,
   },
