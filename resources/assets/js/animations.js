@@ -105,7 +105,7 @@ const animations = {
         }
 
         // do not play dj at this moment
-        if (elem[0].id === 'dj') return
+        // if (elem[0].id === 'dj') return
 
         // play animation
         animations.data.config[elem[0].id].animation.play()
