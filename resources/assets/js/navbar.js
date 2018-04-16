@@ -15,9 +15,9 @@ function scrollPageTo($target) {
     offset: -60,
     progress() {
       // If the page scroll height changes, scroll afresh to the shifted target
-      if (currentScrollHeight !== document.body.scrollHeight) scrollPageTo($target);
+      if (currentScrollHeight !== document.body.scrollHeight) scrollPageTo($target)
     },
-  });
+  })
 }
 
 $('nav#navbar-main ul li a').click(function (e) {
@@ -27,15 +27,15 @@ $('nav#navbar-main ul li a').click(function (e) {
   if (!id) return false
 
   const navbarCollapse = $('.navbar-collapse')
-  
-  if(navbarCollapse).hasClass('in'){
+
+  if (navbarCollapse.hasClass('in')) {
     navbarCollapse.removeClass('in')
   }
 
   scrollPageTo(id)
 
   return true
-});
+})
 
 const navbar = {
   window: null,
