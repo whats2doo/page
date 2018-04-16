@@ -196,7 +196,8 @@ return [
         'team' => 'Team',
         'documents' => 'Documents',
         'faq' => 'FAQ',
-        'roadmap' => 'Roadmap'
+        'roadmap' => 'Roadmap',
+        'about' => 'About'
     ],
 
     'token-allocation' => [
