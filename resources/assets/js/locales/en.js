@@ -9,6 +9,10 @@ export default {
     btn: 'Subscribe',
     placeholder: 'Your E-Mail address...',
   },
+  countdown: {
+    startsIn: 'Token Sale starts in',
+    hasStarted: 'Sale has been started',
+  },
   roadmap: {
     headline: 'Roadmap',
     description: 'We are eager to open our platform to the world. We developed an aspiring roadmap to bring this vision to life.',
