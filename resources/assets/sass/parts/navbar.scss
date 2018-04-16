@@ -3,6 +3,12 @@ $font-size-social-icons: 22px;
 // desktop
 @media (min-width: $screen-md-min) {
   #navbar-main {
+    .btn-default {
+      &:focus {
+        background-color: $btn-default-bg;
+      }
+    }
+
     &.navbar {
       a.navbar-brand {
         padding: 10px 15px;
