@@ -2,6 +2,13 @@ $faq-background: #eef5f7;
 
 #houseman-container {
   position: relative;
+  margin-top: -60px;
+  min-height: 120px;
+  z-index: -1;
+
+  @media (max-width: $screen-xs-min) {
+    margin-top: -40px;
+  }
 
   .houseman-background {
     position: absolute;
