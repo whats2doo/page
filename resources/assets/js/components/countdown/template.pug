@@ -1,0 +1,17 @@
+#countdown
+  span.token-sale-unit(v-if="message")
+    | {{ $t('countdown.hasStarted') }}
+  span.token-sale-unit(v-if="running")
+    | {{ $t('countdown.startsIn') }}
+  span#days.token-sale-value(v-if="days")
+    | {{ days }}
+  span.token-sale-unit(v-if="days")
+    | Days
+  span#hours.token-sale-value(v-if="hours")
+    | {{ hours }}
+  span.token-sale-unit(v-if="hours")
+    | Hours
+  span#minutes.token-sale-value(v-if="minutes")
+    | {{ minutes }}
+  span.token-sale-unit(v-if="minutes")
+    | Minutes
