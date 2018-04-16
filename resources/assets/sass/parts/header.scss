@@ -1,8 +1,6 @@
 header {
   min-height: 100vh;
-  // background: $brand-primary;
   color: white;
-  // background: linear-gradient(45deg, #008cde 80%, #00b4e3 15%);
   background: linear-gradient(45deg, #00b4e3 15%, #008cde 80%);
 
   #w2d {
@@ -50,28 +48,20 @@ header {
         }
       }
 
-      #placeholder-image {
-        // animation: bounceIn 0.5s ease-in 1;
-      }
-
       #shadow {
         bottom: -5px;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
         z-index: auto;
-        // animation: fadeIn 1s ease-in 1;
         opacity: 0.6;
         filter: blur(3px);
       }
     }
 
     #cleaner {
-      // height: 280px;
-      /* height: 80%; */
       position: absolute;
       bottom: -15px;
-      /* left: 0; */
       width: 70%;
       left: 50%;
       transform: translateX(-50%);
