@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top navbar-clear" id="navbar-main">
+<nav class="navbar navbar-default navbar-fixed-top navbar-clear navbar-no-animation" id="navbar-main">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -39,7 +39,14 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="{{ asset('documents/whitepaper.pdf') }}" target="_blank">Whitepaper</a>
+                                <a href="{{ asset('documents/whitepaper.pdf') }}" target="_blank" class="whitepaper-menu-item">
+                                    <div class="whitepaper-menu-icon">
+                                        <i class="ion-ios-cloud-download-outline"></i>
+                                    </div>
+                                    <div class="whitepaper-menu-title">
+                                        Whitepaper
+                                    </div>
+                                </a>
                             </li>
                             <li>
                                 <a href="#">Another document</a>

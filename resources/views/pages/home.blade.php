@@ -40,6 +40,7 @@
 
 @section('content')
 
+    @include('parts.companies-header')
     @include('parts.about')
     @include('parts.mission')
     @include('parts.numbers')
