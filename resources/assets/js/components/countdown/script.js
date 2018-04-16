@@ -2,13 +2,13 @@ export default {
   name: 'countdown',
   data() {
     return {
-      startDate: 1527811201000,
-      days: null,
-      hours: null,
-      minutes: null,
-      message: null,
-      interval: null,
-      running: null,
+      endDate: 1527811201000,
+      days: false,
+      hours: false,
+      minutes: false,
+      message: false,
+      interval: false,
+      running: false,
     }
   },
 
@@ -21,7 +21,7 @@ export default {
   methods: {
     calculateCountdown() {
       const now = new Date().getTime()
-      const distance = this.startDate - now
+      const distance = this.endDate - now
 
       if (distance < 0) {
         // countdown ended
