@@ -20,15 +20,19 @@ function scrollPageTo($target) {
   });
 }
 
-// data-scroll="subscribe"
-
-$('[data-scroll!=\'\'][data-scroll]').click(function (e) {
+$('nav#navbar-main ul li a').click(function (e) {
   e.preventDefault()
-  const id = $(this).attr('data-scroll')
+  const id = $(this).attr('href')
 
   if (!id) return false
 
-  scrollPageTo(`#${id}`)
+  const navbarCollapse = $('.navbar-collapse')
+
+  if (navbarCollapse.hasClass('in')) {
+    navbarCollapse.removeClass('in')
+  }
+
+  scrollPageTo(id)
 
   return true
 });

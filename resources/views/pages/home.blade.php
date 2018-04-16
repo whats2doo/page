@@ -18,7 +18,9 @@
                         <h1>{{ __('messages.header.why') }}</h1>
 
                         <div id="token-sale-timer">
-                            {!! __('messages.header.token-sale') !!}
+                            <div id="countdown">
+                                <countdown></countdown>
+                            </div>
                         </div>
 
                         <div id="header-buttons">

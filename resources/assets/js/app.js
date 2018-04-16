@@ -4,6 +4,7 @@ import VueI18n from 'vue-i18n'
 import './bootstrap'
 import roadmap from './components/roadmap/roadmap.vue'
 import subscribe from './components/subscribe/subscribe.vue'
+import countdown from './components/countdown/countdown.vue'
 
 // locales
 import en from './locales/en'
@@ -52,12 +53,22 @@ if (document.getElementById('roadmap-app')) {
   })
 }
 
-if (document.getElementById('subscribe')) {
+if (document.getElementById('subscribe-container')) {
   Vue.create({
-    el: '#subscribe',
+    el: '#subscribe-container',
     i18n,
     components: {
       subscribe,
+    },
+  })
+}
+
+if (document.getElementById('countdown')) {
+  Vue.create({
+    el: '#countdown',
+    i18n,
+    components: {
+      countdown,
     },
   })
 }
