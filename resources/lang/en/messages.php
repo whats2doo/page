@@ -31,7 +31,8 @@ return [
         'token-sale' => 'Token <strong>Pre-Sale</strong> starts at <strong>01. June 2018</strong>',
         'official' => 'Official ICO of whats2doo.com',
         'sign-up' => 'Sign up',
-        'whitepaper' => 'Whitepaper'
+        'whitepaper' => 'Whitepaper',
+        'subscribe' => 'Subscribe',
     ],
 
     'about' => [
