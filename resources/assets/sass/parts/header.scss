@@ -4,6 +4,7 @@ header {
   color: white;
   // background: linear-gradient(45deg, #008cde 80%, #00b4e3 15%);
   background: linear-gradient(-20deg, #00b4e3 15%, #0167d3 80%);
+  position: relative;
 
   .container {
     z-index: 2;
@@ -12,7 +13,7 @@ header {
 
   .header-background {
     position: absolute;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     z-index: 1;
     overflow: hidden;
@@ -44,16 +45,25 @@ header {
 
       @media (max-width: 900px) {
         height: 200vh;
-        width: 200vw;
+        width: 200vh;
         display: block;
         border-radius: 50%;
-        right: -100vw;
+        right: -100vh;
         overflow: hidden;
+      }
+
+      @media (max-width: 450px) {
+        right: -130vh;
       }
 
       .circle1-container {
         position: relative;
         height: 100vh;
+
+        @media (max-width: 1024px) {
+          background: linear-gradient(0deg, #008cde 50%, transparent 50%);
+          display: block;
+        }
 
         .circle1 {
           position: absolute;
