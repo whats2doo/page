@@ -2,6 +2,89 @@ header {
   min-height: 100vh;
   color: white;
   background: linear-gradient(45deg, #00b4e3 15%, #008cde 80%);
+  // background: linear-gradient(45deg, #008cde 80%, #00b4e3 15%);
+  background: linear-gradient(-20deg, #00b4e3 15%, #0167d3 80%);
+  position: relative;
+
+  .container {
+    z-index: 2;
+    position: relative;
+  }
+
+  .header-background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+
+    .square {
+      background: linear-gradient(to bottom, transparent 15%, #008cde 80%);
+      height: 100%;
+      width: 50%;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: -25%;
+      transform: skew(15deg);
+      transform-origin: center;
+    }
+
+    .circle {
+      position: absolute;
+      background: linear-gradient(0deg, #00b4e3 0%, #008cde 30%);
+      // linear-gradient(-70deg, transparent 0%, #008cde 90%)
+      height: 205vw;
+      width: 205vw;
+      display: block;
+      border-radius: 50%;
+      right: -100vw;
+      overflow: hidden;
+
+      @media (max-width: 900px) {
+        height: 200vh;
+        width: 200vh;
+        display: block;
+        border-radius: 50%;
+        right: -100vh;
+        overflow: hidden;
+      }
+
+      @media (max-width: 450px) {
+        right: -130vh;
+      }
+
+      .circle1-container {
+        position: relative;
+        height: 100vh;
+
+        @media (max-width: 1024px) {
+          background: linear-gradient(0deg, #008cde 50%, transparent 50%);
+          display: block;
+        }
+
+        .circle1 {
+          position: absolute;
+          background: linear-gradient(to bottom, transparent 15%, #0167d3 80%);
+          height: 100vw;
+          width: 100vw;
+          display: block;
+          border-radius: 50%;
+          left: -7vw;
+
+          @media (max-width: 1024px) {
+            bottom: -150vw;
+          }
+
+          @media (max-width: 450px) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
 
   #w2d {
     position: relative;
