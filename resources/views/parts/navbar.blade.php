@@ -66,7 +66,7 @@
                     @endif
 
                     <li class="call-to-action hidden-xs hidden-sm">
-                        <a href="#" class="btn btn-default">
+                        <a href="#" class="btn btn-default" data-scroll="subscribe">
                             {{ __('messages.header.sign-up') }}
                         </a>
                     </li>
