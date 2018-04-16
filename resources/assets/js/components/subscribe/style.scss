@@ -1,5 +1,5 @@
 $brand-success: #2ab27b;
-$brand-danger: #bf5329;
+$brand-danger: #d9534f;
 
 #subscribe {
   width: 100%;
@@ -9,12 +9,34 @@ $brand-danger: #bf5329;
   position: relative;
   -webkit-background-size: 100%;
   background-size: 100%;
+  overflow: hidden;
+
+  #peopleLeft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70%;
+
+    @media (max-width: 992px) {
+      display: none;
+    }
+  }
+
+  #peopleRight {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+
+    @media (max-width: 992px) {
+      display: none;
+    }
+  }
 
   .subscribe-people {
     width: 100%;
     height: 100%;
     padding: 75px 0 75px 0;
-    background: url("../../../images/people.png");
     -webkit-background-size: 90%;
     background-size: 90%;
     background-repeat: no-repeat;
@@ -26,6 +48,15 @@ $brand-danger: #bf5329;
     color: white;
     font-weight: 700;
     text-shadow: 0 1px 1px rgba(30, 30, 30, 0.4);
+    margin-top: 0;
+
+    @media (max-width: 992px) {
+      font-size: 30px;
+    }
+
+    @media (max-width: 500px) {
+      font-size: 22px;
+    }
   }
 
   #subscribe-input {
@@ -33,6 +64,7 @@ $brand-danger: #bf5329;
     border-top-left-radius: 100px;
     border: none;
     height: 58px;
+    padding-left: 25px;
   }
 
   .btn {
@@ -40,6 +72,19 @@ $brand-danger: #bf5329;
     border-top-left-radius: 0;
     height: 58px;
     text-transform: uppercase;
+    font-size: 24px;
+
+    &:focus {
+      outline: none;
+    }
+
+    i {
+      margin-left: 5px;
+    }
+  }
+
+  .form-group {
+    margin-bottom: 0;
   }
 
   .subscribe-btn {
@@ -51,6 +96,9 @@ $brand-danger: #bf5329;
     padding: 10px;
     border-radius: 100px;
     display: inline-block;
+    position: relative;
+    z-index: 1;
+    max-width: 50%;
   }
 
   .subscribe-error {
@@ -58,7 +106,7 @@ $brand-danger: #bf5329;
     color: #fff;
     font-weight: bold;
     padding: 10px;
-    border-radius: 100px;
+    border-radius: 10px;
     display: inline-block;
     margin-top: 10px;
   }
@@ -108,34 +156,18 @@ $brand-danger: #bf5329;
   }
 
   @media (max-width: 991px) {
-    .form-inline .input-group {
-      display: inline-table;
-      vertical-align: middle;
+    .subscribe-form-container {
+      max-width: 100%;
     }
   }
 
   @media (max-width: 767px) {
-    .form-inline .input-group {
-      display: block;
-      vertical-align: middle;
-    }
-
-    .subscribe-form-container {
-      display: block;
-      background: none;
-    }
-
-    #subscribe-input {
-      -webkit-border-radius: 100px;
-      -moz-border-radius: 100px;
-      border-radius: 100px;
+    .subscribe-error {
+      font-size: 14px;
     }
 
     .btn {
-      margin-top: 15px;
-      -webkit-border-radius: 100px;
-      -moz-border-radius: 100px;
-      border-radius: 100px;
+      font-size: 16px;
     }
   }
 }

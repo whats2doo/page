@@ -10,6 +10,13 @@ export default {
       loader: false,
     }
   },
+
+  mounted() {
+    const image = new Image()
+
+    image.src = '/images/icons/eclipse.svg'
+  },
+
   methods: {
     submitEmail() {
       if (this.email !== null) this.loadAPI()
