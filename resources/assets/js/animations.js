@@ -80,7 +80,7 @@ const animations = {
     _each(animations.data.config, (item) => {
       item.animation = animations.loadAnimation(item.id, item.config)
       if (item.id === 'painter') {
-        item.animation.addEventListener('data_ready', animations.removePlaceholder);
+        item.animation.addEventListener('data_ready', animations.removePlaceholder)
       }
     })
 
