@@ -3,11 +3,11 @@ export default {
   data() {
     return {
       endDate: 1527811201000,
-      days: false,
-      hours: false,
-      minutes: false,
-      message: false,
-      interval: false,
+      days: null,
+      hours: null,
+      minutes: null,
+      message: null,
+      interval: null,
       running: false,
     }
   },
