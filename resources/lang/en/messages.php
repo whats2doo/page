@@ -197,7 +197,15 @@ return [
         'documents' => 'Documents',
         'faq' => 'FAQ',
         'roadmap' => 'Roadmap',
-        'about' => 'About'
+        'about' => 'About',
+        'another-document' => 'Another Document',
+        'whitepaper' => 'Whitepaper',
+        'more' => 'More',
+        'mission' => 'Our Mission',
+        'facts' => 'Facts',
+        'token-allocation' => 'Token Allocation & Use of Funds',
+        'ico' => 'Pre ICO & Main ICO',
+        'advisors' => 'Advisors',
     ],
 
     'token-allocation' => [

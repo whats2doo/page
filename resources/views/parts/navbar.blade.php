@@ -25,27 +25,7 @@
         <div class="collapse navbar-collapse" id="w2d-navbar-collapse">
             @if(!empty($menu))
                 <ul class="nav navbar-nav navbar-right" role="tablist">
-                    @foreach($menu as $menuItem)
-                        <li>
-                            <a @isset($menuItem['target']) target="{{ $menuItem['target'] }}" @endif href="{{ $menuItem['href'] }}" data-scroll="{{ $menuItem['scroll'] or '' }}">
-                                {{ __('messages.navigation.'.$menuItem['title']) }}
-                            </a>
-                        </li>
-                    @endforeach
-
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            {{ __('messages.navigation.documents') }} <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="{{ asset('documents/whitepaper.pdf') }}" target="_blank">Whitepaper</a>
-                            </li>
-                            <li>
-                                <a href="#">Another document</a>
-                            </li>
-                        </ul><!-- dropdown-menu -->
-                    </li><!-- dropdown-documents -->
+                    @each('parts.navigation-recursive', $menu, 'menuItem')
 
                     @if(!empty(config('social')))
                         @foreach(config('social') as $socialItem)
