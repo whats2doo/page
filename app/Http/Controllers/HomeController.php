@@ -18,6 +18,7 @@ class HomeController extends Controller
         return response()->view('pages.home', [
             'title'           => 'Home',
             'menu'            => config('menu'),
+            'menuFooter'      => config('menu-footer'),
             'team'            => config('team'),
             'advisors'        => config('advisors'),
             'tokenAllocation' => config('token-allocation'),

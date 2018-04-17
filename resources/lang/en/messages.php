@@ -17,6 +17,8 @@ return [
             'ico-details' => 'Ico Details',
             'blog' => 'Blog',
             'about' => 'What is W2D?',
+            'whitepaper' => 'Whitepaper',
+            'another-document' => 'Another Document',
         ]
     ],
 
