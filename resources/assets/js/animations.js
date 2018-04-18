@@ -23,14 +23,9 @@ const animations = {
         config: 'gardener.json',
         animation: null,
       },
-      cleaner: {
-        id: 'cleaner',
-        config: 'cleaner.json',
-        animation: null,
-      },
       painter: {
         id: 'painter',
-        config: 'painter.json',
+        config: 'combined.json',
         animation: null,
       },
       carpenter: {
@@ -79,9 +74,15 @@ const animations = {
     return `#${_join(selectorArray, ', #')}`
   },
 
+  playHeaderAnimation() {
+    animations.data.config.painter.animation.play()
+  },
+
   removePlaceholder() {
     $('#placeholder-image').css({ opacity: 0 })
-    animations.data.config.painter.animation.play()
+    setTimeout(() => {
+      animations.playHeaderAnimation()
+    }, 3000)
   },
 
   init() {
