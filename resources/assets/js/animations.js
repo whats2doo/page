@@ -25,7 +25,7 @@ const animations = {
       },
       painter: {
         id: 'painter',
-        config: 'painter.json',
+        config: 'combined.json',
         animation: null,
       },
       carpenter: {
