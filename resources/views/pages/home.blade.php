@@ -1,6 +1,7 @@
 @extends('master')
 
-@section('title', $title)
+@section('title', __('messages.meta.home.title'))
+@section('description', __('messages.meta.home.description'))
 
 @section('header')
     <header id="home">
