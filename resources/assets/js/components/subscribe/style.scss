@@ -13,9 +13,9 @@ $brand-danger: #d9534f;
 
   #peopleLeft {
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 70%;
+    bottom: -5px;
+    left: 20px;
+    width: 25%;
 
     @media (max-width: 992px) {
       display: none;
@@ -24,9 +24,9 @@ $brand-danger: #d9534f;
 
   #peopleRight {
     position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 70%;
+    bottom: -5px;
+    right: 20px;
+    width: 25%;
 
     @media (max-width: 992px) {
       display: none;
