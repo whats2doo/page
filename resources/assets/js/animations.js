@@ -82,7 +82,7 @@ const animations = {
     $('#placeholder-image').css({ opacity: 0 })
     setTimeout(() => {
       animations.playHeaderAnimation()
-    }, 3000)
+    }, 2000)
   },
 
   init() {
