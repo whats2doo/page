@@ -23,14 +23,9 @@ const animations = {
         config: 'gardener.json',
         animation: null,
       },
-      cleaner: {
-        id: 'cleaner',
-        config: 'cleaner.json',
-        animation: null,
-      },
       painter: {
         id: 'painter',
-        config: 'painter.json',
+        config: 'painter-macbook-combined.json',
         animation: null,
       },
       carpenter: {
