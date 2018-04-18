@@ -62,3 +62,7 @@
 @section('footer')
     @include('parts.footer')
 @endsection
+
+@section('scripts')
+    <script type="text/javascript" src="{{ asset('js/app.js') }}?v={{ rand(1,9999) }}"></script>
+@endsection

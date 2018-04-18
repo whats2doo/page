@@ -1,0 +1,31 @@
+#error-content {
+  min-height: 100vh;
+  color: white;
+  background: linear-gradient(-20deg, #00b4e3 15%, #0167d3 80%);
+  position: relative;
+
+  .error-container {
+    max-width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    transform: translate(-50%, -50%);
+
+    h1 {
+      color: #fff;
+      font-size: 20px;
+
+      .error-icon {
+        font-size: 32px;
+        vertical-align: middle;
+        margin-right: 5px;
+
+        @media (max-width: $screen-sm-max) {
+          display: block;
+        }
+      }
+    }
+  }
+}

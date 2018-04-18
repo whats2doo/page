@@ -200,6 +200,10 @@ return [
         'about' => 'About'
     ],
 
+    'error-messages' => [
+        '404' => 'The page you are looking for does not exist!',
+    ],
+
     'token-allocation' => [
         'headline' => 'Token Allocation & Use of Funds',
         'text' => 'Whats2doo is aiming to change the world by giving people the opportunity to do what they love. Therefore, we are doing an ICO. The maximum of coins that will ever be created is 300,000,000 W2D. The Soft Cap is set at 2,500 ETH.',
