@@ -11,7 +11,7 @@
                 <div class="col-xs-12">
                     <div id="w2d">
                         <div id="w2d-placeholder">
-                            <img id="placeholder-image" src="{{ asset('images/painter-macbook-combined-placeholder.svg') }}">
+                            <img id="placeholder-image" src="{{ asset('images/painter-placeholder.svg') }}">
                             <img id="shadow" src="{{ asset('images/shadow.svg') }}">
                         </div>
                         <div id="painter"></div>

@@ -80,6 +80,9 @@ const animations = {
 
   removePlaceholder() {
     $('#placeholder-image').css({ opacity: 0 })
+    setTimeout(() => {
+      animations.playHeaderAnimation()
+    }, 3000)
   },
 
   init() {
