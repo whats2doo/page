@@ -25,7 +25,7 @@ const animations = {
       },
       painter: {
         id: 'painter',
-        config: 'painter-macbook-combined.json',
+        config: 'painter.json',
         animation: null,
       },
       carpenter: {
