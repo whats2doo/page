@@ -18,4 +18,10 @@ return [
         'icon'  => 'ion-logo-github',
         'href'  => 'https://github.com/whats2doo',
     ],
+
+    [
+        'title' => 'Telegram',
+        'icon'  => 'customicon w2d-telegram',
+        'href'  => 'https://github.com/whats2doo',
+    ],
 ];

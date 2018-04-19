@@ -222,7 +222,7 @@ return [
     'ico' => [
         'pre-ico' => [
             'tab' => 'Pre-ICO',
-            'text' => 'Our Pre-ICO will beginn on June 1, 2018 and will run for 30 days until June 30, 2018. During the Pre-ICO there will be 45,000,000 W2D avilable.',
+            'text' => 'Our Pre-ICO will begin on June 1, 2018 and will run for 30 days until June 30, 2018. During the Pre-ICO there will be 45,000,000 W2D available.',
             'max-for-sale' => [
                 'title' => 'Maximum for sale Pre-ICO',
                 'description' => '45,000,000 W2D (max. 5,000 ETH)'

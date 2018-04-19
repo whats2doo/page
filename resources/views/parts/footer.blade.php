@@ -43,7 +43,9 @@
                         @foreach(config('social') as $socialItem)
                             <li>
                                 <a target="_blank" href="{{ $socialItem['href'] }}" title="{{ $socialItem['title'] }}">
-                                    <i class="{{ $socialItem['icon'] }}"></i> {{ $socialItem['title'] }}
+                                    <span>
+                                        <i class="{{ $socialItem['icon'] }}"></i>
+                                    </span> {{ $socialItem['title'] }}
                                 </a>
                             </li>
                         @endforeach

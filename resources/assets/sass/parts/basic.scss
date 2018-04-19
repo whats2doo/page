@@ -24,3 +24,32 @@ h3 {
     //}
   }
 }
+
+.customicon {
+  mask-size: contain;
+  mask-position: 50% 50%;
+  mask-repeat: no-repeat;
+  background: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  line-height: 1;
+
+  &:before {
+    content: '';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+  }
+
+  // custom icons
+  &.w2d-telegram {
+    mask-image: url(../../images/icons/telegram-icon.svg);
+  }
+}
