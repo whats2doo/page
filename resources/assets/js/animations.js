@@ -8,6 +8,26 @@ require('jquery-viewport-checker/src/jquery.viewportchecker')
 const animations = {
   data: {
     config: {
+      painter: {
+        id: 'painter',
+        config: 'painter.json',
+        animation: null,
+      },
+      cleaner: {
+        id: 'cleaner',
+        config: 'cleaner.json',
+        animation: null,
+      },
+      carpenter: {
+        id: 'carpenter',
+        config: 'carpenter.json',
+        animation: null,
+      },
+      gardener: {
+        id: 'gardener',
+        config: 'gardener.json',
+        animation: null,
+      },
       carRepair: {
         id: 'carRepair',
         config: 'car-repair.json',
@@ -18,26 +38,6 @@ const animations = {
         config: 'dogsitter.json',
         animation: null,
       },
-      gardener: {
-        id: 'gardener',
-        config: 'gardener.json',
-        animation: null,
-      },
-      cleaner: {
-        id: 'cleaner',
-        config: 'cleaner.json',
-        animation: null,
-      },
-      painter: {
-        id: 'painter',
-        config: 'painter.json',
-        animation: null,
-      },
-      carpenter: {
-        id: 'carpenter',
-        config: 'carpenter.json',
-        animation: null,
-      },
       trainer: {
         id: 'trainer',
         config: 'trainer.json',
@@ -46,11 +46,6 @@ const animations = {
       windowCleaner: {
         id: 'windowCleaner',
         config: 'window-cleaner.json',
-        animation: null,
-      },
-      dj: {
-        id: 'dj',
-        config: 'dj.json',
         animation: null,
       },
       houseman: {
@@ -68,6 +63,11 @@ const animations = {
         config: 'sub2-right.json',
         animation: null,
       },
+      dj: {
+        id: 'dj',
+        config: 'dj.json',
+        animation: null,
+      },
     },
     activeAnimation: null,
   },
@@ -81,7 +81,14 @@ const animations = {
 
   removePlaceholder() {
     $('#placeholder-image').css({ opacity: 0 })
-    animations.data.config.painter.animation.play()
+
+    setTimeout(() => {
+      animations.data.config.painter.animation.play()
+    }, 1000)
+
+    setTimeout(() => {
+      animations.data.config.cleaner.animation.play()
+    }, 3000)
   },
 
   init() {
@@ -115,9 +122,11 @@ const animations = {
         if (!elem[0]) return
         if (!elem[0].id) return
 
+        if ((window.pageYOffset || document.documentElement.scrollTop) === 0) return
+
         // stop animation
         if (action === 'remove') {
-          animations.data.config[elem[0].id].animation.stop()
+          animations.data.config[elem[0].id].animation.pause()
 
           return
         }
