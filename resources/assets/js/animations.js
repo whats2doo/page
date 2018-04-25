@@ -82,6 +82,7 @@ const animations = {
       },
     },
     activeAnimation: null,
+    mobileBreakpoint: 600,
   },
 
   // build selector string for viewport checker
@@ -95,13 +96,7 @@ const animations = {
     $('#placeholder-image').css({ opacity: 0 })
     animations.data.config.painter.animation.play()
   },
-
-  addClass(elementId, className) {
-    const element = document.getElementById(elementId)
-
-    element.classList.add(className)
-  },
-
+  
   getViewportWidth() {
     return Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
   },
@@ -110,7 +105,7 @@ const animations = {
     lottie.setQuality('low')
     // load animations
     _each(animations.data.config, (item) => {
-      if (animations.getViewportWidth() < 600) item.config = item.configMobile
+      if (animations.getViewportWidth() < animations.data.mobileBreakpoint) item.config = item.configMobile
 
       item.animation = animations.loadAnimation(item.id, item.config)
       if (item.id === 'painter') {
