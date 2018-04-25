@@ -2,6 +2,41 @@ header {
   min-height: 100vh;
   color: white;
   background: linear-gradient(-20deg, #00b4e3 15%, #0167d3 80%);
+  position: relative;
+
+  @keyframes moveArrow {
+    0% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  #arrow-down {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0;
+    
+    a {
+      animation-name: moveArrow;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+
+      i {
+        color: #fff;
+        font-size: 40px;
+      }
+    }
+  }
 
   #w2d {
     position: relative;
