@@ -22,6 +22,6 @@ return [
     [
         'title' => 'Telegram',
         'icon'  => 'customicon w2d-telegram',
-        'href'  => 'https://github.com/whats2doo',
+        'href'  => 'https://t.me/joinchat/HIpPXA6ND7zyxwCJGH_-Sw',
     ],
 ];
