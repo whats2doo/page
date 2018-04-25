@@ -39,6 +39,9 @@
                 </div>
             </div>
         </div>
+        <div id="arrow-down">
+            <a href="#about" data-scroll="about"><i class="ion-ios-arrow-down"></i></a>
+        </div>
     </header>
 @endsection
 
