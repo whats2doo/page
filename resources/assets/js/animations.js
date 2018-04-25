@@ -96,7 +96,7 @@ const animations = {
     $('#placeholder-image').css({ opacity: 0 })
     animations.data.config.painter.animation.play()
   },
-  
+
   getViewportWidth() {
     return Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
   },
@@ -105,7 +105,9 @@ const animations = {
     lottie.setQuality('low')
     // load animations
     _each(animations.data.config, (item) => {
-      if (animations.getViewportWidth() < animations.data.mobileBreakpoint) item.config = item.configMobile
+      if (animations.getViewportWidth() < animations.data.mobileBreakpoint) {
+        item.config = item.configMobile
+      }
 
       item.animation = animations.loadAnimation(item.id, item.config)
       if (item.id === 'painter') {
