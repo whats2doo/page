@@ -7,7 +7,7 @@
 
     <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
     <link rel="apple-touch-icon-precomposed" href="{{ asset('images/apple-touch-icon-180x180.png') }}">
-    <link rel="icon" href="{{ asset('images/apple-touch-icon-180x180.png') }}">
+    <link rel="icon" href="{{ asset('images/apple-touch-icon.png') }}">
 
     <title>@yield('title')</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}?v={{ rand(1,9999) }}" media="screen" type="text/css">
