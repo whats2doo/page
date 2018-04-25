@@ -1,12 +1,18 @@
-<li @if (isset ($menuItem['children']) && count($menuItem['children']) > 0) class="dropdown" @endif>
-    <a @if (isset ($menuItem['children']) && count($menuItem['children']) > 0) class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" @endif @isset($menuItem['target']) target="{{ $menuItem['target'] }}" @endif href="{{ $menuItem['href'] }}" data-scroll="{{ $menuItem['scroll'] or '' }}">
-        {{ __('messages.navigation.'.$menuItem['title']) }}
-    </a>
-    @if (isset ($menuItem['children']) && count($menuItem['children']) > 0)
+@if (isset ($menuItem['children']) && count($menuItem['children']) > 0)
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" @isset($menuItem['target']) target="{{ $menuItem['target'] }}" @endif href="{{ $menuItem['href'] }}" data-scroll="{{ $menuItem['scroll'] or '' }}">
+            {{ __('messages.navigation.'.$menuItem['title']) }}
+        </a>
         <ul class="dropdown-menu">
             @foreach($menuItem['children'] as $menuItem)
                 @include('parts.navigation-recursive', $menuItem)
             @endforeach
         </ul><!-- dropdown-menu -->
-    @endif
-</li>
+    </li>
+@else
+    <li>
+        <a @isset($menuItem['target']) target="{{ $menuItem['target'] }}" @endif href="{{ $menuItem['href'] }}" data-scroll="{{ $menuItem['scroll'] or '' }}">
+            {{ __('messages.navigation.'.$menuItem['title']) }}
+        </a>
+    </li>
+@endif
