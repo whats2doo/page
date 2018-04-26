@@ -1,6 +1,10 @@
 #trainer {
   width: 35%;
   margin: 0 auto;
+
+  @media (max-width: $screen-xs-max) {
+    width: 60%;
+  }
 }
 
 #companies {
