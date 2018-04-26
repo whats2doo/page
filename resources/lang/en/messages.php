@@ -2,6 +2,13 @@
 
 return [
 
+    'meta' => [
+        'home' => [
+            'title'       => 'W2D ICO - Official ICO of whats2doo.com',
+            'description' => 'Whats2doo - The one-stop-shopping solution for simple services and jobs - Invest NOW!',
+        ]
+    ],
+
     'footer' => [
         'title-sitemap' => 'Sitemap',
         'title-documents' => 'Documents',
