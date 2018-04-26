@@ -11,65 +11,78 @@ const animations = {
       carRepair: {
         id: 'carRepair',
         config: 'car-repair.json',
+        configMobile: 'car-repair.json',
         animation: null,
       },
       dogsitter: {
         id: 'dogsitter',
         config: 'dogsitter.json',
+        configMobile: 'dogsitter-small.json',
         animation: null,
       },
       gardener: {
         id: 'gardener',
         config: 'gardener.json',
+        configMobile: 'gardener-small.json',
         animation: null,
       },
       cleaner: {
         id: 'cleaner',
         config: 'cleaner.json',
+        configMobile: 'cleaner.json',
         animation: null,
       },
       painter: {
         id: 'painter',
         config: 'painter.json',
+        configMobile: 'painter.json',
         animation: null,
       },
       carpenter: {
         id: 'carpenter',
         config: 'carpenter.json',
+        configMobile: 'carpenter.json',
         animation: null,
       },
       trainer: {
         id: 'trainer',
         config: 'trainer.json',
+        configMobile: 'trainer.json',
         animation: null,
       },
       windowCleaner: {
         id: 'windowCleaner',
         config: 'window-cleaner.json',
+        configMobile: 'window-cleaner.json',
         animation: null,
       },
       dj: {
         id: 'dj',
         config: 'dj.json',
+        configMobile: 'dj-small.json',
         animation: null,
       },
       houseman: {
         id: 'houseman',
         config: 'houseman.json',
+        configMobile: 'houseman-small.json',
         animation: null,
       },
       peopleLeft: {
         id: 'peopleLeft',
         config: 'sub2-left.json',
+        configMobile: 'sub2-left.json',
         animation: null,
       },
       peopleRight: {
         id: 'peopleRight',
         config: 'sub2-right.json',
+        configMobile: 'sub2-right.json',
         animation: null,
       },
     },
     activeAnimation: null,
+    mobileBreakpoint: 600,
   },
 
   // build selector string for viewport checker
@@ -84,10 +97,18 @@ const animations = {
     animations.data.config.painter.animation.play()
   },
 
+  getViewportWidth() {
+    return Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
+  },
+
   init() {
     lottie.setQuality('low')
     // load animations
     _each(animations.data.config, (item) => {
+      if (animations.getViewportWidth() < animations.data.mobileBreakpoint) {
+        item.config = item.configMobile
+      }
+
       item.animation = animations.loadAnimation(item.id, item.config)
       if (item.id === 'painter') {
         item.animation.addEventListener('data_ready', animations.removePlaceholder)
