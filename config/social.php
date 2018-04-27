@@ -21,7 +21,7 @@ return [
 
     [
         'title' => 'Telegram',
-        'icon'  => 'fab fa-telegram',
+        'icon'  => 'fa fa-telegram',
         'href'  => 'https://t.me/joinchat/HIpPXA6ND7zyxwCJGH_-Sw',
     ],
 ];
