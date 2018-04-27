@@ -7,14 +7,14 @@
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 footer-col">
                 <div class="footer-title">{{ __('messages.footer.title-sitemap') }}</div>
-                @if(!empty(config('menu-footer')))
+                @if(!empty($menuFooter['sitemap']))
                     <div class="row">
-                        @foreach (collect(config('menu-footer'))->split(2) as $chunk)
+                        @foreach (collect($menuFooter['sitemap'])->split(2) as $chunk)
                             <div class="col-md-6 col-sm-6 col-xs-6">
                                 <ul>
                                     @foreach ($chunk as $item)
                                         <li>
-                                            <a href="{{ $item['href'] }}">{{ __('messages.footer.navigation.'.$item['title']) }}</a>
+                                            <a href="{{ $item['href'] }}" data-scroll="{{ $item['scroll'] or '' }}">{{ __('messages.footer.navigation.'.$item['title']) }}</a>
                                         </li>
                                     @endforeach
                                 </ul>
@@ -26,15 +26,15 @@
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 footer-col">
                 <div class="footer-title">{{ __('messages.footer.title-documents') }}</div>
+                @if(!empty($menuFooter['documents']))
                 <ul>
-                    <li>
-                        <a href="{{ asset('documents/whitepaper.pdf') }}" target="_blank">Whitepaper</a>
-                    </li>
-                    <li>
-                        <a href="#">Another document</a>
-                    </li>
+                    @foreach ($menuFooter['documents'] as $item)
+                        <li>
+                            <a @isset($item['target']) target="{{ $item['target'] }}" @endif href="{{ $item['href'] }}">{{ __('messages.footer.navigation.'.$item['title']) }}</a>
+                        </li>
+                    @endforeach
                 </ul>
-
+                @endif
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 footer-col">
                 <div class="footer-title">{{ __('messages.footer.title-social') }}</div>
@@ -43,7 +43,9 @@
                         @foreach(config('social') as $socialItem)
                             <li>
                                 <a target="_blank" href="{{ $socialItem['href'] }}" title="{{ $socialItem['title'] }}">
-                                    <i class="{{ $socialItem['icon'] }}"></i> {{ $socialItem['title'] }}
+                                    <span>
+                                        <i class="{{ $socialItem['icon'] }}"></i>
+                                    </span> {{ $socialItem['title'] }}
                                 </a>
                             </li>
                         @endforeach
