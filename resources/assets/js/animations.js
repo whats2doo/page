@@ -8,10 +8,22 @@ require('jquery-viewport-checker/src/jquery.viewportchecker')
 const animations = {
   data: {
     config: {
-      carRepair: {
-        id: 'carRepair',
-        config: 'car-repair.json',
-        configMobile: 'car-repair.json',
+      painter: {
+        id: 'painter',
+        config: 'painter.json',
+        configMobile: 'painter.json',
+        animation: null,
+      },
+      cleaner: {
+        id: 'cleaner',
+        config: 'cleaner.json',
+        configMobile: 'cleaner.json',
+        animation: null,
+      },
+      carpenter: {
+        id: 'carpenter',
+        config: 'carpenter.json',
+        configMobile: 'carpenter.json',
         animation: null,
       },
       dogsitter: {
@@ -26,22 +38,10 @@ const animations = {
         configMobile: 'gardener-small.json',
         animation: null,
       },
-      cleaner: {
-        id: 'cleaner',
-        config: 'cleaner.json',
-        configMobile: 'cleaner.json',
-        animation: null,
-      },
-      painter: {
-        id: 'painter',
-        config: 'painter.json',
-        configMobile: 'painter.json',
-        animation: null,
-      },
-      carpenter: {
-        id: 'carpenter',
-        config: 'carpenter.json',
-        configMobile: 'carpenter.json',
+      carRepair: {
+        id: 'carRepair',
+        config: 'car-repair.json',
+        configMobile: 'car-repair.json',
         animation: null,
       },
       trainer: {
@@ -56,18 +56,6 @@ const animations = {
         configMobile: 'window-cleaner.json',
         animation: null,
       },
-      dj: {
-        id: 'dj',
-        config: 'dj.json',
-        configMobile: 'dj-small.json',
-        animation: null,
-      },
-      houseman: {
-        id: 'houseman',
-        config: 'houseman.json',
-        configMobile: 'houseman-small.json',
-        animation: null,
-      },
       peopleLeft: {
         id: 'peopleLeft',
         config: 'sub2-left.json',
@@ -78,6 +66,18 @@ const animations = {
         id: 'peopleRight',
         config: 'sub2-right.json',
         configMobile: 'sub2-right.json',
+        animation: null,
+      },
+      houseman: {
+        id: 'houseman',
+        config: 'houseman.json',
+        configMobile: 'houseman-small.json',
+        animation: null,
+      },
+      dj: {
+        id: 'dj',
+        config: 'dj.json',
+        configMobile: 'dj-small.json',
         animation: null,
       },
     },
@@ -94,7 +94,14 @@ const animations = {
 
   removePlaceholder() {
     $('#placeholder-image').css({ opacity: 0 })
-    animations.data.config.painter.animation.play()
+
+    setTimeout(() => {
+      animations.data.config.painter.animation.play()
+    }, 1000)
+
+    setTimeout(() => {
+      animations.data.config.cleaner.animation.play()
+    }, 3000)
   },
 
   getViewportWidth() {
@@ -137,6 +144,8 @@ const animations = {
       callbackFunction: function callback(elem, action) {
         if (!elem[0]) return
         if (!elem[0].id) return
+
+        if ((window.pageYOffset || document.documentElement.scrollTop) === 0) return
 
         // stop animation
         if (action === 'remove') {
