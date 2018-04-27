@@ -18,4 +18,10 @@ return [
         'icon'  => 'ion-logo-github',
         'href'  => 'https://github.com/whats2doo',
     ],
+
+    [
+        'title' => 'Telegram',
+        'icon'  => 'fa fa-telegram',
+        'href'  => 'https://t.me/joinchat/HIpPXA6ND7zyxwCJGH_-Sw',
+    ],
 ];

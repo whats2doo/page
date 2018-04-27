@@ -22,8 +22,10 @@ return [
             'roadmap'     => 'Our Roadmap',
             'mission'     => 'Our Mission',
             'ico-details' => 'Ico Details',
-            'blog'        => 'Blog',
-            'about'       => 'What is W2D?',
+            'blog' => 'Blog',
+            'about' => 'What is W2D?',
+            'whitepaper' => 'Whitepaper',
+            'another-document' => 'Another Document',
         ]
     ],
 
