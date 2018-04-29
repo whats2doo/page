@@ -1,16 +1,14 @@
 notifications:
   email: false
-  # slack: coinraise:BkqGC6PRdyIrYdnRUDXTmOX7
+  slack: false
 
 matrix:
   include:
     - language: php
       php: 7.1
-      services:
-        # - mysql
 
       before_install:
-        - cp ./.env_test ./.env
+        - cp /home/forge/env/.env_testing ./.env
 
       before_script:
         - composer install --dev --prefer-source --no-interaction
@@ -21,11 +19,11 @@ matrix:
         - ./vendor/phpunit/phpunit/phpunit tests/Unit/*
         - nohup php -S localhost:8000 -t public/ </dev/null &>/dev/null &
         - PHP_SERVER_PID=$!
-        # - ./vendor/bin/phpunit tests/Feature/*
+        - ./vendor/bin/phpunit tests/Feature/*
         - kill -9 $PHP_SERVER_PID
 
     - language: node_js
-      node_js: "node" # latest stable node.js release
+      node_js: "node"
       before_script:
         - npm install -g stylelint
       script:
