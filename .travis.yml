@@ -33,3 +33,9 @@ matrix:
         - yarn js:test:eslint
         - yarn scss:test:stylelint
         - yarn js:test:prod
+
+deploy:
+  provider: script
+  script: ./deploy.sh
+  on:
+    branch: master
