@@ -2,7 +2,7 @@ import expect from 'expect'
 import roadmap from '../../resources/assets/js/components/roadmap/roadmap.vue'
 import { mountLocale } from './util'
 
-describe('Map', () => {
+describe('Roadmap', () => {
   it('first test', () => {
     const wrapper = mountLocale(roadmap)
 
