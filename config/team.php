@@ -4,6 +4,7 @@ $whats2dooIcon = 'logo-whats2doo';
 $mailIcon = 'ios-mail';
 $linkedinIcon = 'logo-linkedin';
 $xingIcon = 'logo-xing';
+$githubIcon = 'logo-github';
 
 return [
     [
@@ -23,6 +24,10 @@ return [
             'xing' => [
                 'url' => 'https://www.xing.com/profile/Ilja_Leithold/',
                 'icon' => $xingIcon
+            ],
+            'github' => [
+                'url' => '',
+                'icon' => $githubIcon
             ],
             'mail' => [
                 'url' => '',
@@ -49,6 +54,10 @@ return [
                 'url' => 'https://www.xing.com/profile/Hannes_Rothwell/cv',
                 'icon' => $xingIcon
             ],
+            'github' => [
+                'url' => '',
+                'icon' => $githubIcon
+            ],
             'mail' => [
                 'url' => '',
                 'icon' => $mailIcon
@@ -73,6 +82,10 @@ return [
             'xing' => [
                 'url' => 'https://www.xing.com/profile/Yanis_Hamdali/cv',
                 'icon' => $xingIcon
+            ],
+            'github' => [
+                'url' => '',
+                'icon' => $githubIcon
             ],
             'mail' => [
                 'url' => '',
@@ -99,6 +112,39 @@ return [
                 'url' => 'https://www.xing.com/profile/Lucas_Loeffel2/cv',
                 'icon' => $xingIcon
             ],
+            'github' => [
+                'url' => 'https://github.com/loeffel-io',
+                'icon' => $githubIcon
+            ],
+            'mail' => [
+                'url' => '',
+                'icon' => $mailIcon
+            ]
+        ]
+    ],
+
+    [
+        'name' => 'Julian Daiber',
+        'jobtitle' => 'Chief Web Officer',
+        'text' => 'julian_daiber',
+        'image' => 'julian-daiber.jpg',
+        'socialprofiles' => [
+            'whats2doo' => [
+                'url' => 'https://www.whats2doo.com/userprofile/S1JyfUd9x',
+                'icon' => $whats2dooIcon
+            ],
+            'linkedin' => [
+                'url' => '',
+                'icon' => $linkedinIcon
+            ],
+            'xing' => [
+                'url' => 'https://www.xing.com/profile/Julian_Daiber/cv',
+                'icon' => $xingIcon
+            ],
+            'github' => [
+                'url' => 'https://github.com/kstar20001',
+                'icon' => $githubIcon
+            ],
             'mail' => [
                 'url' => '',
                 'icon' => $mailIcon
@@ -123,6 +169,10 @@ return [
             'xing' => [
                 'url' => 'https://www.xing.com/profile/Patrick_Rujan/cv',
                 'icon' => $xingIcon
+            ],
+            'github' => [
+                'url' => '',
+                'icon' => $githubIcon
             ],
             'mail' => [
                 'url' => '',
@@ -149,30 +199,9 @@ return [
                 'url' => 'https://www.xing.com/profile/Jacqueline_Odendahl/cv',
                 'icon' => $xingIcon
             ],
-            'mail' => [
+            'github' => [
                 'url' => '',
-                'icon' => $mailIcon
-            ]
-        ]
-    ],
-
-    [
-        'name' => 'Julian Daiber',
-        'jobtitle' => 'Front End Developer',
-        'text' => 'julian_daiber',
-        'image' => 'julian-daiber.jpg',
-        'socialprofiles' => [
-            'whats2doo' => [
-                'url' => 'https://www.whats2doo.com/userprofile/S1JyfUd9x',
-                'icon' => $whats2dooIcon
-            ],
-            'linkedin' => [
-                'url' => '',
-                'icon' => $linkedinIcon
-            ],
-            'xing' => [
-                'url' => 'https://www.xing.com/profile/Julian_Daiber/cv',
-                'icon' => $xingIcon
+                'icon' => $githubIcon
             ],
             'mail' => [
                 'url' => '',
@@ -199,6 +228,10 @@ return [
                 'url' => 'https://www.xing.com/profile/KristinaLisa_Drenker/cv',
                 'icon' => $xingIcon
             ],
+            'github' => [
+                'url' => '',
+                'icon' => $githubIcon
+            ],
             'mail' => [
                 'url' => '',
                 'icon' => $mailIcon
@@ -223,6 +256,10 @@ return [
             'xing' => [
                 'url' => '',
                 'icon' => $xingIcon
+            ],
+            'github' => [
+                'url' => '',
+                'icon' => $githubIcon
             ],
             'mail' => [
                 'url' => '',
@@ -249,6 +286,10 @@ return [
                 'url' => '',
                 'icon' => $xingIcon
             ],
+            'github' => [
+                'url' => '',
+                'icon' => $githubIcon
+            ],
             'mail' => [
                 'url' => '',
                 'icon' => $mailIcon
@@ -273,6 +314,10 @@ return [
             'xing' => [
                 'url' => '',
                 'icon' => $xingIcon
+            ],
+            'github' => [
+                'url' => '',
+                'icon' => $githubIcon
             ],
             'mail' => [
                 'url' => '',
