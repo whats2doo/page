@@ -7,14 +7,14 @@
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12 footer-col">
                 <div class="footer-title">{{ __('messages.footer.title-sitemap') }}</div>
-                @if(!empty($menuFooter['sitemap']))
+                @if(!empty(config('menu-footer')['sitemap']))
                     <div class="row">
-                        @foreach (collect($menuFooter['sitemap'])->split(2) as $chunk)
+                        @foreach (collect(config('menu-footer')['sitemap'])->split(2) as $chunk)
                             <div class="col-md-6 col-sm-6 col-xs-6">
                                 <ul>
                                     @foreach ($chunk as $item)
                                         <li>
-                                            <a href="{{ $item['href'] }}" data-scroll="{{ $item['scroll'] or '' }}">{{ __('messages.footer.navigation.'.$item['title']) }}</a>
+                                            <a href="{{ $item['href'] }}" @if(Request::is('/'))data-scroll="{{ $item['scroll'] or '' }}"@endif>{{ __('messages.footer.navigation.'.$item['title']) }}</a>
                                         </li>
                                     @endforeach
                                 </ul>
@@ -26,9 +26,9 @@
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 footer-col">
                 <div class="footer-title">{{ __('messages.footer.title-documents') }}</div>
-                @if(!empty($menuFooter['documents']))
+                @if(!empty(config('menu-footer')['documents']))
                 <ul>
-                    @foreach ($menuFooter['documents'] as $item)
+                    @foreach (config('menu-footer')['documents'] as $item)
                         <li>
                             <a @isset($item['target']) target="{{ $item['target'] }}" @endif href="{{ $item['href'] }}">{{ __('messages.footer.navigation.'.$item['title']) }}</a>
                         </li>

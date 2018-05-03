@@ -4,43 +4,43 @@ return [
     'sitemap' => [
         [
             'title'  => 'home',
-            'href'   => '#home',
+            'href'   => '/#home',
             'scroll' => 'home',
         ],
 
         [
             'title'  => 'about',
-            'href'   => '#about',
+            'href'   => '/#about',
             'scroll' => 'about',
         ],
 
         [
             'title'  => 'faq',
-            'href'   => '#faq',
+            'href'   => '/#faq',
             'scroll' => 'faq',
         ],
 
         [
             'title'  => 'roadmap',
-            'href'   => '#roadmap',
+            'href'   => '/#roadmap',
             'scroll' => 'roadmap',
         ],
 
         [
             'title'  => 'mission',
-            'href'   => '#mission',
+            'href'   => '/#mission',
             'scroll' => 'mission',
         ],
 
         [
             'title'  => 'ico-details',
-            'href'   => '#ico',
+            'href'   => '/#ico',
             'scroll' => 'ico',
         ],
 
         [
             'title'  => 'team',
-            'href'   => '#team',
+            'href'   => '/#team',
             'scroll' => 'team',
         ],
     ],
