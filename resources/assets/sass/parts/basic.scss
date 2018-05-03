@@ -14,8 +14,38 @@ h3 {
   border: none;
 
   &.btn-white {
-    background: none;
+    background-color: transparent;
     border: 1px solid white;
     color: white;
+
+    &:hover,
+    &:active {
+      background-color: white;
+      color: $brand-primary;
+
+      &:focus {
+        background-color: white;
+      }
+    }
+
+    &:focus {
+      background-color: transparent;
+    }
+  }
+
+  &.btn-default {
+    &:hover,
+    &:active {
+      background-color: darken($brand-primary, 10%);
+      color: #fff;
+
+      &:focus {
+        background-color: darken($brand-primary, 10%);
+      }
+    }
+
+    &:focus {
+      background-color: $btn-default-bg;
+    }
   }
 }
