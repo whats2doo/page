@@ -12,7 +12,7 @@
                 @foreach(config('mission') as $missionItem)
                     <div class="col-md-6 mission-item">
                         <div class="mission-icon pull-left">
-                            <img src="{{ asset('images/icons/' . $missionItem['icon']) }}" alt="icon">
+                            <img src="{{ asset('images/roadmap/' . $missionItem['icon']) }}" alt="icon">
                         </div><!-- mission_icon -->
 
                         <div class="mission-content">
