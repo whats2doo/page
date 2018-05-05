@@ -3,6 +3,16 @@ h3 {
   color: #333;
 }
 
+h2 {
+  @media (max-width: $screen-sm-max) {
+    font-size: 28px;
+  }
+
+  @media (max-width: $screen-xs-max) {
+    font-size: 24px;
+  }
+}
+
 .container_inner {
   max-width: 550px;
   width: 100%;
@@ -48,4 +58,12 @@ h3 {
       background-color: $btn-default-bg;
     }
   }
+}
+
+.fa-github {
+  transform: scale(1.1);
+}
+
+.fa-telegram {
+  transform: scale(0.98);
 }
