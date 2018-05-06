@@ -1,7 +1,7 @@
 @if (isset ($menuItem['children']) && count($menuItem['children']) > 0)
     <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" @isset($menuItem['target']) target="{{ $menuItem['target'] }}" @endif href="{{ $menuItem['href'] }}" data-scroll="{{ $menuItem['scroll'] or '' }}">
-            {{ __('messages.navigation.'.$menuItem['title']) }}
+            {{ __('messages.navigation.'.$menuItem['title']) }} <span class="caret"></span>
         </a>
         <ul class="dropdown-menu">
             @foreach($menuItem['children'] as $menuItem)
