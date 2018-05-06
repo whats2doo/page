@@ -111,20 +111,28 @@ $token-allocation-background: #eef5f7;
     position: absolute;
     width: auto;
     height: 400px;
-    top: -400px;
+    top: -360px;
 
     @media (max-width: $screen-sm-max) {
       width: 100%;
       height: auto;
-      top: -350px;
-    }
-
-    @media (max-width: $screen-xs-max) {
       top: -300px;
     }
 
+    @media (max-width: $screen-xs-max) {
+      top: -310px;
+    }
+
     @media (max-width: 600px) {
-      top: -200px;
+      top: -370px;
+    }
+
+    @media (max-width: 500px) {
+      top: -325px;
+    }
+
+    @media (max-width: 400px) {
+      top: -270px;
     }
   }
 }
