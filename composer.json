@@ -16,6 +16,7 @@
     "laravel/tinker": "~1.0",
     "renatomarinho/laravel-page-speed": "^1.8",
     "sendgrid/sendgrid": "~6.2",
+    "spatie/laravel-sitemap": "4.0",
     "squizlabs/php_codesniffer": "^3.2"
   },
   "require-dev": {
