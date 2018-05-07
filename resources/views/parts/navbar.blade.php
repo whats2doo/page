@@ -23,9 +23,9 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="w2d-navbar-collapse">
-            @if(!empty($menu))
+            @if(!empty(config('menu')))
                 <ul class="nav navbar-nav navbar-right" role="tablist">
-                    @each('parts.navigation-recursive', $menu, 'menuItem')
+                    @each('parts.navigation-recursive', config('menu'), 'menuItem')
 
                     @if(!empty(config('social')))
                         @foreach(config('social') as $socialItem)
