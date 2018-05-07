@@ -24,7 +24,9 @@
 
                         <div id="token-sale-timer">
                             <div id="countdown">
-                                <countdown></countdown>
+                                <countdown>
+                                    <img src="{{ asset('images/icons/eclipse.svg') }}" width="30">
+                                </countdown>
                             </div>
                         </div>
 
