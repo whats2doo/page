@@ -33,10 +33,10 @@ $faq-background: #eef5f7;
   }
 
   .gradient {
-    background: linear-gradient(to bottom, transparent 0%, $faq-background 20%);
-    padding: 50px 0 50px 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(238, 245, 247, 1) 40%, rgba(238, 245, 247, 1) 100%);
+    padding: 100px 0 50px 0;
     position: absolute;
-    bottom: 10px;
+    bottom: 30px;
     width: 100%;
     left: 15px;
   }
@@ -85,6 +85,10 @@ $faq-background: #eef5f7;
     .faq-number {
       background-color: rgba(203, 203, 203, 1);
     }
+  }
+
+  .collapsing {
+    transition-duration: 200ms;
   }
 
   .panel-body {
