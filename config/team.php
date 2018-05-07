@@ -96,7 +96,7 @@ return [
 
     [
         'name'           => 'Lucas Löffel',
-        'jobtitle'       => 'Chief Technology Officer',
+        'jobtitle'       => 'Head of Development',
         'text'           => 'lucas-loeffel',
         'image'          => 'lucas-loeffel.jpg',
         'socialprofiles' => [
@@ -105,7 +105,7 @@ return [
                 'icon' => $whats2dooIcon
             ],
             'linkedin'  => [
-                'url'  => 'https://www.linkedin.com/in/lucas-l%C3%B6ffel-919458103/',
+                'url'  => '',
                 'icon' => $linkedinIcon
             ],
             'xing'      => [
