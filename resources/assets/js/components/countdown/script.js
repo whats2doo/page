@@ -13,6 +13,8 @@ export default {
   },
 
   mounted() {
+    this.calculateCountdown()
+
     this.interval = setInterval(() => {
       this.calculateCountdown()
     }, 1000)
