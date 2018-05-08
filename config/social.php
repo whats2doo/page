@@ -22,6 +22,6 @@ return [
     [
         'title' => 'Telegram',
         'icon'  => 'fa fa-telegram fa-fw',
-        'href'  => 'https://t.me/joinchat/HIpPXA6ND7zyxwCJGH_-Sw',
+        'href'  => 'https://t.me/w2duupdates',
     ],
 ];

@@ -6,7 +6,13 @@ return [
         'home' => [
             'title'       => 'W2D ICO - Official ICO of whats2doo.com',
             'description' => 'Whats2doo - The one-stop-shopping solution for simple services and jobs - Invest NOW!',
-        ]
+        ],
+    ],
+
+    'opengraph' => [
+        'title'       => 'Whats2doo ICO | The revolution of the gig economy!',
+        'description' => 'Find help and jobs in your neighbourhood. Now you can finally make use of your crypto assets in real life or earn crypto with your own hands\' work. One of the few blockchain projects with a working product a solid business model. Check it out now!',
+        'site-name'   => 'ico.whats2doo.com'
     ],
 
     'footer' => [
@@ -47,33 +53,35 @@ return [
     ],
 
     'about' => [
-        'headline' => 'What is Whats2doo and W2D?',
-        'text_p1'  => 'Whats2doo is a fully automated peer-to-peer service marketplace. We bring people together: those who offer services – our so-called Helpers – and those who need them – we call them Requestors. The platform is online since June 2017 and has currently more than 5,000 registered users in already three German cities: Berlin, Hamburg and Munich. Our ambition is to grow globally and become the #1 marketplace for services and small jobs with a unique and easy to use customer experience for Helpers and Requesters.',
-        'text_p2'  => 'W2D Tokens are ERC20 based utility tokens that have certain payment- and holding utilities associated with Whats2doo. The Whats2doo eco- system will be fuelled by using W2D. In the long run, as cryptocurrencies in general will have an increased adoption, we aim to further promote W2D as the payment of choice for our community.'
+        'headline' => 'Whats2doo and W2D – An Ecosystem for Services and Small Jobs',
+        'text_p1'  => 'Whats2doo is a fully automated peer-to-peer marketplace for services and small jobs. Requesters can post ToDos and connect with skilled Helpers from their neighborhood. To safe nerves, time and money. 
+            The platform is online since June 2017 and currently has more than 5,000 users in Berlin. A proven concept with a sustainable business model, ready for global growth with our great community.
+            Therefore, we get up every day to become the #1 global one-stop shopping solution for finding help in 300+ categories for your everyday life.',
+        'text_p2'  => 'W2D Tokens are your chance to join us and to contribute to our growth plans. Based on the Ethereum blockchain, they will complement the Whats2doo eco-system and allow our community to make use of many value-added features and to earn cryptocurrencies with their own hands work.'
     ],
 
     'companies' => [
-        'headline' => 'Companies we already successfully worked with'
+        'headline' => 'Companies we successfully worked for'
     ],
 
     'mission' => [
         'headline' => 'Change the World - Do What You Love!',
-        'text'     => 'At Whats2doo, we want to become the #1 marketplace for all kinds of services and small jobs with the best possible user experience for our community',
+        'text'     => 'AWe believe that people deserve to do what they love. Join Whats2doo on our way to become the #1 marketplace services and small jobs.',
         'article1' => [
-            'headline' => 'Smart matching with direct booking',
-            'text'     => 'Our smart algorithm based on the team’s headhunting experience matches only suitable Helpers and Requesters and allows for direct booking.'
+            'headline' => 'One platform for all service demands',
+            'text'     => 'No matter what service you are looking for, Whats2doo has the right Helper on just a single platform.'
         ],
         'article2' => [
+            'headline' => 'Smart matching with direct booking',
+            'text'     => 'Our smart algorithm based on the team’s headhunting experience finds you the right Helpers for your ToDo and allows for direct booking.'
+        ],
+        'article3' => [
             'headline' => 'More efficient and cheaper through automation',
             'text'     => 'All processes on the platform are fully automated and allow operations with no manual intervention at low costs.'
         ],
-        'article3' => [
-            'headline' => 'One platform for all service demands',
-            'text'     => 'No matter what service or service provider both businesses and private individuals are looking for, they will find the right solution on a single platform.'
-        ],
         'article4' => [
             'headline' => 'Reviews for Requesters and Helpers',
-            'text'     => 'An integrated, mutual review system installs trust within the community and ensures a high level of quality.'
+            'text'     => 'An integrated, mutual review system instills trust within the community and ensures a high level of quality.'
         ]
     ],
 
@@ -82,31 +90,31 @@ return [
         'showmore' => 'Show More',
         'item1'    => [
             'headline' => 'What is Whats2doo?',
-            'text'     => 'Is a marketplace for customers, sole entrepreneur’s, company’s and corporations. They can offer and buy services from the crowd and are able to be in line with demand. What2doo is already available to the public to sign up and use on any device with an internet connection. Web: https://whats2doo.com'
+            'text'     => 'Whats2doo is a fully automated peer-to-peer marketplace for services and small jobs. Requesters can post ToDos and connect with skilled Helpers from their neighborhood. To safe nerves, time and money. The platform is online since June 2017 and currently has more than 5,000 users in Berlin. A proven concept with a sustainable business model, ready for global growth with our great community.'
         ],
         'item2'    => [
-            'headline' => 'Who is building the Whats2doo Platform and W2D Token?',
-            'text'     => 'Whats2doo GmbH, a Berlin based IT company, is building the Whats2doo Platform and W2D Token. With employees in Berlin and advisors based around the world, the company focuses on developing software that is easy to use for the user. For more information about Whats2doo GmbH, please visit whats2doo.com/team.'
+            'headline' => 'Who is building the Whats2doo platform and W2D Token?',
+            'text'     => 'Whats2doo GmbH, a Berlin based IT company, is building the Whats2doo platform and W2D Tokens under German jurisdiction with the team based in Berlin and advisors around the world.'
         ],
         'item3'    => [
             'headline' => 'What are W2D Tokens?',
-            'text'     => 'W2D tokens are ERC-20 compatible tokens distributed on the Ethereum blockchain pursuant to a related ERC-20 smart contract (the “W2D Tokens”).'
+            'text'     => 'W2D tokens are ERC-20 compatible tokens, distributed on the Ethereum blockchain pursuant to a related ERC-20 smart contract.'
         ],
         'item4'    => [
             'headline' => 'Can the W2D Tokens be used to pay for a service on Whats2doo?',
-            'text'     => 'As of now W2D can not be used to pay for services on Whats2doo.com. Once the ICO is finished we´ll implement the Multi Wallet into each Whats2doo Account and then it will be possible to pay for services with W2D Tokens.'
+            'text'     => 'As of now W2D can not be used to pay for services on Whats2doo.com. Once the ICO is finished we will implement the Multi Wallet into each Whats2doo Account and then it will be possible to pay for services with W2D Tokens.'
         ],
         'item5'    => [
-            'headline' => 'What does W2D stand for?',
-            'text'     => 'We believe that people only give their best if they do what they love. W2D stands for Whats2doo, which follows the mission to enable people TO DO WHAT THEY LOVE and are best at.'
+            'headline' => 'How will W2D Tokens be distributed?',
+            'text'     => 'The W2D Token distribution will take place through the Pre-ICO over 30 days starting on July 01, 2018 at 00:01 CET* and the ICO over 30 days starting on September 01,2018 at 00:01 UTC*. One Hundred Fifty million (150,000,000) W2D Tokens will be distributed according to the schedule below: Up to 45,000,000 W2D Tokens (max. 15% of the total amount) will be distributed during a 30 day period beginning on July 01, 2018 at 00:01 CET and ending on June 30, 2018 at 12:59:59 CET (the “Pre-ICO”). Up to 150,000,000 W2D Tokens (max. 50% of the total amount of W2D Tokens) will be distributed during a 30 day period beginning on September 01, 2018 at 00:01 CET and ending on June 30, 2018 at 12:59:59 CET (the “ICO”).'
         ],
         'item6'    => [
-            'headline' => 'How does the W2D Token distribution work?',
-            'text'     => 'The W2D Token distribution will take place through the Pre-ICO over 30 days starting on June 01, 2018 at 00:01 UTC* and the ICO over 30 days starting on August 01,2018 at 00:01 UTC*. One Hundred Fifty million (150,000,000) W2D Tokens will be distributed according to the schedule below: 45,000,000 W2D Tokens (15% of the total amount of  Tokens) will be distributed during a 30 day period beginning on June 01, 2018 at 00:01 UTC* and ending on June 30, 2018 at 12:59:59 UTC* (the “Pre-ICO”). 150,000,000 W2D Tokens (50% of the total amount of W2D Tokens) will be distributed during a 30 day period beginning on August 01, 2018 at 00:01 UTC* and ending on June 30, 2018 at 12:59:59 UTC* (the “ICO”), 27,000,000 W2D (9% of the total amount of W2D Tokens) will be reserved for advertising the Pre-ICO and ICO cannot be traded or transferred on the Ethereum network.'
+            'headline' => 'Why are advertising W2D Tokens being reserved for the ICO?',
+            'text'     => 'Advertising shall ensure that the W2D Token will receive enough community and media coverage. The advertising tokens represent 9% of the total of all W2D Tokens created (or max. 27,000,000 W2D Tokens). The W2D Token distribution smart contract does not permit advertisers to trade or transfer the Advertisers Tokens during the W2D Token distribution period.'
         ],
         'item7'    => [
             'headline' => 'How can I participate in the W2D Token distribution?',
-            'text'     => 'To participate in the W2D Token distribution, you will need an Ethereum compatible wallet or an application where you and only you hold the private keys. Private keys are needed to correctly interact with smart contract functions, like transferring cryptographic tokens. Do not send ether (“ETH”) directly from cryptocurrency exchanges, only an ETH compatible wallet. For detailed information and suggestions on how to purchase W2D Tokens, click here'
+            'text'     => 'To participate in the W2D Token distribution, you will need an Ethereum compatible wallet or an application. Do not send ether (“ETH”) directly from cryptocurrency exchanges, only from an ETH compatible wallet.'
         ],
         'item8'    => [
             'headline' => 'What ETH compatible wallets are recommended?',
@@ -114,19 +122,19 @@ return [
         ],
         'item9'    => [
             'headline' => 'Is there a minimum purchase for W2D Tokens?',
-            'text'     => 'The minimum contribution accepted during the Pre-ICO period of the W2D Token distribution is 0.5 ETH and durin the ICO period 0.04 ETH. Smaller contribution amounts will be rejected.'
+            'text'     => 'The minimum contribution during the Pre-ICO is 0.5 ETH and during the Main ICO 0.04 ETH. Smaller contribution amounts will be rejected.'
         ],
         'item10'   => [
             'headline' => 'How can I see how much ETH has been contributed during the period of the W2D Token distribution?',
-            'text'     => 'The amount of ETH received during the Pre-ICO and ICO period will be displayed on the ico.whats2doo.com website. The history of ETH contributed in previous periods can be viewed on the Ethereum blockchain.'
+            'text'     => 'The amount of ETH received during the Pre-ICO and ICO period will be displayed on the Whats2doo ICO website. The history of ETH contributed in previous periods can be viewed on the Ethereum blockchain.'
         ],
         'item11'   => [
             'headline' => 'Why can’t U.S. citizens, residents or entities purchase W2D Tokens?',
-            'text'     => 'It was decided that U.S. citizens, residents and entities should be excluded from purchasing W2D Tokens in the token distribution because of some of the logistical challenges associated with differing regulations in the many states of the United States of America. Whats2doo GmbH does not believe that the distribution of W2D Tokens or W2D Tokens themselves are securities, commodities, swaps on either securities or commodities, or similar financial instruments. The W2DTokens are not designed for investment or speculative purposes and should not be considered as a type of investment. Nevertheless, U.S. citizens, residents and entities should not purchase or attempt to purchase W2D Tokens.'
+            'text'     => 'It was decided that U.S. citizens, residents and entities should be excluded from purchasing W2D Tokens in the token distribution because of some of the logistical challenges associated with regulations in the United States of America. Whats2doo GmbH does not believe that the distribution of W2D Tokens or W2D Tokens themselves are securities, commodities, swaps on either securities or commodities, or similar financial instruments. The W2DTokens are not designed for investment or speculative purposes and should not be considered as a type of investment. Nevertheless, U.S. citizens, residents and entities should not purchase or attempt to purchase W2D Tokens.'
         ],
         'item12'   => [
             'headline' => 'I have contributed to the W2D Token distribution. When do I receive W2D Tokens?',
-            'text'     => 'After you transaction is confirmed you may claim any W2D Tokens allocated as an ERC-20 compatible token on the Ethereum blockchain.'
+            'text'     => 'After your transaction is confirmed, you may claim W2D Tokens allocated as an ERC-20 compatible token on the Ethereum blockchain.'
         ],
         'item13'   => [
             'headline' => 'Are W2D Tokens transferable?',
@@ -138,20 +146,21 @@ return [
         ],
         'item15'   => [
             'headline' => 'What happens if I can’t contribute ETH or don’t receive my W2D Tokens?',
-            'text'     => 'The W2D Token distribution contract, W2D Token smart contract and the W2D Tokens are being provided on an “as is” and “as available” basis without representations, warranties, promises or guarantees whatsoever of any kind made by Whats2doo GmbH. Prior to purchasing W2D Tokens, you should ensure that you carry out your own examination and investigation and carefully review in their entirety the risks associated with purchasing W2d Tokens as set forth in the Purchase Agreement. Purchases of W2D Tokens are non-refundable and purchases cannot be cancelled. Under no circumstances will you be entitled to receive money or compensation for any W2D Tokens purchased or your inability to purchase W2D Tokens.'
+            'text'     => 'The W2D Token distribution contract, W2D Token smart contract and the W2D Tokens are being provided on an “as is” and “as available” basis without representations, warranties, promises or guarantees whatsoever of any kind made by Whats2doo GmbH. Prior to purchasing W2D Tokens, you should ensure that you carry out your own examination and investigation and carefully review in their entirety the risks associated with purchasing W2D Tokens as set forth in the Purchase Agreement.'
         ],
         'item16'   => [
             'headline' => 'Where do the proceeds from the W2D Token distribution go?',
-            'text'     => 'Proceeds from the W2D Token distribution will be the revenue of Whats2doo GmbH.'
+            'text'     => 'Proceeds from the W2D Token distribution will be the revenue of Whats2doo GmbH. A framework for the intended use of proceeds can be found in our Whitepaper.'
         ],
         'item17'   => [
             'headline' => 'What does Whats2doo GmbH plan to use proceeds from the W2D Token distribution for?',
-            'text'     => 'As a private company, proceeds of the W2D Token distribution will be utilized by Whats2doo GmbH in its sole discretion. Whats2doo GmbH intends to use certain of the proceeds for general administration and operating expenses, as well as to build a platform that enables people to offer services to other entities.'
+            'text'     => 'As a private company, proceeds of the W2D Token distribution will be utilized by Whats2doo GmbH in its sole discretion. A framework for the intended use of proceeds can be found in our Whitepaper.'
         ],
         'item18'   => [
             'headline' => 'Will Whats2doo GmbH be contributing to the W2DToken distribution?',
-            'text'     => 'No, during the entire W2D Token distribution period, Whats2doo GmbH will not do any of the following: Whats2doo GmbH will not purchase W2D Tokens by any means; Whats2doo GmbH will not pay any dividends to its shareholders; and Whats2doo GmbH will not perform any share buybacks.'
+            'text'     => 'No, during the entire W2D Token distribution period, Whats2doo GmbH will not do any of the following:<p>Whats2doo GmbH will not purchase W2D Tokens by any means<p>Whats2doo GmbH will not pay any dividends to its shareholders and<p><p>Whats2doo GmbH will not perform any share buybacks.</p>'
         ]
+
     ],
 
     'subscribe' => [
@@ -162,17 +171,17 @@ return [
 
     'roadmap' => [
         'headline' => 'Our Roadmap',
-        'text'     => 'We are eager to open our platform to the world. We developed an aspiring roadmap to bring this vision to life.'
+        'text'     => 'We are eager to open our platform to the world. Here’s how we are going to do it.'
     ],
 
     'team' => [
         'headline'     => 'Our Team',
         'text'         => 'We hired the best team of entrepreneurs, developers and marketing specialists to achieve our ambitious goals.',
         'members_text' => [
-            'ilja-leithold'        => 'Ilja is a serial entrepreneur who was involved in founding multiple successful businesses such as PERM4 or ITSalesRecruitment from scratch to valuations of EUR >100m. As our CEO, he gives the shirt off his back to make Whats2doo a success.',
-            'hannes-rothwell'      => 'Hannes is responsible for operations at Whats2doo and is leading the ICO. He manages the company on the ground and will accelerate W2D Tokens to the moon. His extensive knowledge as a business consultant supports him to do so.',
-            'yanis-hamdali'        => 'Yanis and his team are responsible for marketing of Whats2doo and the ICO.  Before joining Whats2doo, he has gained experience in global Communications and Marketing at Bayer, where he successfully led the global rollout of many digital projects.',
-            'lucas-loeffel'        => 'Lucas helped growing one of the leading German IT companies and has experiences in building infrastructures for millions of visitors. He is now using this knowledge to build and grow a safe and reliable infrastructure for Whats2doo and the ICO.',
+            'ilja-leithold'        => 'Ilja is a serial entrepreneur and professional recruiter who was involved in founding multiple successful businesses such as PERM4 or ITSalesRecruitment from scratch to valuations of EUR >100m. As our CEO, he gives the shirt off his back to make Whats2doo a success.',
+            'hannes-rothwell'      => 'Hannes is responsible for operations at Whats2doo and is leading the ICO. He manages the company on the ground and his ambition is to accelerate Whats2doo and W2D Tokens sustainably to the moon. His extensive knowledge in recruiting and as a business consultant supports him to do so.',
+            'yanis-hamdali'        => 'Yanis and his team are responsible for marketing of Whats2doo and the ICO. Before joining Whats2doo, he worked for Bayer in different global communications and -marketing functions, where he successfully led the implementation of several innovation projects.',
+            'lucas-loeffel'        => 'Lucas is a full-stack developer who helped accelerating multiple leading German online platforms with the right infrastructure for millions of visitors and users. He is building a safe and reliable infrastructure for Whats2doo and the ICO.',
             'patrick-rujan'        => 'Patrick studied together with Ilja and then accompanied him on different stations. He is responsible for operational marketing and community management within Whats2doo. When he realized the potential of Bitcoin & Co., he invested all his savings and is looking forward to this wise decision today. He will also be intensively involved in the operational management of marketing and public relations activities during the ICO.',
             'jacqueline-odendahl'  => 'Jackie has worked on Controlling and Accounting Projects with many different international clients as a Senior Consultant for EY’s Advisory practice. She is responsible for Controlling and Accounting at Whats2doo and for the ICO.',
             'julian-daiber'        => 'Julian has been a passionate web developer and designer for over 10 years. He is part of Whats2doo\'s founding team from the beginning and has been responsible for developing the web application and our user management system. Before joining Whats2doo, he worked extensively for various major corporations on the development of their websites and platforms. For more than two years, he has worked extensively with the Ethereum blockchain and other emerging cryptocurrencies.',
@@ -221,7 +230,7 @@ return [
 
     'token-allocation' => [
         'headline'                     => 'Token Allocation & Use of Funds',
-        'text'                         => 'Whats2doo is aiming to change the world by giving people the opportunity to do what they love. Therefore, we are doing an ICO. The maximum of coins that will ever be created is 300,000,000 W2D. The Soft Cap is set at 2,500 ETH.',
+        'text'                         => 'We want to change the world by allowing people to do what they love. W2D Tokens will support this vision by offering our community a seamless crypto-alternative to fiat payments. The maximum of coins that will ever be created is 300,000,000 W2D. The Soft Cap is set at 2,500 ETH.',
         'crowd-sale'                   => 'Crowd Sale',
         'future-company-financing'     => 'Future Company Financing',
         'ico-marketing'                => 'ICO Marketing',
@@ -239,7 +248,7 @@ return [
     'ico' => [
         'pre-ico' => [
             'tab'                    => 'Pre-ICO',
-            'text'                   => 'Our Pre-ICO will beginn on June 1, 2018 and will run for 30 days until June 30, 2018. During the Pre-ICO there will be 45,000,000 W2D avilable.',
+            'text'                   => 'Our Pre-ICO will begin on July 1, 2018 and will run for 30 days until July 30, 2018. During the Pre-ICO there will be 45,000,000 W2D available.',
             'max-for-sale'           => [
                 'title'       => 'Maximum for sale Pre-ICO',
                 'description' => '45,000,000 W2D (max. 5,000 ETH)'
@@ -260,7 +269,7 @@ return [
 
             'pre-ico-sale-period' => [
                 'title'       => 'Pre-ICO sale period',
-                'description' => '01:00am UTC June 01, 2018 to 01:00am UTC June 30, 2018'
+                'description' => '01:00am UTC July 01, 2018 to 01:00am UTC July 30, 2018'
             ],
 
             'coin-distribution' => [
@@ -276,7 +285,7 @@ return [
 
         'main-ico' => [
             'tab'                    => 'Main-ICO',
-            'text'                   => 'Our Main-ICO will beginn on August 1, 2018 and will run for 30 days until August 30, 2018. During the ICO there will be 150,000,000 W2D avilable.',
+            'text'                   => 'Our Main-ICO will begin on September 1, 2018 and will run for 30 days until September 30, 2018. During the Main-ICO there will be 150,000,000 W2D available.',
             'max-for-sale'           => [
                 'title'       => 'Maximum for sale ICO',
                 'description' => '150,000,000 W2D (max. 25,000 ETH)'
@@ -295,7 +304,7 @@ return [
             ],
             'main-ico-sale-period'   => [
                 'title'       => 'Pre-ICO sale period',
-                'description' => '01:00am UTC August 01, 2018 to 01:00am UTC August 30, 2018'
+                'description' => '01:00am UTC September 01, 2018 to 01:00am UTC September 30, 2018'
             ],
 
             'coin-distribution' => [
@@ -304,7 +313,7 @@ return [
             ],
 
             'bonus-rate' => [
-                'title'       => 'Bonus Rate',
+                'title'       => 'Bonus Rates',
                 'description' => 'Our main ICO will have an ongoing bonus structure for the entire crowd sale period. The following scheme applies.',
                 'table'       => [
                     'first-3-hours' => [
