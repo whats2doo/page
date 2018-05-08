@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <a href="{{ asset('documents/whitepaper.pdf') }}" target="_blank">
+                <a href="{{ asset('documents/whitepaper.pdf') }}" target="_blank" data-toggle="tooltip" title="Coming soon!">
                     <i class="ion-ios-cloud-download-outline"></i> {{ __('messages.whitepaper.link') }}
                 </a>
             </div><!-- col -->
