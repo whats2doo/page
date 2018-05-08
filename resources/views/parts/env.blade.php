@@ -1,3 +1,3 @@
-@if(app()->environment() !== 'prod' || app()->environment() !== 'production')
+@if(app()->environment() !== 'prod')
     <div id="env">{{ app()->environment() }}</div>
 @endif

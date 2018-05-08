@@ -31,7 +31,7 @@ return [
         'children' => [
             0 => [
                 'title'  => 'whitepaper',
-                'href'   => '/documents/whitepaper.pdf',
+                'href'   => '#',
                 'target' => '_blank',
             ]
         ],
