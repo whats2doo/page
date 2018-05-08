@@ -19,6 +19,7 @@
     <meta name="description" content="@yield('description')">
     <title>@yield('title')</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}?v={{ rand(1,9999) }}" media="screen" type="text/css">
+    @include('parts.hotjar')
 </head>
 <body>
 
