@@ -11,7 +11,7 @@
     </li>
 @else
     <li>
-        <a @isset($menuItem['target']) target="{{ $menuItem['target'] }}" @endif href="{{ $menuItem['href'] }}" @if(Request::is('/'))data-scroll="{{ $menuItem['scroll'] or '' }}"@endif>
+        <a @isset($menuItem['target']) target="{{ $menuItem['target'] }}" @endif href="{{ $menuItem['href'] }}" @if($menuItem['title']=='whitepaper') onclick="alert('Coming soon!');return false;" @endif @if(Request::is('/'))data-scroll="{{ $menuItem['scroll'] or '' }}"@endif>
             {{ __('messages.navigation.'.$menuItem['title']) }}
         </a>
     </li>

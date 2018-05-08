@@ -50,12 +50,6 @@ return [
             'title'  => 'whitepaper',
             'href'   => '/documents/whitepaper.pdf',
             'target' => '_blank',
-        ],
-
-        [
-            'title'  => 'another-document',
-            'href'   => '/documents/whitepaper.pdf',
-            'target' => '_blank',
-        ],
+        ]
     ],
 ];

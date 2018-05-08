@@ -33,12 +33,6 @@ return [
                 'title'  => 'whitepaper',
                 'href'   => '/documents/whitepaper.pdf',
                 'target' => '_blank',
-            ],
-
-            1 => [
-                'title'  => 'another-document',
-                'href'   => '/documents/whitepaper.pdf',
-                'target' => '_blank',
             ]
         ],
     ],
