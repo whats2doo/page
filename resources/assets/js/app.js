@@ -29,6 +29,15 @@ $('.lazyload').lazyload({
   threshold: 200,
 })
 
+$('[data-toggle="tooltip"]').tooltip()
+
+$('a').click((e) => {
+  e.preventDefault()
+  if ($(this).attr('data-toggle') === 'tooltip') return false
+
+  return true
+})
+
 // i18n
 Vue.use(VueI18n)
 const i18n = new VueI18n({
