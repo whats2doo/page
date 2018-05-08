@@ -9,6 +9,13 @@
     <link rel="apple-touch-icon-precomposed" href="{{ asset('images/apple-touch-icon-180x180.png') }}">
     <link rel="icon" href="{{ asset('images/apple-touch-icon.png') }}">
 
+    <meta property="og:title" content="{{ __('messages.opengraph.title') }}">
+    <meta property="og:type" content="Website">
+    <meta property="og:url" content="https://ico.whats2doo.com/">
+    <meta property="og:description" content="{{ __('messages.opengraph.description') }}">
+    <meta property="og:image" content="{{ asset('images/w2d-primary.svg') }}">
+    <meta property="og:site_name" content="{{ __('messages.opengraph.site-name') }}">
+
     <meta name="description" content="@yield('description')">
     <title>@yield('title')</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}?v={{ rand(1,9999) }}" media="screen" type="text/css">

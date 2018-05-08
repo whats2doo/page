@@ -6,7 +6,13 @@ return [
         'home' => [
             'title'       => 'W2D ICO - Official ICO of whats2doo.com',
             'description' => 'Whats2doo - The one-stop-shopping solution for simple services and jobs - Invest NOW!',
-        ]
+        ],
+    ],
+
+    'opengraph' => [
+        'title'       => 'Whats2doo ICO | The revolution of the gig economy!',
+        'description' => 'Find help and jobs in your neighbourhood. Now you can finally make use of your crypto assets in real life or earn crypto with your own hands\' work. One of the few blockchain projects with a working product a solid business model. Check it out now!',
+        'site-name'   => 'ico.whats2doo.com'
     ],
 
     'footer' => [
@@ -15,16 +21,16 @@ return [
         'title-social'    => 'Social Media',
         'copyright'       => '&copy; 2018 Whats2doo GmbH',
         'navigation'      => [
-            'home'        => 'Home',
-            'team'        => 'Team',
-            'documents'   => 'Documents',
-            'faq'         => 'FAQ',
-            'roadmap'     => 'Our Roadmap',
-            'mission'     => 'Our Mission',
-            'ico-details' => 'Ico Details',
-            'blog' => 'Blog',
-            'about' => 'What is W2D?',
-            'whitepaper' => 'Whitepaper',
+            'home'             => 'Home',
+            'team'             => 'Team',
+            'documents'        => 'Documents',
+            'faq'              => 'FAQ',
+            'roadmap'          => 'Our Roadmap',
+            'mission'          => 'Our Mission',
+            'ico-details'      => 'Ico Details',
+            'blog'             => 'Blog',
+            'about'            => 'What is W2D?',
+            'whitepaper'       => 'Whitepaper',
             'another-document' => 'Another Document',
         ]
     ],
