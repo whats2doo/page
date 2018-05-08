@@ -112,6 +112,8 @@ const animations = {
     lottie.setQuality('low')
     // load animations
     _each(animations.data.config, (item) => {
+      if (!document.getElementById(item.id)) return
+
       if (animations.getViewportWidth() < animations.data.mobileBreakpoint) {
         item.config = item.configMobile
       }

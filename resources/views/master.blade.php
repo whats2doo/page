@@ -19,8 +19,7 @@
 @yield('header')
 @yield('content')
 @yield('footer')
-
-<script type="text/javascript" src="{{ asset('js/app.js') }}?v={{ rand(1,9999) }}"></script>
+@yield('scripts')
 
 </body>
 </html>
