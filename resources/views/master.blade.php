@@ -21,6 +21,7 @@
 @yield('footer')
 
 <script type="text/javascript" src="{{ asset('js/app.js') }}?v={{ rand(1,9999) }}"></script>
+@include('parts.google-analytics')
 
 </body>
 </html>
