@@ -147,7 +147,7 @@ const animations = {
 
         // stop animation
         if (action === 'remove') {
-          animations.data.config[elem[0].id].animation.stop()
+          animations.data.config[elem[0].id].animation.pause()
 
           return
         }

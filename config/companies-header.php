@@ -2,32 +2,14 @@
 
 return [
     [
-        'title' => 'Chipin',
-        'url' => 'http://www.google.de',
-        'image' => 'chipin-logo.png',
+        'title' => 'Startup Safari',
+        'url'   => 'http://berlin.startupsafari.com/agenda/#session_94',
+        'image' => 'SuS-Logo-Berlin.svg',
     ],
 
     [
-        'title' => 'BTC Echo',
-        'url' => 'http://www.google.de',
-        'image' => 'btcecho.png',
-    ],
-
-    [
-        'title' => 'Blockchain News',
-        'url' => 'http://www.google.de',
-        'image' => 'blockchain-news.png',
-    ],
-
-    [
-        'title' => 'BTC Echo',
-        'url' => 'http://www.google.de',
-        'image' => 'btcecho.png',
-    ],
-
-    [
-        'title' => 'Blockchain News',
-        'url' => 'http://www.google.de',
-        'image' => 'blockchain-news.png',
+        'title' => 'Netze Neu Nutzen',
+        'url'   => 'https://www.oip.netze-neu-nutzen.de/ideas/show/861',
+        'image' => 'netze-neu-nutzen-logo.png',
     ],
 ];
