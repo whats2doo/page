@@ -60,14 +60,8 @@ return [
     'documents' => [
         [
             'title'  => 'whitepaper',
-            'href'   => '/documents/whitepaper.pdf',
+            'href'   => '#',
             'target' => '_blank',
-        ],
-
-        [
-            'title'  => 'another-document',
-            'href'   => '/documents/whitepaper.pdf',
-            'target' => '_blank',
-        ],
+        ]
     ],
 ];
