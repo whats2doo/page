@@ -32,6 +32,8 @@ return [
             'about'            => 'What is W2D?',
             'whitepaper'       => 'Whitepaper',
             'another-document' => 'Another Document',
+            'imprint'          => 'Imprint',
+            'privacy-policy'   => 'Privacy Policy',
         ]
     ],
 
