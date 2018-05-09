@@ -2,6 +2,10 @@ export default {
   header: {
     example: 'Header en',
   },
+  cookieconsent: {
+    text: 'This website uses cookies to ensure you get the best experience on our website.',
+    href: 'https://www.whats2doo.com/datenschutz',
+  },
   subscribe: {
     errorEmailExists: 'E-Mail address is already registered!',
     errorEmailNotValid: 'E-Mail address is not valid!',
@@ -19,17 +23,17 @@ export default {
     2017: {
       q1: {
         headline: 'Launching the Beta',
-        description: 'The team was able to launch the Beta to a selected group of early adopters. The first feedback was fantastic, so the team was confirmed in their project and vision.',
+        description: 'After months of preparation, the team was able to launch the platform. The first feedback from early adopters was fantastic, and the team’s project and vision were confirmed.',
         image: 'launching-beta.svg',
       },
       q2: {
         headline: 'Matching Algorithm',
-        description: 'We deployed and improved our matching algorithm by adding specific geo-location data and the availability of specific calendar schedules.',
+        description: 'We improved our matching algorithm by adding specific geo-location data and the availability of specific calendar schedules.',
         image: 'matching-algorithm.svg',
       },
       q3: {
         headline: 'Testing the Platform',
-        description: 'We launched first user acquisition campaigns and got very promising results: Based on our tests we grew the user base to >5.000 users in three German launch cities.',
+        description: 'We launched our first user acquisition campaigns and got promising results: Based on our tests we grew the user base in three German launch cities.',
         image: 'testing-platform.svg',
       },
       q4: {
@@ -41,23 +45,23 @@ export default {
     2018: {
       q1: {
         headline: 'Advisors signed to the board',
-        description: 'The founders were able to attract a global network of advisors and presented the idea to the crowd. Contributors from all over the world started to join the movement.',
+        description: 'The team started to attract a global network of experienced advisors from the fields of blockchain technology, cryptocurrencies, gig economy, and venture capital.',
         image: 'advisors-signed.svg',
       },
       q2: {
-        headline: 'ICO Launch',
-        description: 'The ICO is launched and the first W2D are ditributed to contributors. The first step to the revolution of the service economy is taken. This is a small step for Whats2doo but a giant one for Human kind.',
-        image: 'ico-launch.svg',
+        headline: 'ICO preperation',
+        description: 'The team and the platform continue to grow. Germany is chosen as a jurisdiction and regulatory approval by BaFin is being prepared.',
+        image: 'beta-token-payment-functions.svg',
       },
       q3: {
-        headline: 'W2D Exchange listing',
-        description: 'We will start to list W2D on exchanges and try to get listed on as many exchanges as possible.',
-        image: 'exchange-listing.svg',
+        headline: 'ICO goes live',
+        description: 'The crowdsale starts and first W2D are distributed to contributors to revolutionize the gig economy. ',
+        image: 'ico-launch.svg',
       },
       q4: {
-        headline: 'Beta Token Payment Function',
-        description: 'The first beta of token payment will be integrated and tested.',
-        image: 'beta-token-payment-functions.svg',
+        headline: 'W2D Exchange listing',
+        description: 'We will focus on listing W2D on top exchanges to ensure a high tradability.',
+        image: 'exchange-listing.svg',
       },
     },
     2019: {

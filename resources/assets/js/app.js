@@ -21,6 +21,7 @@ require('./navbar')
 require('./footer')
 require('./animations')
 require('jquery-lazyload/jquery.lazyload.js')
+require('cookieconsent')
 require('./token-allocation')
 require('./ico')
 require('./faq')
@@ -36,6 +37,23 @@ $('a').click((e) => {
   if ($(this).attr('data-toggle') === 'tooltip') return false
 
   return true
+})
+
+window.addEventListener('load', () => {
+  window.cookieconsent.initialise({
+    palette: {
+      popup: {
+        background: '#000',
+      },
+      button: {
+        background: '#0097ee',
+      },
+    },
+    content: {
+      message: en.cookieconsent.text,
+      href: en.cookieconsent.href,
+    },
+  })
 })
 
 // i18n

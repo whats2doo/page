@@ -43,6 +43,18 @@ return [
             'href'   => '/#team',
             'scroll' => 'team',
         ],
+
+        [
+            'title'  => 'imprint',
+            'href'   => 'https://www.whats2doo.com/impressum',
+            'scroll' => '',
+        ],
+
+        [
+            'title'  => 'privacy-policy',
+            'href'   => 'https://www.whats2doo.com/datenschutz',
+            'scroll' => '',
+        ]
     ],
 
     'documents' => [
