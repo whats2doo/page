@@ -30,7 +30,7 @@
                 <ul>
                     @foreach (config('menu-footer')['documents'] as $item)
                         <li>
-                            <a @isset($item['target']) target="{{ $item['target'] }}" @if($item['title']=='whitepaper') title="Coming soon!" data-toggle="tooltip" @endif href="{{ $item['href'] }}">{{ __('messages.footer.navigation.'.$item['title']) }}</a>
+                            <a @isset($item['target']) target="{{ $item['target'] }}"@endif @if($item['title']=='whitepaper') title="Coming soon!" data-toggle="tooltip" @endif href="{{ $item['href'] }}">{{ __('messages.footer.navigation.'.$item['title']) }}</a>
                         </li>
                     @endforeach
                 </ul>
