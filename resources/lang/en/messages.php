@@ -11,7 +11,7 @@ return [
 
     'opengraph' => [
         'title'       => 'Whats2doo ICO | The revolution of the gig economy!',
-        'description' => 'Find help and jobs in your neighbourhood. Now you can finally make use of your crypto assets in real life or earn crypto with your own hands\' work. One of the few blockchain projects with a working product a solid business model. Check it out now!',
+        'description' => 'Find help and jobs in your neighbourhood. Now you can finally make use of your crypto assets in real life or earn crypto with your own hands\' work. One of the few blockchain projects with a working product and a solid business model. Check it out now!',
         'site-name'   => 'ico.whats2doo.com'
     ],
 
