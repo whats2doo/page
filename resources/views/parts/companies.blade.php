@@ -5,7 +5,7 @@
         </div>
     </div>
 </section>
-@if(!empty(config('companies')))
+{{-- @if(!empty(config('companies')))
     <section id="company-logos" class="box">
         <div class="container">
             <div class="row text-center">
@@ -22,4 +22,4 @@
             </div><!-- row -->
         </div><!-- container -->
     </section><!-- company-logos -->
-@endif
+@endif --}}
