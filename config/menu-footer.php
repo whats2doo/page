@@ -48,19 +48,21 @@ return [
             'title'  => 'imprint',
             'href'   => 'https://www.whats2doo.com/impressum',
             'scroll' => '',
+            'target' => '_blank',
         ],
 
         [
             'title'  => 'privacy-policy',
             'href'   => 'https://www.whats2doo.com/datenschutz',
             'scroll' => '',
+            'target' => '_blank',
         ]
     ],
 
     'documents' => [
         [
             'title'  => 'whitepaper',
-            'href'   => '#',
+            'href'   => '/documents/whats2doo-ico-whitepaper.pdf',
             'target' => '_blank',
         ]
     ],

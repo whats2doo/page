@@ -14,7 +14,7 @@
                                 <ul>
                                     @foreach ($chunk as $item)
                                         <li>
-                                            <a href="{{ $item['href'] }}" @if(Request::is('/'))data-scroll="{{ $item['scroll'] or '' }}"@endif>{{ __('messages.footer.navigation.'.$item['title']) }}</a>
+                                            <a @isset($item['target']) target="{{ $item['target'] }}" @endif href="{{ $item['href'] }}" @if(Request::is('/'))data-scroll="{{ $item['scroll'] or '' }}"@endif>{{ __('messages.footer.navigation.'.$item['title']) }}</a>
                                         </li>
                                     @endforeach
                                 </ul>
@@ -27,13 +27,13 @@
             <div class="col-md-3 col-sm-6 col-xs-6 footer-col">
                 <div class="footer-title">{{ __('messages.footer.title-documents') }}</div>
                 @if(!empty(config('menu-footer')['documents']))
-                <ul>
-                    @foreach (config('menu-footer')['documents'] as $item)
-                        <li>
-                            <a @isset($item['target']) target="{{ $item['target'] }}"@endif @if($item['title']=='whitepaper') title="Coming soon!" data-toggle="tooltip" @endif href="{{ $item['href'] }}">{{ __('messages.footer.navigation.'.$item['title']) }}</a>
-                        </li>
-                    @endforeach
-                </ul>
+                    <ul>
+                        @foreach (config('menu-footer')['documents'] as $item)
+                            <li>
+                                <a @isset($item['target']) target="{{ $item['target'] }}" @endif href="{{ $item['href'] }}">{{ __('messages.footer.navigation.'.$item['title']) }}</a>
+                            </li>
+                        @endforeach
+                    </ul>
                 @endif
             </div>
             <div class="col-md-3 col-sm-6 col-xs-6 footer-col">

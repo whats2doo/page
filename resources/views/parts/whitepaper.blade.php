@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
-                <a href="#" target="_blank" data-toggle="tooltip" title="Coming soon!">
+                <a href="{{ asset('documents/whats2doo-ico-whitepaper.pdf') }}" target="_blank">
                     <i class="ion-ios-cloud-download-outline"></i> {{ __('messages.whitepaper.link') }}
                 </a>
             </div><!-- col -->
