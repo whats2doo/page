@@ -50,6 +50,8 @@ return [
         'sign-up'    => 'Sign up',
         'whitepaper' => 'Whitepaper',
         'subscribe'  => 'Subscribe',
+        'tokensale'  => 'Private Pre Sale is open! Contact us directly via email: ico@whats2doo.com',
+        'publicsale' => 'Public Sale will start in Q3 2018',
     ],
 
     'about' => [
