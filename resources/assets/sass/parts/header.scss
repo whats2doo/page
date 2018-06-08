@@ -177,7 +177,17 @@ header {
 
     #token-sale-timer {
       margin-top: 80px;
-      font-size: 24px;
+      margin-bottom: 30px;
+      font-size: 18px;
+
+      .token-sale-info {
+        font-size: 22px;
+        margin-top: 10px;
+
+        @media (max-width: $screen-xs-max) {
+          font-size: 18px;
+        }
+      }
 
       @media (max-width: $screen-md-max), (max-height: 850px) {
         margin-top: 80px;
