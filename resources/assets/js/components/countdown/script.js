@@ -2,7 +2,7 @@ export default {
   name: 'countdown',
   data() {
     return {
-      endDate: 1527811201000,
+      endDate: 1530403200000,
       days: null,
       hours: null,
       minutes: null,
