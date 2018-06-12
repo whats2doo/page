@@ -30,15 +30,6 @@ $('.lazyload').lazyload({
   threshold: 200,
 })
 
-$('[data-toggle="tooltip"]').tooltip()
-
-$('a').click((e) => {
-  e.preventDefault()
-  if ($(this).attr('data-toggle') === 'tooltip') return false
-
-  return true
-})
-
 window.addEventListener('load', () => {
   window.cookieconsent.initialise({
     palette: {
