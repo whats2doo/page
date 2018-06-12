@@ -23,11 +23,15 @@
                         <h1>{{ __('messages.header.why') }}</h1>
 
                         <div id="token-sale-timer">
+                            {{--
                             <div id="countdown">
                                 <countdown>
                                     <img src="{{ asset('images/icons/eclipse.svg') }}" width="30">
                                 </countdown>
                             </div>
+                            --}}
+                            <div>{{ __('messages.header.tokensale') }}</div>
+                            <div class="token-sale-info">{{ __('messages.header.publicsale') }}</div>
                         </div>
 
                         <div id="header-buttons">
