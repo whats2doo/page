@@ -133,7 +133,7 @@ return [
 
     [
         'name'           => 'Arie Ben David',
-        'jobtitle'       => 'Community & cryptouccrencie Expert - Netherlands',
+        'jobtitle'       => 'Community & cryptocurrency Expert - Netherlands',
         'text'           => 'arie-ben-david',
         'image'          => 'arie-ben-david.jpg',
         'socialprofiles' => [
