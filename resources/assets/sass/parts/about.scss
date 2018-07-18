@@ -1,5 +1,35 @@
+$about-item-min-height: 150px;
+$about-icon-size: 80px;
+
 #about {
   padding: 50px 0 50px 0;
+
+  .about-item {
+    margin-top: 30px;
+
+    @media (min-width: $screen-md-min) {
+      min-height: $about-item-min-height;
+    }
+
+    .about-content {
+      margin-left: 110px;
+
+      h3 {
+        margin-top: 0;
+      }
+    }
+
+    .about-icon {
+      width: $about-icon-size;
+      height: $about-icon-size;
+
+      img {
+        width: 100%;
+        height: auto;
+        max-width: $about-icon-size;
+      }
+    }
+  }
 
   h2 {
     margin-top: 0;
@@ -7,9 +37,5 @@
     @media (max-width: $screen-xs-max) {
       text-align: center;
     }
-  }
-
-  p {
-    margin-top: 25px;
   }
 }
