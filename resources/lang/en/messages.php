@@ -56,10 +56,8 @@ return [
 
     'about' => [
         'headline' => 'Whats2doo and W2D – An Ecosystem for Services and Small Jobs',
-        'text_p1'  => 'Whats2doo is a fully automated peer-to-peer marketplace for services and small jobs. Requesters can post ToDos and connect with skilled Helpers from their neighborhood. To safe nerves, time and money. 
-            The platform is online since June 2017 and currently has more than 5,000 users in Berlin. A proven concept with a sustainable business model, ready for global growth with our great community.
-            Therefore, we get up every day to become the #1 global one-stop shopping solution for finding help in 300+ categories for your everyday life.',
-        'text_p2'  => 'W2D Tokens are your chance to join us and to contribute to our growth plans. Based on the Ethereum blockchain, they will complement the Whats2doo eco-system and allow our community to make use of many value-added features and to earn cryptocurrencies with their own hands work.'
+        'text_p1'  => 'Whats2doo is a fully automated peer-to-peer marketplace for services and small jobs. The working product is online since June 2017 and has already more than 10,000 users in Berlin and Germany. The concept is proven, and the business model is sustainable. Check the Whats2doo platform out at',
+        'text_p2'  => 'With W2D Tokens, we want to give you the opportunity to take part in our growth, without unnecessary blockchain bullshit'
     ],
 
     'companies' => [
@@ -67,23 +65,23 @@ return [
     ],
 
     'mission' => [
-        'headline' => 'Change the World - Do What You Love!',
-        'text'     => 'AWe believe that people deserve to do what they love. Join Whats2doo on our way to become the #1 marketplace services and small jobs.',
+        'headline' => 'Why You Should Contribute!',
+        'text'     => 'No, we are not reinventing the wheel. We are tokenizing an existing, proven business model.',
         'article1' => [
-            'headline' => 'One platform for all service demands',
-            'text'     => 'No matter what service you are looking for, Whats2doo has the right Helper on just a single platform.'
+            'headline' => 'One platform for all services',
+            'text'     => 'No matter what service you are looking for, Whats2doo has the right Helper. No need to subscribe to 30 different platforms, just one is enough.'
         ],
         'article2' => [
-            'headline' => 'Smart matching with direct booking',
-            'text'     => 'Our smart algorithm based on the team’s headhunting experience finds you the right Helpers for your ToDo and allows for direct booking.'
+            'headline' => 'Solid token economics. No blockchain bullshit',
+            'text'     => 'W2D Tokens will be used to purchase lifetime premium memberships for Whats2doo. Used tokens will be burned, leading to a constant decrease the number of circulating tokens and an increase in value per token.'
         ],
         'article3' => [
-            'headline' => 'More efficient and cheaper through automation',
+            'headline' => 'A working product made in Germany',
             'text'     => 'All processes on the platform are fully automated and allow operations with no manual intervention at low costs.'
         ],
         'article4' => [
-            'headline' => 'Reviews for Requesters and Helpers',
-            'text'     => 'An integrated, mutual review system instills trust within the community and ensures a high level of quality.'
+            'headline' => 'A scalable product',
+            'text'     => 'During our launch phase, we managed to realize user acquisition costs way below industry average. Who comes as a Helper, stays as a Requester. Retention and cross-selling potential is high.'
         ]
     ],
 
@@ -232,7 +230,7 @@ return [
 
     'token-allocation' => [
         'headline'                     => 'Token Allocation & Use of Funds',
-        'text'                         => 'We want to change the world by allowing people to do what they love. W2D Tokens will support this vision by offering our community a seamless crypto-alternative to fiat payments. The maximum of coins that will ever be created is 300,000,000 W2D. The Soft Cap is set at 2,500 ETH.',
+        'text'                         => 'The maximum of coins that will ever be created is 300,000,000 W2D. Used tokens will be burned, leading to a constant decrease in supply. In parallel, we will invest the raised funds into growing the platform. This leads to an increase in demand for W2D Tokens and to a deflationary spiral with an increasing token price. The Soft Cap for our project is set at 2,500 ETH.',
         'crowd-sale'                   => 'Crowd Sale',
         'future-company-financing'     => 'Future Company Financing',
         'ico-marketing'                => 'ICO Marketing',

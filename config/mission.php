@@ -22,6 +22,6 @@ return [
     [
         'headline' => 'messages.mission.article4.headline',
         'text'     => 'messages.mission.article4.text',
-        'icon'     => 'community-feedback-system.svg'
+        'icon'     => 'revenue.svg'
     ],
 ];
