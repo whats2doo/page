@@ -44,36 +44,37 @@ export default {
     },
     2018: {
       q1: {
+        headline: 'Preparing the platform for user growth',
+        description: 'In order to assure a smooth growth without down times we worked hard to make bring the platform to a status, where we are able to scale.',
+        image: 'launching-beta.svg',
+      },
+
+      q2: {
         headline: 'Advisors signed to the board',
         description: 'The team started to attract a global network of experienced advisors from the fields of blockchain technology, cryptocurrencies, gig economy, and venture capital.',
         image: 'advisors-signed.svg',
       },
-      q2: {
+      q3: {
         headline: 'ICO preperation',
         description: 'The team and the platform continue to grow. Germany is chosen as a jurisdiction and regulatory approval by BaFin is being prepared.',
         image: 'beta-token-payment-functions.svg',
       },
-      q3: {
+      q4: {
         headline: 'ICO goes live',
         description: 'The crowdsale starts and first W2D are distributed to contributors to revolutionize the gig economy. ',
         image: 'ico-launch.svg',
-      },
-      q4: {
-        headline: 'W2D Exchange listing',
-        description: 'We will focus on listing W2D on top exchanges to ensure a high tradability.',
-        image: 'exchange-listing.svg',
       },
     },
     2019: {
       q1: {
         headline: 'W2D Token Payment Function',
-        description: 'We will integrate ERC20 multi-wallets to set the base for payments in W2D.After the Multi-Wallet is integrated, we will work on the integration of the W2D Token as a payment for services and premium features on the Whats2doo platform.',
+        description: 'We will integrate the payment fucntionality to pay for the premium lifetime subscription and to start with the coin burn asap.',
         image: 'token-payment-functions.svg',
       },
       q2: {
-        headline: 'Programming the Smart Contract and Escrow',
-        description: 'For transactions between Requester and Helper we will integrate smart contracts that will hold the tokens until the Requester confirmed that the task has been completed.',
-        image: 'smart-contract.svg',
+        headline: 'W2D Exchange listing',
+        description: 'We will focus on listing W2D on top exchanges to ensure a high tradability.',
+        image: 'exchange-listing.svg',
       },
       q3: {
         headline: 'Community Feedback System',

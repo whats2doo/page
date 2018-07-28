@@ -8,7 +8,7 @@ new Chart(chartDistributionElement, {
   type: 'doughnut',
   data: {
     datasets: [{
-      data: [150000000, 69000000, 27000000, 18000000, 18000000, 15000000, 3000000],
+      data: [1500000000, 690000000, 270000000, 180000000, 180000000, 150000000, 30000000],
       backgroundColor: [
         '#3877eb', '#0397ee', '#38b5eb', '#14e2f3', '#61eef5', '#e1f3f7', '#b8f2f5',
       ],
