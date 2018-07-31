@@ -45,13 +45,13 @@ return [
 
     'header' => [
         'why'        => 'The one-stop-shopping solution for simple services and jobs',
-        'token-sale' => 'Token <strong>Pre-Sale</strong> starts at <strong>01. June 2018</strong>',
+        'token-sale' => 'Token <strong>Pre-Sale</strong> starts at <strong>01. September 2018</strong>',
         'official'   => 'Official ICO of whats2doo.com',
         'sign-up'    => 'Sign up',
         'whitepaper' => 'Whitepaper',
         'subscribe'  => 'Subscribe',
         'tokensale'  => 'Private Pre Sale is open! Contact us directly via email: ico@whats2doo.com',
-        'publicsale' => 'Public Sale will start in Q3 2018',
+        'publicsale' => 'Public Sale will start in Q4 2018',
     ],
 
     'about' => [
@@ -102,15 +102,15 @@ return [
         ],
         'item4'    => [
             'headline' => 'Can the W2D Tokens be used to pay for a service on Whats2doo?',
-            'text'     => 'As of now W2D can not be used to pay for services on Whats2doo.com. Once the ICO is finished we will implement the Multi Wallet into each Whats2doo Account and then it will be possible to pay for services with W2D Tokens.'
+            'text'     => 'As of now W2D can not be used to pay for services on Whats2doo.com. Once the ICO is finished we will implement the Multi Wallet into each Whats2doo Account and then it will be possible to pay for Whats2doo services with W2D Tokens.'
         ],
         'item5'    => [
             'headline' => 'How will W2D Tokens be distributed?',
-            'text'     => 'The W2D Token distribution will take place through the Pre-ICO over 30 days starting on July 01, 2018 at 00:01 CET* and the ICO over 30 days starting on September 01,2018 at 00:01 UTC*. One Hundred Fifty million (150,000,000) W2D Tokens will be distributed according to the schedule below: Up to 45,000,000 W2D Tokens (max. 15% of the total amount) will be distributed during a 30 day period beginning on July 01, 2018 at 00:01 CET and ending on June 30, 2018 at 12:59:59 CET (the “Pre-ICO”). Up to 150,000,000 W2D Tokens (max. 50% of the total amount of W2D Tokens) will be distributed during a 30 day period beginning on September 01, 2018 at 00:01 CET and ending on June 30, 2018 at 12:59:59 CET (the “ICO”).'
+            'text'     => 'The W2D Token distribution will take place through the Pre-ICO over 30 days starting on September 01, 2018 at 00:01 CET* and the ICO over 30 days starting on November 01,2018 at 00:01 UTC*. One billion five hundret million (1,500,000,000) W2D Tokens will be distributed according to the schedule below: Up to 450,000,000 W2D Tokens (max. 30% of the total amount) will be distributed during a 30 day period beginning on September 01, 2018 at 00:01 CET and ending on September 30, 2018 at 12:59:59 CET (the “Pre-ICO”). Up to 1,500,000,000 W2D Tokens (max. 50% of the total amount of W2D Tokens) will be distributed during a 30 day period beginning on November 01, 2018 at 00:01 CET and ending on November 30, 2018 at 12:59:59 CET (the “ICO”).'
         ],
         'item6'    => [
             'headline' => 'Why are advertising W2D Tokens being reserved for the ICO?',
-            'text'     => 'Advertising shall ensure that the W2D Token will receive enough community and media coverage. The advertising tokens represent 9% of the total of all W2D Tokens created (or max. 27,000,000 W2D Tokens). The W2D Token distribution smart contract does not permit advertisers to trade or transfer the Advertisers Tokens during the W2D Token distribution period.'
+            'text'     => 'Advertising shall ensure that the W2D Token will receive enough community and media coverage. The advertising tokens represent 9% of the total of all W2D Tokens created (or max. 270,000,000 W2D Tokens). The W2D Token distribution smart contract does not permit advertisers to trade or transfer the Advertisers Tokens during the W2D Token distribution period.'
         ],
         'item7'    => [
             'headline' => 'How can I participate in the W2D Token distribution?',
@@ -122,7 +122,7 @@ return [
         ],
         'item9'    => [
             'headline' => 'Is there a minimum purchase for W2D Tokens?',
-            'text'     => 'The minimum contribution during the Pre-ICO is 0.5 ETH and during the Main ICO 0.04 ETH. Smaller contribution amounts will be rejected.'
+            'text'     => 'The minimum contribution during the Pre-ICO is 5 ETH and during the Main ICO 0.4 ETH. Smaller contribution amounts will be rejected.'
         ],
         'item10'   => [
             'headline' => 'How can I see how much ETH has been contributed during the period of the W2D Token distribution?',
@@ -248,18 +248,18 @@ return [
     'ico' => [
         'pre-ico' => [
             'tab'                    => 'Pre-ICO',
-            'text'                   => 'Our Pre-ICO will begin on July 1, 2018 and will run for 30 days until July 30, 2018. During the Pre-ICO there will be 45,000,000 W2D available.',
+            'text'                   => 'Our Pre-ICO will begin on September 1, 2018 and will run for 30 days until September 30, 2018. During the Pre-ICO there will be 450,000,000 W2D available.',
             'max-for-sale'           => [
                 'title'       => 'Maximum for sale Pre-ICO',
-                'description' => '45,000,000 W2D (max. 5,000 ETH)'
+                'description' => '450,000,000 W2D (max. 5,000 ETH)'
             ],
             'pre-ico-price'          => [
                 'title'       => 'Pre-ICO price',
-                'description' => '1 ETH = 9,000 W2D'
+                'description' => '1 ETH = 75,000 W2D'
             ],
             'min-transaction-amount' => [
                 'title'       => 'Minimum transaction amount',
-                'description' => '0.5 ETH'
+                'description' => '5 ETH'
             ],
 
             'min-pre-ico-goal' => [
@@ -269,7 +269,7 @@ return [
 
             'pre-ico-sale-period' => [
                 'title'       => 'Pre-ICO sale period',
-                'description' => '01:00am UTC July 01, 2018 to 01:00am UTC July 30, 2018'
+                'description' => '01:00am UTC September 01, 2018 to 01:00am UTC September 30, 2018'
             ],
 
             'coin-distribution' => [
@@ -279,24 +279,24 @@ return [
 
             'bonus-rate' => [
                 'title'       => 'Bonus Rate',
-                'description' => 'Our Pre-ICO has an exclusive bonus rate of 3,000 W2D Coins per 1 ETH contribution for the entire period.'
+                'description' => 'Our Pre-ICO has an exclusive bonus rate of 15,000 W2D Coins per 1 ETH contribution for the entire period.'
             ],
         ],
 
         'main-ico' => [
             'tab'                    => 'Main-ICO',
-            'text'                   => 'Our Main-ICO will begin on September 1, 2018 and will run for 30 days until September 30, 2018. During the Main-ICO there will be 150,000,000 W2D available.',
+            'text'                   => 'Our Main-ICO will begin on November 1, 2018 and will run for 30 days until November 30, 2018. During the Main-ICO there will be 1,500,000,000 W2D available.',
             'max-for-sale'           => [
                 'title'       => 'Maximum for sale ICO',
-                'description' => '150,000,000 W2D (max. 25,000 ETH)'
+                'description' => '1,500,000,000 W2D (max. 25,000 ETH)'
             ],
             'main-ico-price'         => [
                 'title'       => 'ICO price',
-                'description' => '1 ETH = 6,000 W2D'
+                'description' => '1 ETH = 60,000 W2D'
             ],
             'min-transaction-amount' => [
                 'title'       => 'Minimum transaction amount',
-                'description' => '0.04 ETH'
+                'description' => '0.4 ETH'
             ],
             'min-main-ico-goal'      => [
                 'title'       => 'Minimum goal for ICO (soft cap):',
@@ -304,7 +304,7 @@ return [
             ],
             'main-ico-sale-period'   => [
                 'title'       => 'Pre-ICO sale period',
-                'description' => '01:00am UTC September 01, 2018 to 01:00am UTC September 30, 2018'
+                'description' => '01:00am UTC November 01, 2018 to 01:00am UTC November 30, 2018'
             ],
 
             'coin-distribution' => [
@@ -318,32 +318,32 @@ return [
                 'table'       => [
                     'first-3-hours' => [
                         'title' => 'First 3 hours',
-                        'value' => '1 ETH = 7,500 W2D (Bonus: 1,500 W2D / 1 ETH)'
+                        'value' => '1 ETH = 70,000 W2D (Bonus: 10,000 W2D / 1 ETH)'
                     ],
 
                     'first-day' => [
                         'title' => 'First day',
-                        'value' => '1 ETH = 7,200 W2D (Bonus: 1,200 W2D / 1 ETH)'
+                        'value' => '1 ETH = 69,000 W2D (Bonus: 9,000 W2D / 1 ETH)'
                     ],
 
                     'week-1' => [
                         'title' => 'Week 1',
-                        'value' => '1 ETH = 6,900 W2D (Bonus: 900 W2D / 1 ETH)'
+                        'value' => '1 ETH = 68,000 W2D (Bonus: 8,000 W2D / 1 ETH)'
                     ],
 
                     'week-2' => [
                         'title' => 'Week 2',
-                        'value' => '1 ETH = 6,600 W2D (Bonus: 600 W2D / 1 ETH)'
+                        'value' => '1 ETH = 6,500 W2D (Bonus: 5,000 W2D / 1 ETH)'
                     ],
 
                     'week-3' => [
                         'title' => 'Week 3',
-                        'value' => '1 ETH = 6,300 W2D (Bonus: 300 W2D / 1 ETH)'
+                        'value' => '1 ETH = 62,000 W2D (Bonus: 2,000 W2D / 1 ETH)'
                     ],
 
                     'week-4' => [
                         'title' => 'Week 4',
-                        'value' => '1 ETH = 6,000 W2D'
+                        'value' => '1 ETH = 60,000 W2D'
                     ],
                 ]
             ],
