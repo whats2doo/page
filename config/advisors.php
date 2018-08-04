@@ -132,31 +132,6 @@ return [
     ],
 
     [
-        'name'           => 'Arie Ben David',
-        'jobtitle'       => 'Community & cryptocurrency Expert - Netherlands',
-        'text'           => 'arie-ben-david',
-        'image'          => 'arie-ben-david.jpg',
-        'socialprofiles' => [
-            'whats2doo' => [
-                'url'  => '',
-                'icon' => $whats2dooIcon
-            ],
-            'linkedin'  => [
-                'url'  => 'https://www.linkedin.com/in/arie-ben-david-aa31219/',
-                'icon' => $linkedinIcon
-            ],
-            'xing'      => [
-                'url'  => '',
-                'icon' => $xingIcon
-            ],
-            'mail'      => [
-                'url'  => '',
-                'icon' => $mailIcon
-            ]
-        ]
-    ],
-
-    [
         'name'           => 'Rasikh Morani',
         'jobtitle'       => 'Blockchain Expert - USA',
         'text'           => 'rasikh-morani',
