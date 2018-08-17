@@ -288,19 +288,19 @@ return [
             'text'                   => 'Our Main-ICO will begin on November 1, 2018 and will run for 30 days until November 30, 2018. During the Main-ICO there will be 1,500,000,000 W2D available.',
             'max-for-sale'           => [
                 'title'       => 'Maximum for sale ICO',
-                'description' => '1,500,000,000 W2D (max. 25,000 ETH)',
+                'description' => '1,500,000,000 W2D (max. 50000,000 ETH)',
             ],
             'main-ico-price'         => [
                 'title'       => 'ICO price',
-                'description' => '1 ETH = 60,000 W2D',
+                'description' => '1 ETH = 30,000 W2D',
             ],
             'min-transaction-amount' => [
                 'title'       => 'Minimum transaction amount',
-                'description' => '0.4 ETH',
+                'description' => '1 ETH',
             ],
             'min-main-ico-goal'      => [
                 'title'       => 'Minimum goal for ICO (soft cap):',
-                'description' => '2,500 ETH',
+                'description' => '3,700 ETH',
             ],
             'main-ico-sale-period'   => [
                 'title'       => 'Pre-ICO sale period',
@@ -318,32 +318,32 @@ return [
                 'table'       => [
                     'first-3-hours' => [
                         'title' => 'First 3 hours',
-                        'value' => '1 ETH = 70,000 W2D (Bonus: 10,000 W2D / 1 ETH)',
+                        'value' => '1 ETH = 35,000 W2D (Bonus: 5,000 W2D / 1 ETH)',
                     ],
 
                     'first-day' => [
                         'title' => 'First day',
-                        'value' => '1 ETH = 69,000 W2D (Bonus: 9,000 W2D / 1 ETH)',
+                        'value' => '1 ETH = 34,500 W2D (Bonus: 4,500 W2D / 1 ETH)',
                     ],
 
                     'week-1' => [
                         'title' => 'Week 1',
-                        'value' => '1 ETH = 68,000 W2D (Bonus: 8,000 W2D / 1 ETH)',
+                        'value' => '1 ETH = 34,000 W2D (Bonus: 4,000 W2D / 1 ETH)',
                     ],
 
                     'week-2' => [
                         'title' => 'Week 2',
-                        'value' => '1 ETH = 6,500 W2D (Bonus: 5,000 W2D / 1 ETH)',
+                        'value' => '1 ETH = 32,500 W2D (Bonus: 2,500 W2D / 1 ETH)',
                     ],
 
                     'week-3' => [
                         'title' => 'Week 3',
-                        'value' => '1 ETH = 62,000 W2D (Bonus: 2,000 W2D / 1 ETH)',
+                        'value' => '1 ETH = 31,000 W2D (Bonus: 1,000 W2D / 1 ETH)',
                     ],
 
                     'week-4' => [
                         'title' => 'Week 4',
-                        'value' => '1 ETH = 60,000 W2D',
+                        'value' => '1 ETH = 30,000 W2D',
                     ],
                 ],
             ],
