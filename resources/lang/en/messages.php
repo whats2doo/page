@@ -230,7 +230,7 @@ return [
 
     'token-allocation' => [
         'headline'                     => 'Token Allocation & Use of Funds',
-        'text'                         => 'The maximum of coins that will ever be created is 3.000.000.000 W2D. Used tokens will be burned, leading to a constant decrease in supply. In parallel, we will invest the raised funds into growing the platform. This leads to an increase in demand for W2D Tokens and to a deflationary spiral with an increasing token price. The Soft Cap for our project is set at 2,500 ETH.',
+        'text'                         => 'The maximum of coins that will ever be created is 3.000.000.000 W2D. Used tokens will be burned, leading to a constant decrease in supply. In parallel, we will invest the raised funds into growing the platform. This leads to an increase in demand for W2D Tokens and to a deflationary spiral with an increasing token price. The Soft Cap for our project is set at 3,700 ETH.',
         'crowd-sale'                   => 'Crowd Sale',
         'future-company-financing'     => 'Future Company Financing',
         'ico-marketing'                => 'ICO Marketing',
