@@ -12,7 +12,7 @@ return [
     ],
 
     [
-        'counter'     => '100K€',
+        'counter'     => '875K€',
         'description' => 'messages.numbers.invested-capital'
     ],
 ];
