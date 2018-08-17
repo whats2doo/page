@@ -2,7 +2,7 @@
 
 return [
     [
-        'counter'     => '5436',
+        'counter'     => '10327',
         'description' => 'messages.numbers.active-users'
     ],
 
