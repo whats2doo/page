@@ -1,8 +1,11 @@
 <section id="about" class="box">
     <div class="container">
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center">
                 <h2>{{ __('messages.about.headline') }}</h2>
+            </div>
+
+            <div class="col-md-7">
                 <div class="about-item">
                     <div class="about-icon pull-left">
                         <img src="{{ asset('images/w2d-primary.svg') }}" alt="icon">
