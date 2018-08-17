@@ -68,7 +68,7 @@ export default {
     2019: {
       q1: {
         headline: 'W2D Token Payment Function',
-        description: 'We will integrate the payment fucntionality to pay for the premium lifetime subscription and to start with the coin burn asap.',
+        description: 'We will integrate the payment functionality to pay for the premium annual subscription and to start with the coin burn asap.',
         image: 'token-payment-functions.svg',
       },
       q2: {
