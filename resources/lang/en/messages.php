@@ -44,7 +44,7 @@ return [
     ],
 
     'header' => [
-        'why'        => 'The one-stop-shopping solution for simple services and jobs',
+        'why'        => 'The peer-to-peer marketplace for services and small jobs.',
         'token-sale' => 'Token <strong>Pre-Sale</strong> starts at <strong>01. September 2018</strong>',
         'official'   => 'Official ICO of whats2doo.com',
         'sign-up'    => 'Sign up',
