@@ -31,7 +31,7 @@ return [
         'children' => [
             0 => [
                 'title'  => 'whitepaper',
-                'href'   => '/documents/whats2doo-ico-whitepaper.pdf',
+                'href'   => 'https://drive.google.com/open?id=1WvDUkrWe5PuYABR2KO0f2BM3PTNTkc2v',
                 'target' => '_blank',
             ]
         ],

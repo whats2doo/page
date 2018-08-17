@@ -2,7 +2,7 @@
 
 return [
     [
-        'counter'     => '5436',
+        'counter'     => '10327',
         'description' => 'messages.numbers.active-users'
     ],
 
@@ -12,7 +12,7 @@ return [
     ],
 
     [
-        'counter'     => '100K€',
+        'counter'     => '875K€',
         'description' => 'messages.numbers.invested-capital'
     ],
 ];

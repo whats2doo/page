@@ -24,4 +24,10 @@ return [
         'icon'  => 'fa fa-telegram fa-fw',
         'href'  => 'https://t.me/w2duupdates',
     ],
+
+    [
+        'title' => 'Medium',
+        'icon'  => 'fa fa-medium fa-fw',
+        'href'  => 'https://medium.com/@whats2doo',
+    ],
 ];
