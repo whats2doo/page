@@ -37,7 +37,7 @@
                         <div id="header-buttons">
                             @spaceless
                             <a href="#subscribe" data-scroll="subscribe" class="btn btn-default btn-lg">{{ __('messages.header.subscribe') }}</a>
-                            <a href="{{ asset('documents/whitepaper.pdf') }}" class="btn btn-white btn-lg" target="_blank">{{ __('messages.header.whitepaper') }}</a>
+                            <a href="https://drive.google.com/open?id=1WvDUkrWe5PuYABR2KO0f2BM3PTNTkc2v" class="btn btn-white btn-lg" target="_blank">{{ __('messages.header.whitepaper') }}</a>
                             @endspaceless
                         </div>
 
