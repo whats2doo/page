@@ -279,7 +279,7 @@ return [
 
             'bonus-rate' => [
                 'title'       => 'Bonus Rate',
-                'description' => 'Our Pre-ICO has an exclusive bonus rate of 15,000 W2D Coins per 1 ETH contribution for the entire period.',
+                'description' => 'Our Pre-ICO has an exclusive bonus rate of 7,500 W2D Coins per 1 ETH contribution for the entire period.',
             ],
         ],
 
