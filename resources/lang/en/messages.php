@@ -56,7 +56,7 @@ return [
 
     'about' => [
         'headline' => 'Whats2doo and W2D – An Ecosystem for Services and Small Jobs',
-        'text_p1'  => 'Whats2doo is a fully automated peer-to-peer marketplace for services and small jobs. The working product is online since June 2017 and has already more than 10,000 users in Berlin and Germany. The concept is proven, and the business model is sustainable. Check the Whats2doo platform out at',
+        'text_p1'  => 'Whats2doo is a fully automated peer-to-peer marketplace for services and small jobs. The working product is online since June 2017 and has already more than 10,320 users in Berlin and Germany. The concept is proven, and the business model is sustainable. Check the Whats2doo platform out at',
         'text_p2'  => 'With W2D Tokens, we want to give you the opportunity to take part in our growth, without unnecessary blockchain bullshit'
     ],
 
