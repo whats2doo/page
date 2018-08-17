@@ -255,7 +255,7 @@ return [
             ],
             'pre-ico-price'          => [
                 'title'       => 'Pre-ICO price',
-                'description' => '1 ETH = 75,000 W2D',
+                'description' => '1 ETH = 37,500 W2D',
             ],
             'min-transaction-amount' => [
                 'title'       => 'Minimum transaction amount',
@@ -274,7 +274,7 @@ return [
 
             'coin-distribution' => [
                 'title'       => 'Coin distribution',
-                'description' => 'Smart contract will distribute tokens instantly upon receiving ETH',
+                'description' => 'Tokens will be distributed after the Pre-ICO has ended.',
             ],
 
             'bonus-rate' => [
