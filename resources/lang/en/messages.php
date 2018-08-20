@@ -5,7 +5,7 @@ return [
     'meta' => [
         'home' => [
             'title'       => 'W2D ICO - Official ICO of whats2doo.com',
-            'description' => 'Whats2doo - The one-stop-shopping solution for simple services and jobs - Invest NOW!',
+            'description' => 'Whats2doo - One platform for all services and small jobs - Invest NOW!',
         ],
     ],
 
@@ -55,9 +55,12 @@ return [
     ],
 
     'about' => [
-        'headline' => 'Whats2doo and W2D – An Ecosystem for Services and Small Jobs',
-        'text_p1'  => 'Whats2doo is a fully automated peer-to-peer marketplace for services and small jobs. The working product is online since June 2017 and has already more than 10,320 users in Berlin and Germany. The concept is proven, and the business model is sustainable. Check the Whats2doo platform out at',
-        'text_p2'  => 'With W2D Tokens, we want to give you the opportunity to take part in our growth, without unnecessary blockchain bullshit',
+        'headline'         => 'Whats2doo and W2D – An Ecosystem for Services and Small Jobs',
+        'text_p1_headline' => 'Whats is Whats2doo',
+        'text_p1'          => 'Whats2doo is a fully automated peer-to-peer marketplace for services and small jobs. The working product is online since June 2017 and has already more than 10,000 users in Berlin and Germany. The concept is proven, and the business model is sustainable.',
+        'text_p2_headline' => 'Whats is W2D',
+        'text_p2'          => 'With W2D Tokens, we want to give you the opportunity to take part in our growth, without unnecessary blockchain bullshit',
+        'link_description' => 'Check the Whats2doo platform out at',
     ],
 
     'companies' => [
@@ -77,7 +80,7 @@ return [
         ],
         'article3' => [
             'headline' => 'A working product made in Germany',
-            'text'     => 'All processes on the platform are fully automated and allow operations with no manual intervention at low costs.',
+            'text'     => 'Whats2doo was founded in 2016 and has already more than 10,000 users in Germany. All processes on the platform are fully automated and allow operations with no manual intervention at low costs.',
         ],
         'article4' => [
             'headline' => 'A scalable product',
@@ -90,7 +93,7 @@ return [
         'showmore' => 'Show More',
         'item1'    => [
             'headline' => 'What is Whats2doo?',
-            'text'     => 'Whats2doo is a fully automated peer-to-peer marketplace for services and small jobs. Requesters can post ToDos and connect with skilled Helpers from their neighborhood. To safe nerves, time and money. The platform is online since June 2017 and currently has more than 5,000 users in Berlin. A proven concept with a sustainable business model, ready for global growth with our great community.',
+            'text'     => 'Whats2doo is a fully automated peer-to-peer marketplace for services and small jobs. Requesters can post ToDos and connect with skilled Helpers from their neighborhood. To safe nerves, time and money. The platform is online since June 2017 and currently has more than 10,000 users in Berlin. A proven concept with a sustainable business model, ready for global growth with our great community.',
         ],
         'item2'    => [
             'headline' => 'Who is building the Whats2doo platform and W2D Token?',
@@ -102,7 +105,7 @@ return [
         ],
         'item4'    => [
             'headline' => 'Can the W2D Tokens be used to pay for a service on Whats2doo?',
-            'text'     => 'As of now W2D can not be used to pay for services on Whats2doo.com. Once the ICO is finished we will implement the Multi Wallet into each Whats2doo Account and then it will be possible to pay for Whats2doo services with W2D Tokens.',
+            'text'     => 'No, they are only a way to participate in Whats2doo’s community growth. Transactions between Helpers and Requesters can be done in fiat or any ERC20 token.',
         ],
         'item5'    => [
             'headline' => 'How will W2D Tokens be distributed?',
@@ -171,12 +174,12 @@ return [
 
     'roadmap' => [
         'headline' => 'Our Roadmap',
-        'text'     => 'We are eager to open our platform to the world. Here’s how we are going to do it.',
+        'text'     => 'We are eager to grow the platform. Here’s how we are going to do it.',
     ],
 
     'team' => [
         'headline'     => 'Our Team',
-        'text'         => 'We hired the best team of entrepreneurs, developers and marketing specialists to achieve our ambitious goals.',
+        'text'         => 'We hired a team of dedicated entrepreneurs, developers and marketing specialists to achieve our ambitious goals.',
         'members_text' => [
             'ilja-leithold'        => 'Ilja is a serial entrepreneur and professional recruiter who was involved in founding multiple successful businesses such as PERM4 or ITSalesRecruitment from scratch to valuations of EUR >100m. As our CEO, he gives the shirt off his back to make Whats2doo a success.',
             'hannes-rothwell'      => 'Hannes is responsible for operations at Whats2doo and is leading the ICO. He manages the company on the ground and his ambition is to accelerate Whats2doo and W2D Tokens sustainably to the moon. His extensive knowledge in recruiting and as a business consultant supports him to do so.',
@@ -303,7 +306,7 @@ return [
                 'description' => '3,700 ETH',
             ],
             'main-ico-sale-period'   => [
-                'title'       => 'Pre-ICO sale period',
+                'title'       => 'Main-ICO sale period',
                 'description' => '01:00am UTC November 01, 2018 to 01:00am UTC November 30, 2018',
             ],
 

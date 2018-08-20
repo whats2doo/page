@@ -83,7 +83,7 @@ export default {
       },
       q4: {
         headline: 'Beta self-learning matching algorithms',
-        description: 'We will develop a beta of our self-learning algorithms to optimize the job feed for helpers and give better predictions on what users need. Moreover, we will decentralize non-private data storage.',
+        description: 'We will develop a beta of our self-learning algorithms to optimize the job feed for helpers and give better predictions on what users need.',
         image: 'self-learning-algorithm.svg',
       },
     },

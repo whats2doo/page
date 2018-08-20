@@ -125,7 +125,7 @@ return [
 
     [
         'name'           => 'Julian Daiber',
-        'jobtitle'       => 'Chief Web Officer',
+        'jobtitle'       => 'Chief Web Application Developer',
         'text'           => 'julian-daiber',
         'image'          => 'julian-daiber.jpg',
         'socialprofiles' => [
@@ -273,6 +273,267 @@ return [
         'jobtitle'       => 'Community Manager',
         'text'           => 'maximilian-tolksdorf',
         'image'          => 'maximilian-tolksdorf.jpg',
+        'socialprofiles' => [
+            'whats2doo' => [
+                'url'  => '',
+                'icon' => $whats2dooIcon
+            ],
+            'linkedin'  => [
+                'url'  => '',
+                'icon' => $linkedinIcon
+            ],
+            'xing'      => [
+                'url'  => '',
+                'icon' => $xingIcon
+            ],
+            'github'    => [
+                'url'  => '',
+                'icon' => $githubIcon
+            ],
+            'mail'      => [
+                'url'  => '',
+                'icon' => $mailIcon
+            ]
+        ]
+    ],
+
+    [
+        'name'           => 'Charline Will',
+        'jobtitle'       => 'Social Media',
+        'text'           => 'charline-will',
+        'image'          => 'charline-will.jpg',
+        'socialprofiles' => [
+            'whats2doo' => [
+                'url'  => '',
+                'icon' => $whats2dooIcon
+            ],
+            'linkedin'  => [
+                'url'  => 'https://de.linkedin.com/in/charline-will-3497a5163',
+                'icon' => $linkedinIcon
+            ],
+            'xing'      => [
+                'url'  => '',
+                'icon' => $xingIcon
+            ],
+            'github'    => [
+                'url'  => '',
+                'icon' => $githubIcon
+            ],
+            'mail'      => [
+                'url'  => '',
+                'icon' => $mailIcon
+            ]
+        ]
+    ],
+
+    [
+        'name'           => 'Jonas Hartwig',
+        'jobtitle'       => 'App Development',
+        'text'           => 'jonas-hartwig',
+        'image'          => 'jonas-hartwig.jpg',
+        'socialprofiles' => [
+            'whats2doo' => [
+                'url'  => '',
+                'icon' => $whats2dooIcon
+            ],
+            'linkedin'  => [
+                'url'  => 'https://de.linkedin.com/in/jonas-hartwig-a2a3ba164',
+                'icon' => $linkedinIcon
+            ],
+            'xing'      => [
+                'url'  => '',
+                'icon' => $xingIcon
+            ],
+            'github'    => [
+                'url'  => '',
+                'icon' => $githubIcon
+            ],
+            'mail'      => [
+                'url'  => '',
+                'icon' => $mailIcon
+            ]
+        ]
+    ],
+
+    [
+        'name'           => 'Jacqueline Dierks',
+        'jobtitle'       => 'CRM Marketing',
+        'text'           => 'jacqueline-dierks',
+        'image'          => 'jacqueline-dierks.jpg',
+        'socialprofiles' => [
+            'whats2doo' => [
+                'url'  => '',
+                'icon' => $whats2dooIcon
+            ],
+            'linkedin'  => [
+                'url'  => 'https://de.linkedin.com/in/jacqueline-dierks-84347716a',
+                'icon' => $linkedinIcon
+            ],
+            'xing'      => [
+                'url'  => '',
+                'icon' => $xingIcon
+            ],
+            'github'    => [
+                'url'  => '',
+                'icon' => $githubIcon
+            ],
+            'mail'      => [
+                'url'  => '',
+                'icon' => $mailIcon
+            ]
+        ]
+    ],
+
+    [
+        'name'           => 'Franziska Barth',
+        'jobtitle'       => 'Communication Design',
+        'text'           => 'franziska-barth',
+        'image'          => 'franziska-barth.jpg',
+        'socialprofiles' => [
+            'whats2doo' => [
+                'url'  => '',
+                'icon' => $whats2dooIcon
+            ],
+            'linkedin'  => [
+                'url'  => '',
+                'icon' => $linkedinIcon
+            ],
+            'xing'      => [
+                'url'  => '',
+                'icon' => $xingIcon
+            ],
+            'github'    => [
+                'url'  => '',
+                'icon' => $githubIcon
+            ],
+            'mail'      => [
+                'url'  => '',
+                'icon' => $mailIcon
+            ]
+        ]
+    ],
+
+    [
+        'name'           => 'Janina Barden',
+        'jobtitle'       => 'Illustration Design',
+        'text'           => 'janina-barden',
+        'image'          => 'janina-barden.jpg',
+        'socialprofiles' => [
+            'whats2doo' => [
+                'url'  => '',
+                'icon' => $whats2dooIcon
+            ],
+            'linkedin'  => [
+                'url'  => '',
+                'icon' => $linkedinIcon
+            ],
+            'xing'      => [
+                'url'  => '',
+                'icon' => $xingIcon
+            ],
+            'github'    => [
+                'url'  => '',
+                'icon' => $githubIcon
+            ],
+            'mail'      => [
+                'url'  => '',
+                'icon' => $mailIcon
+            ]
+        ]
+    ],
+
+    [
+        'name'           => 'Melanie Rudolph',
+        'jobtitle'       => 'SEO & Content Marketing',
+        'text'           => 'melanie-rudolph',
+        'image'          => 'melanie-rudolph.jpg',
+        'socialprofiles' => [
+            'whats2doo' => [
+                'url'  => '',
+                'icon' => $whats2dooIcon
+            ],
+            'linkedin'  => [
+                'url'  => 'https://de.linkedin.com/in/melanie-rudolph-645b95169',
+                'icon' => $linkedinIcon
+            ],
+            'xing'      => [
+                'url'  => '',
+                'icon' => $xingIcon
+            ],
+            'github'    => [
+                'url'  => '',
+                'icon' => $githubIcon
+            ],
+            'mail'      => [
+                'url'  => '',
+                'icon' => $mailIcon
+            ]
+        ]
+    ],
+
+    [
+        'name'           => 'Sydney Werchan',
+        'jobtitle'       => 'IT Test Automation',
+        'text'           => 'sydney-werchan',
+        'image'          => 'sydney-werchan.jpg',
+        'socialprofiles' => [
+            'whats2doo' => [
+                'url'  => '',
+                'icon' => $whats2dooIcon
+            ],
+            'linkedin'  => [
+                'url'  => 'https://de.linkedin.com/in/sydney-werchan-b3712816a',
+                'icon' => $linkedinIcon
+            ],
+            'xing'      => [
+                'url'  => '',
+                'icon' => $xingIcon
+            ],
+            'github'    => [
+                'url'  => '',
+                'icon' => $githubIcon
+            ],
+            'mail'      => [
+                'url'  => '',
+                'icon' => $mailIcon
+            ]
+        ]
+    ],
+
+    [
+        'name'           => 'Lisa Suennemann',
+        'jobtitle'       => 'Online Marketing Management',
+        'text'           => 'lisa-suennemann',
+        'image'          => 'lisa-suennemann.jpg',
+        'socialprofiles' => [
+            'whats2doo' => [
+                'url'  => '',
+                'icon' => $whats2dooIcon
+            ],
+            'linkedin'  => [
+                'url'  => '',
+                'icon' => $linkedinIcon
+            ],
+            'xing'      => [
+                'url'  => 'https://www.xing.com/profile/Lisa_Suennemann3/cv',
+                'icon' => $xingIcon
+            ],
+            'github'    => [
+                'url'  => '',
+                'icon' => $githubIcon
+            ],
+            'mail'      => [
+                'url'  => '',
+                'icon' => $mailIcon
+            ]
+        ]
+    ],
+
+    [
+        'name'           => 'Rebecca Richter',
+        'jobtitle'       => 'IT Database Management',
+        'text'           => 'rebecca-richter',
+        'image'          => 'rebecca-richter.jpg',
         'socialprofiles' => [
             'whats2doo' => [
                 'url'  => '',
