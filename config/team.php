@@ -93,7 +93,36 @@ return [
             ]
         ]
     ],
-
+    
+    [
+        'name'           => 'Julian Daiber',
+        'jobtitle'       => 'Chief Technology Officer',
+        'text'           => 'julian-daiber',
+        'image'          => 'julian-daiber.jpg',
+        'socialprofiles' => [
+            'whats2doo' => [
+                'url'  => 'https://www.whats2doo.com/userprofile/S1JyfUd9x',
+                'icon' => $whats2dooIcon
+            ],
+            'linkedin'  => [
+                'url'  => '',
+                'icon' => $linkedinIcon
+            ],
+            'xing'      => [
+                'url'  => 'https://www.xing.com/profile/Julian_Daiber/cv',
+                'icon' => $xingIcon
+            ],
+            'github'    => [
+                'url'  => 'https://github.com/kstar20001',
+                'icon' => $githubIcon
+            ],
+            'mail'      => [
+                'url'  => '',
+                'icon' => $mailIcon
+            ]
+        ]
+    ],
+    
     [
         'name'           => 'Lucas Löffel',
         'jobtitle'       => 'Head of Development',
@@ -114,35 +143,6 @@ return [
             ],
             'github'    => [
                 'url'  => 'https://github.com/loeffel-io',
-                'icon' => $githubIcon
-            ],
-            'mail'      => [
-                'url'  => '',
-                'icon' => $mailIcon
-            ]
-        ]
-    ],
-
-    [
-        'name'           => 'Julian Daiber',
-        'jobtitle'       => 'Chief Web Application Developer',
-        'text'           => 'julian-daiber',
-        'image'          => 'julian-daiber.jpg',
-        'socialprofiles' => [
-            'whats2doo' => [
-                'url'  => 'https://www.whats2doo.com/userprofile/S1JyfUd9x',
-                'icon' => $whats2dooIcon
-            ],
-            'linkedin'  => [
-                'url'  => '',
-                'icon' => $linkedinIcon
-            ],
-            'xing'      => [
-                'url'  => 'https://www.xing.com/profile/Julian_Daiber/cv',
-                'icon' => $xingIcon
-            ],
-            'github'    => [
-                'url'  => 'https://github.com/kstar20001',
                 'icon' => $githubIcon
             ],
             'mail'      => [
